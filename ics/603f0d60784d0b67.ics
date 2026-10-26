@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cf6193df0164dd79cfaa5e2e673c037c7b3f410a@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Truck or Treat
+DTSTART:20261031T000000Z
+LOCATION:Renton Community Center\, 1715 Maple Valley HWY\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Truck-or-Treat
+DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Truck-or-Treat
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:301de2be9a208bdf4ea3ce8073bf3e3e9e501513@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Paper Quilling Earrings Workshop
+DTSTART:20261024T210000Z
+DTEND:20261024T230000Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6aa8a1564b3b06003083cc3f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a1564b3b06003083cc3f
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:57f5fa475e83e48d3d9edd48b89df5694d345d73@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Northshore Green Careers Expo
+DTSTART:20261028T220000Z
+DTEND:20261029T010000Z
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3849/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3849/
+END:VEVENT
+END:VCALENDAR

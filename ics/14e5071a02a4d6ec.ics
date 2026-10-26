@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7e6c37099ab85b335405bc9bed53d575cf4016eb@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Let's Make Art! Adult Art Club
+DTSTART:20261025T180000Z
+DTEND:20261025T210000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/68f00af4831f063d005217dd
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/68f00af4831f063d005217dd
+END:VEVENT
+END:VCALENDAR

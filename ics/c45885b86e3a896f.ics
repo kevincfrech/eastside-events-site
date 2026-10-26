@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:797aaab48862506f286183ba0e50f50f9fe00fff@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Halloween Puzzle Party
+DTSTART:20261028T003000Z
+DTEND:20261028T023000Z
+LOCATION:Renton Highlands Library\, 2801 NE 10th Street\, Renton\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ab1c0a0001a4a0e055b1159
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab1c0a0001a4a0e055b1159
+END:VEVENT
+END:VCALENDAR

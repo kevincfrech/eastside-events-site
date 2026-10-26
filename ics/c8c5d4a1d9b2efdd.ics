@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:af7852178e1ab50fb7052c55ce6bb41904702f73@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:English Language Learners (ELL) Classes
+DTSTART:20261028T220000Z
+DTEND:20261028T230000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a580898fa641fe01af39708
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a580898fa641fe01af39708
+END:VEVENT
+END:VCALENDAR

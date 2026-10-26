@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eastside Event Map · Let&#39;s Get Out</title>
+<meta name="description" content="Every upcoming event in Bellevue, Redmond, Kirkland, Issaquah, the Snoqualmie Valley, Renton and more, on one map. Filter by day, area, free and family-friendly.">
+<meta property="og:title" content="Eastside Event Map · Let&#39;s Get Out">
+<meta property="og:description" content="What's happening near you this weekend, on one map.">
+<link rel="canonical" href="https://letsgetouteastside.com/map/">
+<meta name="theme-color" content="#0E6B47">
+<link rel="stylesheet" href="../assets/maplibre/maplibre-gl.css">
+<style>
+@font-face { font-family: "Overpass"; src: url("../assets/Overpass.ttf") format("truetype"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Atkinson"; src: url("../assets/AtkinsonHyperlegible-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson"; src: url("../assets/AtkinsonHyperlegible-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+/* Layout: phone = filters, map (top half), list below. Wide screens = list left, map right, full height. */
+:root {
+  --bg: #F3F4EF; --surface: #FFFFFF; --ink: #16201B; --muted: #56615A; --hair: #DCE0D8;
+  --sign: #0E6B47; --sign-ink: #FFFFFF; --link: #0B5C3D;
+  --accent: #E8A23A; --accent-ink: #3A2204;
+  --display: "Overpass", "Arial Narrow", Arial, sans-serif;
+  --body: "Atkinson", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0F1411; --surface: #18201B; --ink: #E5EBE6; --muted: #9DAAA2; --hair: #2B352F;
+          --sign: #13744E; --link: #7FD1A8; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.45 var(--body); -webkit-font-smoothing: antialiased; }
+a { color: var(--link); }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+.app { display: grid; grid-template-rows: auto auto 48vh 1fr; min-height: 100%; }
+header { background: var(--sign); color: var(--sign-ink); padding: calc(10px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left));
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+header h1 { margin: 0; font: 800 22px/1.1 var(--display); }
+header h1 .brand { display: block; font: 700 13px var(--display); letter-spacing: .08em; text-transform: uppercase; opacity: .85; margin-bottom: 2px; }
+header h1 small { display: block; font: 600 13px var(--display); opacity: .9; }
+header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: nowrap; }
+
+.filters { background: var(--bg); border-bottom: 1px solid var(--hair); padding: 10px max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left));
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: inline-flex; background: var(--surface); border: 1px solid var(--hair); border-radius: 999px; padding: 3px; }
+.seg button { border: 0; background: none; border-radius: 999px; padding: 6px 11px 4px; font: 700 14px var(--display); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--sign); color: var(--sign-ink); }
+.filters select { background: var(--surface); border: 1px solid var(--hair); border-radius: 999px; padding: 7px 12px 5px; font: 700 14px var(--display); max-width: 100%; }
+.toggle { border: 1px solid var(--hair); background: var(--surface); border-radius: 999px; padding: 6px 12px 4px; font: 700 14px var(--display); cursor: pointer; }
+.toggle[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.dates { display: inline-flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--hair);
+  border-radius: 999px; padding: 3px 10px; font: 700 14px var(--display); }
+.dates.on { border-color: var(--sign); box-shadow: inset 0 0 0 1px var(--sign); }
+.dates input { border: 0; background: none; font: 700 14px var(--display); color: inherit; padding: 4px 0; min-width: 0; width: 8.6em; }
+.dates span { color: var(--muted); }
+
+#map { position: relative; min-height: 0; }
+#map.failed { display: grid; place-items: center; color: var(--muted); font-size: 15px; padding: 16px; text-align: center; }
+
+.list { min-width: 0; padding: 0 max(16px, env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); }
+.summary { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; padding: 14px 0 6px; color: var(--muted); font: 600 14px var(--display); flex-wrap: wrap; }
+.summary label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.day { font: 800 14px var(--display); letter-spacing: .08em; text-transform: uppercase; color: var(--sign); margin: 18px 0 8px; }
+@media (prefers-color-scheme: dark) { .day { color: var(--link); } }
+.ev { display: grid; grid-template-columns: 70px minmax(0, 1fr); gap: 2px 12px; padding: 12px 14px; background: var(--surface);
+  border: 1px solid var(--hair); border-radius: 12px; margin-bottom: 8px; cursor: pointer; text-align: left; width: 100%; }
+.ev:hover, .ev.on { border-color: var(--sign); }
+.ev .t { font: 700 14px var(--display); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.ev h3 { margin: 0; font: 700 16px/1.25 var(--body); overflow-wrap: anywhere; }
+.ev .w { color: var(--muted); font-size: 14px; overflow-wrap: anywhere; }
+.ev .nopin { font-size: 13px; color: var(--muted); font-style: italic; }
+.badge { display: inline-block; font: 800 11px/1 var(--display); letter-spacing: .06em; padding: 4px 6px 3px; border-radius: 4px;
+  background: var(--accent); color: var(--accent-ink); margin-right: 5px; vertical-align: 1px; }
+.ev .a { display: flex; gap: 14px; margin-top: 6px; font: 700 14px var(--display); }
+.ev .a a { text-decoration: none; }
+.empty { padding: 24px 0; color: var(--muted); }
+
+/* popups */
+.maplibregl-popup-content { font-family: var(--body); color: #16201B; padding: 12px 14px; border-radius: 12px; max-width: 280px;
+  max-height: min(40vh, 320px); overflow-y: auto; overscroll-behavior: contain; }
+.pop h4 { margin: 0 0 2px; font: 800 13px var(--display); letter-spacing: .04em; color: #56615A; text-transform: uppercase; }
+.pop .row { padding: 6px 0; border-top: 1px solid #E3E6E0; }
+.pop .row:first-of-type { border-top: 0; }
+.pop .when { font: 700 13px var(--display); color: #0E6B47; }
+.pop .tt { font-weight: 700; font-size: 15px; line-height: 1.25; }
+.pop a { font: 700 13px var(--display); color: #0B5C3D; margin-right: 10px; }
+
+@media (min-width: 900px) {
+  .app { grid-template-columns: 420px 1fr; grid-template-rows: auto auto 1fr; height: 100%; }
+  header, .filters { grid-column: 1 / -1; }
+  .list { grid-row: 3; grid-column: 1; overflow-y: auto; border-right: 1px solid var(--hair); }
+  #map { grid-row: 3; grid-column: 2; }
+}
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1><span class="brand">Let&#39;s Get Out</span> Eastside Event Map<small id="updated">Loading…</small></h1>
+    <a href="../weekend/">This weekend's picks →</a>
+  </header>
+
+  <div class="filters" role="group" aria-label="Filters">
+    <div class="seg" id="when" role="group" aria-label="When">
+      <button data-v="today">Today</button><button data-v="weekend">Weekend</button><button data-v="week">This week</button><button data-v="7days">7 days</button><button data-v="month">30 days</button>
+    </div>
+    <label class="dates" id="dates"><input type="date" id="from" aria-label="From date"><span>to</span><input type="date" id="to" aria-label="To date"></label>
+    <select id="area" aria-label="Area"><option value="all">All areas</option></select>
+    <button class="toggle" id="free" aria-pressed="false">Free</button>
+    <button class="toggle" id="kids" aria-pressed="false">Kids &amp; family</button>
+  </div>
+
+  <div id="map" aria-label="Map of events"></div>
+
+  <div class="list">
+    <div class="summary"><span id="count"></span>
+      <label><input type="checkbox" id="inview" checked> Only what's on the map</label></div>
+    <div id="items"></div>
+  </div>
+</div>
+
+<script src="../assets/maplibre/maplibre-gl.js"></script>
+<script>
+(() => {
+  const STYLE = "https://tiles.openfreemap.org/styles/positron";
+  const DATA_URL = "../events.json";
+  const HOME = [-122.08, 47.58], HOME_ZOOM = 9.3;
+  const state = { when: "week", from: null, to: null, area: "all", free: false, kids: false, inview: true };
+  let data = null, map = null, popup = null;
+
+  // ---- dates (all in the data's Pacific "today", no browser time zone math) ----
+  const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
+  const weekday = iso => new Date(iso + "T12:00:00Z").getUTCDay();
+  function range(when, today) {
+    if (when === "custom") return [state.from, state.to];
+    if (when === "today") return [today, today];
+    if (when === "week") return [today, addDays(today, (7 - weekday(today)) % 7)];   // today through Sunday
+    if (when === "7days") return [today, addDays(today, 6)];
+    if (when === "month") return [today, addDays(today, 29)];
+    const wd = weekday(today);                                  // weekend: in progress, or the next one
+    const sat = wd === 6 ? today : wd === 0 ? addDays(today, -1) : addDays(today, 6 - wd);
+    return [sat < today ? today : sat, addDays(sat, 1)];
+  }
+  const dayLabel = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { weekday: "long", month: "short", day: "numeric", timeZone: "UTC" });
+  const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  // Pacific date and time right now, whatever time zone the visitor's device is in.
+  function pacificNow() {
+    const parts = Object.fromEntries(new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles",
+      year: "numeric", month: "2-digit", day: "2-digit" }).formatToParts(new Date()).map(p => [p.type, p.value]));
+    return `${parts.year}-${parts.month}-${parts.day}`;
+  }
+  // Over already? Uses the listed end time, or two hours after the start when there isn't one.
+  // All-day and no-time events stay up all day.
+  const GRACE_MS = 2 * 60 * 60 * 1000;
+  const ended = e => e.t && Date.now() > (e.e ? Date.parse(e.e) : Date.parse(e.s) + GRACE_MS);
+  const pinned = e => (e.q === "exact" || e.q === "venue") && e.lat != null;
+
+  // ---- state <-> URL hash, so a Story sticker can open "#when=weekend&area=bellevue" ----
+  function readHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    const iso = /^\d{4}-\d{2}-\d{2}$/;
+    if (iso.test(p.get("from") || "") && iso.test(p.get("to") || "")) setCustom(p.get("from"), p.get("to"));
+    else if (["today", "weekend", "week", "7days", "month"].includes(p.get("when"))) state.when = p.get("when");
+    if (p.get("area")) state.area = p.get("area");
+    state.free = p.get("free") === "1"; state.kids = p.get("kids") === "1";
+  }
+  function writeHash() {
+    const p = new URLSearchParams(state.when === "custom" ? { from: state.from, to: state.to } : { when: state.when });
+    if (state.area !== "all") p.set("area", state.area);
+    if (state.free) p.set("free", "1");
+    if (state.kids) p.set("kids", "1");
+    history.replaceState(null, "", "#" + p.toString());
+  }
+
+  function filtered() {
+    const [a, b] = range(state.when, data.today);
+    return data.events.filter(e => e.d >= a && e.d <= b && !ended(e)
+      && (state.area === "all" || e.area === state.area)
+      && (!state.free || e.free) && (!state.kids || e.kids));
+  }
+
+  // ---- map ----
+  function geojson(list) {
+    return { type: "FeatureCollection", features: list.filter(pinned).map(e => ({
+      type: "Feature", properties: { id: e.id }, geometry: { type: "Point", coordinates: [e.lon, e.lat] } })) };
+  }
+  function initMap() {
+    if (!window.maplibregl) throw new Error("no map library");
+    map = new maplibregl.Map({ container: "map", style: STYLE, center: HOME, zoom: HOME_ZOOM,
+      attributionControl: { compact: true }, cooperativeGestures: false });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: false } }), "top-right");
+    map.on("load", () => {
+      map.addSource("ev", { type: "geojson", data: geojson(filtered()), cluster: true, clusterRadius: 38, clusterMaxZoom: 14 });
+      map.addLayer({ id: "clusters", type: "circle", source: "ev", filter: ["has", "point_count"],
+        paint: { "circle-color": "#0E6B47", "circle-stroke-color": "#FFFFFF", "circle-stroke-width": 2,
+                 "circle-radius": ["step", ["get", "point_count"], 15, 10, 19, 30, 24] } });
+      map.addLayer({ id: "count", type: "symbol", source: "ev", filter: ["has", "point_count"],
+        layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 13, "text-font": ["Noto Sans Bold"] },
+        paint: { "text-color": "#FFFFFF" } });
+      map.addLayer({ id: "pins", type: "circle", source: "ev", filter: ["!", ["has", "point_count"]],
+        paint: { "circle-color": getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#E8A23A",
+                 "circle-radius": 8, "circle-stroke-color": "#16201B", "circle-stroke-width": 2 } });
+      map.on("click", "clusters", async ev => {
+        const f = ev.features[0];
+        const z = await map.getSource("ev").getClusterExpansionZoom(f.properties.cluster_id);
+        map.easeTo({ center: f.geometry.coordinates, zoom: z });
+      });
+      map.on("click", "pins", ev => {
+        const e = data.events.find(x => x.id === ev.features[0].properties.id);
+        if (e) openPopup([e.lon, e.lat]);
+      });
+      for (const l of ["clusters", "pins"]) {
+        map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
+        map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
+      }
+      map.on("moveend", () => { if (state.inview) renderList(); });
+      fitToArea();
+      renderList();
+    });
+    window.eventMap = map;
+    map.on("error", e => { if (String(e?.error?.message || "").match(/style|Failed to fetch/i)) mapFailed(); });
+  }
+  function mapFailed() {
+    const el = document.getElementById("map");
+    el.className = "failed"; el.textContent = "The map didn't load, but the list below has everything.";
+    map = null; state.inview = false; document.getElementById("inview").checked = false; renderList();
+  }
+  function openPopup(lnglat) {
+    const here = filtered().filter(e => pinned(e) && Math.abs(e.lon - lnglat[0]) < 1e-5 && Math.abs(e.lat - lnglat[1]) < 1e-5);
+    if (!here.length) return;
+    const venue = here[0].venue || here[0].city;
+    const rows = here.slice(0, 6).map(e => `<div class="row"><div class="when">${esc(dayLabel(e.d).split(",")[0])} ${esc(e.t)}</div>
+      <div class="tt">${esc(e.title)}</div>
+      ${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.linkLabel)} ↗</a>` : ""}
+      ${e.maps ? `<a href="${esc(e.maps)}" target="_blank" rel="noopener">Directions</a>` : ""}</div>`).join("");
+    const more = here.length > 6 ? `<div class="row">+ ${here.length - 6} more here, see the list</div>` : "";
+    popup?.remove();
+    popup = new maplibregl.Popup({ offset: 12, maxWidth: "300px" }).setLngLat(lnglat)
+      .setHTML(`<div class="pop"><h4>${esc(venue)}</h4>${rows}${more}</div>`).addTo(map);
+  }
+  function fitToArea() {
+    if (!map) return;
+    const pts = filtered().filter(pinned);
+    if (!pts.length) { map.easeTo({ center: HOME, zoom: HOME_ZOOM }); return; }
+    const b = new maplibregl.LngLatBounds();
+    pts.forEach(e => b.extend([e.lon, e.lat]));
+    map.fitBounds(b, { padding: 40, maxZoom: 13.5, duration: 600 });
+  }
+
+  // ---- list ----
+  function renderList() {
+    let list = filtered();
+    const total = list.length, onMap = list.filter(pinned).length;
+    if (state.inview && map) {
+      const b = map.getBounds();
+      // events with no known location can't be placed, so they always stay in the list
+      list = list.filter(e => e.lat == null || b.contains([e.lon, e.lat]));
+    }
+    list.sort((a, b) => a.s.localeCompare(b.s));
+    document.getElementById("count").textContent =
+      `${total} event${total === 1 ? "" : "s"}${map ? `, ${onMap} on the map` : ""}${state.inview && map ? ` · ${list.length} in view` : ""}`;
+    const box = document.getElementById("items");
+    if (!list.length) { box.innerHTML = `<p class="empty">Nothing here with these filters. Try zooming out or picking more dates.</p>`; return; }
+    let html = "", day = "";
+    for (const e of list.slice(0, 300)) {
+      if (e.d !== day) { day = e.d; html += `<div class="day">${esc(dayLabel(day))}</div>`; }
+      html += `<div class="ev" role="button" tabindex="0" data-id="${esc(e.id)}">
+        <div class="t">${esc(e.t || "Any time")}</div>
+        <div><h3>${esc(e.title)}</h3>
+          <div class="w">${e.free ? '<span class="badge">FREE</span>' : ""}${esc([e.venue, e.city].filter(Boolean).filter((v, i, a) => i === 0 || !String(a[0]).includes(v)).join(", "))}</div>
+          ${pinned(e) ? "" : '<div class="nopin">Exact location not listed</div>'}
+          <div class="a">${e.link ? `<a href="${esc(e.link)}" target="_blank" rel="noopener">${esc(e.linkLabel)} ↗</a>` : ""}
+          ${e.maps ? `<a href="${esc(e.maps)}" target="_blank" rel="noopener">Directions</a>` : ""}</div></div></div>`;
+    }
+    if (list.length > 300) html += `<p class="empty">Showing the first 300. Zoom in or pick fewer dates to see the rest.</p>`;
+    box.innerHTML = html;
+  }
+  document.getElementById("items").addEventListener("click", ev => {
+    if (ev.target.closest("a")) return;
+    const row = ev.target.closest(".ev"); if (!row || !map) return;
+    const e = data.events.find(x => x.id === row.dataset.id);
+    if (!e || !pinned(e)) return;
+    document.querySelectorAll(".ev.on").forEach(x => x.classList.remove("on")); row.classList.add("on");
+    map.easeTo({ center: [e.lon, e.lat], zoom: Math.max(map.getZoom(), 14) });
+    map.once("moveend", () => openPopup([e.lon, e.lat]));
+    if (window.innerWidth < 900) document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  document.getElementById("items").addEventListener("keydown", ev => {
+    if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList.contains("ev")) { ev.preventDefault(); ev.target.click(); }
+  });
+
+  // ---- controls ----
+  function syncControls() {
+    document.querySelectorAll("#when button").forEach(b => b.setAttribute("aria-pressed", b.dataset.v === state.when));
+    const [a, b] = range(state.when, data.today);            // the date boxes always show the range in use
+    document.getElementById("from").value = a; document.getElementById("to").value = b;
+    document.getElementById("dates").classList.toggle("on", state.when === "custom");
+    document.getElementById("area").value = state.area;
+    document.getElementById("free").setAttribute("aria-pressed", state.free);
+    document.getElementById("kids").setAttribute("aria-pressed", state.kids);
+  }
+  function update(refit) {
+    syncControls(); writeHash(); popup?.remove();
+    if (map && map.getSource("ev")) map.getSource("ev").setData(geojson(filtered()));
+    if (refit) fitToArea();
+    renderList();
+  }
+  document.getElementById("when").addEventListener("click", e => { const v = e.target.dataset?.v; if (v) { state.when = v; update(false); } });
+  function setCustom(a, b) {
+    if (!a || !b) return;
+    if (b < a) [a, b] = [b, a];
+    if (a < data.today) a = data.today;
+    state.from = a; state.to = b < a ? a : b; state.when = "custom";
+  }
+  for (const id of ["from", "to"]) document.getElementById(id).addEventListener("change", () => {
+    const f = document.getElementById("from").value, t = document.getElementById("to").value;
+    if (!f || !t) return;
+    setCustom(f, t); update(false);
+  });
+  document.getElementById("area").addEventListener("change", e => { state.area = e.target.value; update(true); });
+  document.getElementById("free").addEventListener("click", () => { state.free = !state.free; update(false); });
+  document.getElementById("kids").addEventListener("click", () => { state.kids = !state.kids; update(false); });
+  document.getElementById("inview").addEventListener("change", e => { state.inview = e.target.checked; renderList(); });
+
+  // ---- boot ----
+  fetch(DATA_URL).then(r => r.json()).then(d => {
+    data = d;
+    const now = pacificNow();
+    if (now > data.today) data.today = now;          // a page built last night still knows what day it is
+    const sel = document.getElementById("area");
+    d.areas.forEach(a => sel.insertAdjacentHTML("beforeend", `<option value="${esc(a.slug)}">${esc(a.label)}</option>`));
+    const last = d.events.length ? d.events[d.events.length - 1].d : d.today;
+    for (const id of ["from", "to"]) { const el = document.getElementById(id); el.min = d.today; el.max = last; }
+    readHash(); syncControls();
+    const g = new Date(d.generated);
+    document.getElementById("updated").textContent = "Updated " + g.toLocaleString("en-US", { timeZone: "America/Los_Angeles", weekday: "short", hour: "numeric", minute: "2-digit" });
+    try { initMap(); } catch (err) { mapFailed(); }
+    renderList();
+    document.body.dataset.ready = "1";
+    setInterval(() => {                               // drop events as they finish, if the page stays open
+      if (map && map.getSource("ev")) map.getSource("ev").setData(geojson(filtered()));
+      renderList();
+    }, 5 * 60 * 1000);
+  }).catch(() => { document.getElementById("items").innerHTML = '<p class="empty">Couldn\'t load events. Try refreshing.</p>'; });
+})();
+</script>
+</body>
+</html>

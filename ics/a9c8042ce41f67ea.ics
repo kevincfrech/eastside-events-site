@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:74c6ce0e0eff15c02a08f571d3c6d183dd15abe4@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Builders Club
+DTSTART:20261024T220000Z
+DTEND:20261025T000000Z
+LOCATION:Kenmore Library\, 6531 NE 181st Street\, Kenmore\, WA 98028
+URL:https://kcls.bibliocommons.com/events/6a91f39f57c264087ad490db
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a91f39f57c264087ad490db
+END:VEVENT
+END:VCALENDAR

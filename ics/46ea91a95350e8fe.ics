@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7cd0e3b60357410568484ed6f90b83b7b9d6160b@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Senior Holiday Craft Bazaar
+DTSTART:20261024T160000Z
+LOCATION:Renton Community Center\, 1715 Maple Valley HWY\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Senior-Holiday-Craft-Bazaar
+DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Senior-Holiday-Craft-Bazaar
+END:VEVENT
+END:VCALENDAR

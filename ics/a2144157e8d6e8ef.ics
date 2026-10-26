@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ad203224558d02b036594c9766ba39b5045ff7d0@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Film Screening: Ultimate Citizens
+DTSTART:20261029T010000Z
+DTEND:20261029T023000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6aa1f20e65abe8002a77f8e1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa1f20e65abe8002a77f8e1
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:97103c5c17b7be6eb2cf1a36c75a6c6c0f308eb5@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Evans Meadow Restoration
+DTSTART:20261024T180000Z
+LOCATION:Sammamish
+URL:https://www.sammamish.us/news/events/events/volunteer-opportunities/10-24-evans-meadow-restoration/
+DESCRIPTION:Details: https://www.sammamish.us/news/events/events/volunteer-opportunities/10-24-evans-meadow-restoration/
+END:VEVENT
+END:VCALENDAR

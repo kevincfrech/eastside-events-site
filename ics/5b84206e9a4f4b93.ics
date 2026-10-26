@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0a4465304eaa010203be5a05d0360bc7e604129a@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Winter Clothing Fest: Clothing Donation Day
+DTSTART:20261026T200000Z
+DTEND:20261027T000000Z
+LOCATION:1730 10th Ave NW\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14749
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14749
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7a0bcb3ea359fd3223f9cf51833cbea29ec89cb2@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Art for Adults: Watercolor Botanical Leaves
+DTSTART:20261024T200000Z
+DTEND:20261024T213000Z
+LOCATION:Kingsgate Library\, 12315 NE 143rd Street\, Kirkland\, WA 98034
+URL:https://kcls.bibliocommons.com/events/6aa1efca129d8e0031f0fdc2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa1efca129d8e0031f0fdc2
+END:VEVENT
+END:VCALENDAR

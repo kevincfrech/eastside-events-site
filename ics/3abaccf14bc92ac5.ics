@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:737b7aad54c9655961844e55b62f982965549fd0@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Dia de los Muertos Celebration
+DTSTART:20261101T190000Z
+DTEND:20261101T220000Z
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3506/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3506/
+END:VEVENT
+END:VCALENDAR

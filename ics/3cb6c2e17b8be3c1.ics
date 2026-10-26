@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b3167fdfd32d1f428e81311aa6be4be49c1f7d9f@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Paper Quilling Workshop
+DTSTART:20261101T220000Z
+DTEND:20261101T233000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a46e2996db61d28009996c2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a46e2996db61d28009996c2
+END:VEVENT
+END:VCALENDAR

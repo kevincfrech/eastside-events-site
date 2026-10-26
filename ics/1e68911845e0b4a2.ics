@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:de167df9c26efcef279898186cb0e075aa3a93ad@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Sugar Skulls Art Workshop
+DTSTART:20261027T230000Z
+DTEND:20261028T000000Z
+LOCATION:Black Diamond Library\, 24707 Roberts Drive\, Black Diamond\, WA 98010
+URL:https://kcls.bibliocommons.com/events/6a6ce9d69006f753531412db
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a6ce9d69006f753531412db
+END:VEVENT
+END:VCALENDAR

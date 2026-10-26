@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b086ea24cf0e6171e0515efb73d980aa4ec3cb66@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Spooky Garden!
+DTSTART:20261030T234500Z
+DTEND:20261031T003000Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ac571159abb62002c6cbbf4
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac571159abb62002c6cbbf4
+END:VEVENT
+END:VCALENDAR

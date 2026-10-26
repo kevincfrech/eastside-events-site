@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:eadefcd19853e6da27788989c2ff5e0d644858d0@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Dia de los Muertos & Motif Drawing
+DTSTART:20261101T233000Z
+DTEND:20261102T003000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6a926919aafa6100295ffa22
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a926919aafa6100295ffa22
+END:VEVENT
+END:VCALENDAR

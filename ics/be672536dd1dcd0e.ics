@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:760743d7d2b80f0423a65e2a2cb81682985a559d@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Glass Pumpkin Patch – Tacoma Glassblowing Studio
+DTSTART:20261024T160000Z
+DTEND:20261024T220000Z
+LOCATION:Sparkman Cellars\, 14300 NE 145th St\, #102\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/glass-pumpkin-patch-tacoma-glassblowing-studio-sparkman-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/glass-pumpkin-patch-tacoma-glassblowing-studio-sparkman-cellars/
+END:VEVENT
+END:VCALENDAR

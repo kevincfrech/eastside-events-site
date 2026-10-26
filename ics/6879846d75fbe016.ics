@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58a76198ab5d5308718d2c25886d33ca53fbe842@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Pumpkins on the Plaza
+DTSTART:20261029T230000Z
+LOCATION:Sammamish
+URL:https://www.sammamish.us/news/events/events/pumpkins-on-the-plaza/2026-pumpkins-on-the-plaza/
+DESCRIPTION:Details: https://www.sammamish.us/news/events/events/pumpkins-on-the-plaza/2026-pumpkins-on-the-plaza/
+END:VEVENT
+END:VCALENDAR

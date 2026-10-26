@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:03e41ea0ad3728360aa3fb5a5ba25b231a3a8145@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Live Music Thursdays feat Olivia Oas
+DTSTART:20261030T000000Z
+DTEND:20261030T020000Z
+LOCATION:Alexandria Nicole Cellars - Woodin Creek\, 17140 135TH AVE NE BLDG 2D STE 1010\, WOODINVILLE\, WA\, 98072-4555
+URL:https://woodinvillewinecountry.com/event/live-music-thursdays-feat-olivia-oas-alexandria-nicole-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/live-music-thursdays-feat-olivia-oas-alexandria-nicole-cellars/
+END:VEVENT
+END:VCALENDAR

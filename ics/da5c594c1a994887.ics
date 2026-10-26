@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:91da2ed2342687377e264a62f50d59f99f72c9f0@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Neal-Landguth Wetland Park Stewardship Event
+DTSTART:20261101T180000Z
+LOCATION:214 10th St S\, 214 10th Street South\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Eventbrite/Neal-Landguth-Wetland-Park-Stewardship-Event-1999704605305
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Neal-Landguth-Wetland-Park-Stewardship-Event-1999704605305
+END:VEVENT
+END:VCALENDAR

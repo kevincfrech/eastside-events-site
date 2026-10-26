@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:26b3a2c662de1d2fe1130c18d0a47e256b20cb5f@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Forest Stewardship at Juanita Heights Park
+DTSTART:20261024T170000Z
+LOCATION:Juanita Heights\, 12402 89th Pl NE\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Eventbrite/Forest-Stewardship-at-Juanita-Heights-Park-1997895282572
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Forest-Stewardship-at-Juanita-Heights-Park-1997895282572
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6468fbda28f5d784c8b4a2c4952b9431f66ed30c@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Diwali Craft Celebration
+DTSTART:20261101T193000Z
+DTEND:20261101T210000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6ad65e46de300e00451b771c
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad65e46de300e00451b771c
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3e50ab1cf8e808dd9b92ee41b8a6d512659021d9@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Pokémon Club at Renton Library
+DTSTART:20261025T200000Z
+DTEND:20261025T210000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6aa0a03a6562d02296858b3d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa0a03a6562d02296858b3d
+END:VEVENT
+END:VCALENDAR

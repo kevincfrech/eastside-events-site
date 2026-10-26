@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2c892f601ef05c3236f40fe1823aa287f2a926e5@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Queer Creative Connections
+DTSTART:20261024T210000Z
+DTEND:20261024T230000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6925f9dca2f9562900e5e3fb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6925f9dca2f9562900e5e3fb
+END:VEVENT
+END:VCALENDAR

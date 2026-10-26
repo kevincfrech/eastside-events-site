@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5650cdc8bfbc7bf14632da444cd744e8bec59681@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Dungeons & Dragons Game Night
+DTSTART:20261028T010000Z
+DTEND:20261028T023000Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6aa8a227ca248a002915dc23
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a227ca248a002915dc23
+END:VEVENT
+END:VCALENDAR

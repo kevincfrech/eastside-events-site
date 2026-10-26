@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:924e169c3e898bc6b17d90f40e37a045c0a92087@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:中文家庭故事会 / Mandarin Story Time
+DTSTART:20261026T183000Z
+DTEND:20261026T190000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6abd7539e8cf1c005cb009c5
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abd7539e8cf1c005cb009c5
+END:VEVENT
+END:VCALENDAR

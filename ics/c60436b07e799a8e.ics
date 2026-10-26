@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:02972f7bd91523751184203efc62d7715803a38c@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Stewardship Day at McAuliffe Park
+DTSTART:20261024T163000Z
+LOCATION:McAuliffe Park\, 10824 NE 116th St\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Eventbrite/Stewardship-Day-at-McAuliffe-Park-2002466366808
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Stewardship-Day-at-McAuliffe-Park-2002466366808
+END:VEVENT
+END:VCALENDAR

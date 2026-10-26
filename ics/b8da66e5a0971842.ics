@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:78f518d10c4d4bfcc6ebcc76d8ba3a209ad64843@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Jade Teather
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+LOCATION:Freebush Cellars\, 19495 144th Ave NE Ste B2353\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/jade-teather-freebush-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/jade-teather-freebush-cellars/
+END:VEVENT
+END:VCALENDAR

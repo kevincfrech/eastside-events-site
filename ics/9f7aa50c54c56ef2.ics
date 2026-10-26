@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cfe110d98bb0a6affddaf205102c82ea4ca91234@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Murder Mystery Dinner
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+LOCATION:Evergreen Family Wines\, 14450 Redmond-Woodinville Rd NE Ste 101-A\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/murder-mystery-dinner-evergreen-family-wines/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/murder-mystery-dinner-evergreen-family-wines/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1c6216abf416d6e6ff4f597ee906f23ad22c30ff@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Kirkland Catrina Walk
+DTSTART:20261031T180000Z
+LOCATION:Marina Park\, 25 Lakeshore Plaza\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Special-Events-Division/Kirkland-Catrina-Walk
+DESCRIPTION:Details: https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Special-Events-Division/Kirkland-Catrina-Walk
+END:VEVENT
+END:VCALENDAR

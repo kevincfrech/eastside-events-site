@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:072aa090bfdf27423a5d6eb79d90920d88fcb7bb@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Keep Issaquah Beautiful Day
+DTSTART:20261031T160000Z
+DTEND:20261031T190000Z
+LOCATION:232 Front Street N\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14431
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14431
+END:VEVENT
+END:VCALENDAR

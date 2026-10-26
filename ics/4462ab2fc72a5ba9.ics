@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1d9b9e6fda6e29119c42cfd37fa3d244dfa38221@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Ways to Peace: The Art of Listening\, Part 2
+DTSTART:20261029T000000Z
+DTEND:20261029T023000Z
+LOCATION:Bellevue Public Library\,\n1111 110th Avenue NE (Room 1)
+URL:https://bellevuewa.gov/events/ways-peace-art-listening-part-2
+DESCRIPTION:Details: https://bellevuewa.gov/events/ways-peace-art-listening-part-2
+END:VEVENT
+END:VCALENDAR

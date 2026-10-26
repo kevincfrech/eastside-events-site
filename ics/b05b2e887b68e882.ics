@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:40cf89e5439af8b16b288a47a6fbc5737c8f169b@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Teen Book Talk
+DTSTART:20261028T213000Z
+DTEND:20261028T223000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6a9264113b6c71003e5c2ce1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a9264113b6c71003e5c2ce1
+END:VEVENT
+END:VCALENDAR

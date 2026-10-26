@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:82102274fdf4dd25c535b4a14f7b65f826bbdc8c@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Toddler Story Time
+DTSTART:20261028T180000Z
+DTEND:20261028T190000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6acd2331377296003a4b72eb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd2331377296003a4b72eb
+END:VEVENT
+BEGIN:VEVENT
+UID:1cac12cddcfad526dab2e7dacff2646f60cdc4b4@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Toddler Story Time
+DTSTART:20261028T180000Z
+DTEND:20261028T184500Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6acd2331377296003a4b72eb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd2331377296003a4b72eb
+END:VEVENT
+END:VCALENDAR

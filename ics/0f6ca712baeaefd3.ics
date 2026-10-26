@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:67fd88fd085f1d2637e89d464bb8eaef4383c9e1@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Intermediate Chess
+DTSTART:20261029T004500Z
+DTEND:20261029T030000Z
+LOCATION:Mercer Island Library\, 4400  88th Ave SE\, Mercer Island\, WA 98040
+URL:https://kcls.bibliocommons.com/events/6aa2f59f8cf597003f92e3fd
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa2f59f8cf597003f92e3fd
+END:VEVENT
+END:VCALENDAR

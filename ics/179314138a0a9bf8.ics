@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:63ba01b4143e0fc648b9dd9d083a174907b595fe@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Family Story Time
+DTSTART:20261030T171500Z
+DTEND:20261030T180000Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/6a721ddec7e02e3d006dc719
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a721ddec7e02e3d006dc719
+END:VEVENT
+END:VCALENDAR

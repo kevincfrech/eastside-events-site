@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:88800875b376306d6aacb2acb3949df894ef9b91@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Acquired Taste Halloween
+DTSTART:20261031T020000Z
+DTEND:20261031T050000Z
+LOCATION:Watts Brewing Company\, 15510 Redmond-Woodinville Rd NE Ste E110\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/acquired-taste-halloween-watts-brewing-company/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/acquired-taste-halloween-watts-brewing-company/
+END:VEVENT
+END:VCALENDAR

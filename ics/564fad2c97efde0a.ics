@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7954a47b67825087d03cc8ef6965956ea7a8dcb1@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Silly Spooks Cookie Decorating Class
+DTSTART:20261025T200000Z
+DTEND:20261025T220000Z
+LOCATION:Freebush Cellars\, 19495 144th Ave NE Ste B2353\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/silly-spooks-cookie-decorating-class-freebush-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/silly-spooks-cookie-decorating-class-freebush-cellars/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:dc9bfbc12aff1a746d523827c6053464eb1e5a47@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Mason Bees Learning & Hands-On Pollinator Care Workshop
+DTSTART:20261028T010000Z
+DTEND:20261028T023000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6a9261f91c197d11325ba1be
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a9261f91c197d11325ba1be
+END:VEVENT
+END:VCALENDAR

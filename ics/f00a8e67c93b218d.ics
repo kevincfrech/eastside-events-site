@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a54d336caea18f967fd499ffe56a2d8f180e8ef5@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Haunted House at Redmond Community Center at Marymoor Village
+DTSTART:20261025T000000Z
+DTEND:20261025T040000Z
+LOCATION:6505 176th Ave NE\, Redmond\, WA 98052
+URL:https://www.redmond.gov/Calendar.aspx?EID=3540
+DESCRIPTION:Details: https://www.redmond.gov/Calendar.aspx?EID=3540
+END:VEVENT
+END:VCALENDAR

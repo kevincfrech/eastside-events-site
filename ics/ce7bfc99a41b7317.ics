@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:920d900907a0a7a18bc3b2b1d3a624a735cbacd2@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Paint 'n Sip: Fall Pumpkins
+DTSTART:20261031T010000Z
+DTEND:20261031T023000Z
+LOCATION:Descendant Cellars\, 18732 142nd Ave NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/paint-n-sip-fall-pumpkins-descendant-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/paint-n-sip-fall-pumpkins-descendant-cellars/
+END:VEVENT
+END:VCALENDAR

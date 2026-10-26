@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c5a26e226cf77fe71887c1dd450a2a8092f8543a@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Monster Mash Halloween Bash
+DTSTART:20261031T003000Z
+DTEND:20261031T030000Z
+LOCATION:Northwest Arts Center\, Northwest Arts Center\,\n9825 NE 24th Street Bellevue\, WA 98004
+URL:https://bellevuewa.gov/events/monster-mash-halloween-bash-0
+DESCRIPTION:Details: https://bellevuewa.gov/events/monster-mash-halloween-bash-0
+END:VEVENT
+END:VCALENDAR

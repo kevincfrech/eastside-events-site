@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:62c02bee3ceab7bfab51555bc5f1ffd92c1fb0ca@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Paranormal Investigation: Behind the Hauntings
+DTSTART:20261030T210000Z
+DTEND:20261030T230000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6a82011bd4b10d003006ddf5
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a82011bd4b10d003006ddf5
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8e345283ccc376ce49e1eb340841a1aac53cd146@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Rick Rizzs Road Celebration
+DTSTART:20261027T233000Z
+DTEND:20261028T003000Z
+LOCATION:School District Road\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14772
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14772
+END:VEVENT
+END:VCALENDAR

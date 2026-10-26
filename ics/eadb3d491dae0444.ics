@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:40c5d63fd77a5a460f27f7443d1c6e2f948bfdca@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Speed Puzzling
+DTSTART:20261031T213000Z
+DTEND:20261101T000000Z
+LOCATION:Ambassador Wines of Washington\, 19501 144th Ave NE Suite C-400\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/speed-puzzling-ambassador-wines-of-washington/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/speed-puzzling-ambassador-wines-of-washington/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ac80d70e85613f81d6b468d0d5f5d41ade80784c@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Interrelatedness: Fusion of Musical Traditions from East and West
+DTSTART:20261101T233000Z
+DTEND:20261102T004500Z
+LOCATION:Crossroads Bellevue\,\n15600 NE 8th St
+URL:https://bellevuewa.gov/events/interrelatedness-fusion-musical-traditions-east-west
+DESCRIPTION:Details: https://bellevuewa.gov/events/interrelatedness-fusion-musical-traditions-east-west
+END:VEVENT
+END:VCALENDAR

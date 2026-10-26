@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2dc450f64e32fd92e7e8b679e4f1f71ac46ee2f9@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Amateur (Ham) Radio Licensing Course and Exam
+DTSTART:20261024T160000Z
+LOCATION:Renton Technical College\, Room C101\, 3000 NE 4th St.\, Renton\, WA\, 98056
+URL:https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/Amateur-Radio-Licensing-Course-and-Exam
+DESCRIPTION:Details: https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/Amateur-Radio-Licensing-Course-and-Exam
+END:VEVENT
+END:VCALENDAR

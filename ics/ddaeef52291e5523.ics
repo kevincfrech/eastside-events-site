@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a8df03eb357a1ec8770f357d13110d4435a102c4@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:BOO at the Barn
+DTSTART:20261024T210000Z
+DTEND:20261025T030000Z
+LOCATION:1730 10th Ave NW\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14732
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14732
+END:VEVENT
+END:VCALENDAR

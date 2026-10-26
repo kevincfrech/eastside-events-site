@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:29d7edb474959d968ec2ec6c81ecb2686c108573@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:The Secret Life of Bats
+DTSTART:20261029T010000Z
+DTEND:20261029T020000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6aa8a2c93dd190003e71ff29
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a2c93dd190003e71ff29
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d8756caa3ffd7563f71f48f7554dc87a2e9077b9@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Scavenger Mask Party
+DTSTART:20261031T200000Z
+DTEND:20261101T010000Z
+LOCATION:Cedergreen Cellars Tasting Studio\, 18646 142nd Ave NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/scavenger-mask-party-cedergreen-cellars-tasting-studio-2/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/scavenger-mask-party-cedergreen-cellars-tasting-studio-2/
+END:VEVENT
+END:VCALENDAR

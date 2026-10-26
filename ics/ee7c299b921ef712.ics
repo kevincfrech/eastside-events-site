@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e9ff063de9ab9750ae7ea27999c04a52ee66f9ad@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Fall Wreath Workshop
+DTSTART:20261025T210000Z
+DTEND:20261025T230000Z
+LOCATION:Chelan Ridge Winery\, Woodinville\, 19151 144th Ave NE Unit C\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/fall-wreath-workshop-chelan-ridge-winery/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/fall-wreath-workshop-chelan-ridge-winery/
+END:VEVENT
+END:VCALENDAR

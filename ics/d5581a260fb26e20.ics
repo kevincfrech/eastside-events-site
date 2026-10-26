@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:42b49ba635643937a34d4e2f7e16a4c7535b9aa0@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Trick or Treat at Redmond Community Center at Marymoor Village
+DTSTART:20261024T233000Z
+DTEND:20261025T023000Z
+LOCATION:6505 176th Ave NE\, Redmond\, WA 98052
+URL:https://www.redmond.gov/Calendar.aspx?EID=3539
+DESCRIPTION:Details: https://www.redmond.gov/Calendar.aspx?EID=3539
+END:VEVENT
+END:VCALENDAR

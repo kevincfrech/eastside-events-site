@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0a7670fd62d04d148553a84e8a9435cec61a97cf@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Sammamish Teen Talks Presents: Imagination to Actualization - Original Character Design
+DTSTART:20261028T233000Z
+DTEND:20261029T010000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6abeee749dbc2b002c8baaea
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abeee749dbc2b002c8baaea
+END:VEVENT
+END:VCALENDAR

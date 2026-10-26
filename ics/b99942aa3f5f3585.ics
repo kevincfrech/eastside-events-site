@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f4bd5ce70fa2ff245bc92ba5138a1002618a72f6@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Ballet in Motion: Blooms (Ages 5-7)
+DTSTART:20261101T220000Z
+DTEND:20261101T224500Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6a92683a3b6c71003e5c2d19
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a92683a3b6c71003e5c2d19
+END:VEVENT
+END:VCALENDAR

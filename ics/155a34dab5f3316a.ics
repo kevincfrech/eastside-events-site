@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:4cdf51ff3d773c97a4abb72c69f9b87829c7fa6a@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Mushroom Foraging Basics & Mushroom Seasons
+DTSTART:20261029T010000Z
+DTEND:20261029T021500Z
+LOCATION:Issaquah Library\, 10 W Sunset Way\, Issaquah\, WA 98027
+URL:https://kcls.bibliocommons.com/events/6aa1f28565abe8002a77f90e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa1f28565abe8002a77f90e
+END:VEVENT
+END:VCALENDAR

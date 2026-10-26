@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9e79873c38620801a6c30d962dbb108822a1dae3@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Spooky Swim
+DTSTART:20261024T233000Z
+DTEND:20261025T003000Z
+LOCATION:Covington
+URL:https://www.covingtonwa.gov/calendar.php
+DESCRIPTION:Details: https://www.covingtonwa.gov/calendar.php
+END:VEVENT
+BEGIN:VEVENT
+UID:ee57abf2b810a5ac7c7ea8dbe0cdad7456a433dc@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Spooky Swim
+DTSTART:20261025T013000Z
+DTEND:20261025T023000Z
+LOCATION:Covington
+URL:https://www.covingtonwa.gov/calendar.php
+DESCRIPTION:Details: https://www.covingtonwa.gov/calendar.php
+END:VEVENT
+END:VCALENDAR

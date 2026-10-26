@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:03ca71241ce9a674b198b756d852962e62a05ae3@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Everest Park Forest Stewardship Event
+DTSTART:20261025T170000Z
+LOCATION:500 8th St S\, 500 8th Street South\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Eventbrite/Everest-Park-Forest-Stewardship-Event-2001072655179
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Everest-Park-Forest-Stewardship-Event-2001072655179
+END:VEVENT
+END:VCALENDAR

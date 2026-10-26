@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8552440c4225a16a9eb20d3201e3d29736126dc1@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Latino H.E.A.T. Ofrenda Contest
+DTSTART:20261031T010000Z
+DTEND:20261031T040000Z
+LOCATION:Sammamish High School\,\n100 140th Ave SE
+URL:https://bellevuewa.gov/events/latino-heat-ofrenda-contest
+DESCRIPTION:Details: https://bellevuewa.gov/events/latino-heat-ofrenda-contest
+END:VEVENT
+END:VCALENDAR

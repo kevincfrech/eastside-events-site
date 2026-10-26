@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e2dd342bb9bd38af5b92db735168be8f24e015f2@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Goodwill Donation Station
+DTSTART:20261024T170000Z
+DTEND:20261024T220000Z
+LOCATION:Town Center Lawn\, Covington
+URL:https://www.covingtonwa.gov/calendar.php
+DESCRIPTION:Details: https://www.covingtonwa.gov/calendar.php
+END:VEVENT
+END:VCALENDAR

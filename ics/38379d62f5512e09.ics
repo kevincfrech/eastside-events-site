@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d37a9900777fa838f419cee3fa8edfdf162fd0d6@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Trick or Treat at the Library
+DTSTART:20261031T180000Z
+DTEND:20261101T010000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6aa8a30a4b3b06003083cceb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a30a4b3b06003083cceb
+END:VEVENT
+END:VCALENDAR

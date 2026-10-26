@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:91f9405c3e7f3dc822d9b4413fb1e22e4f3288ec@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Skeletons! Stories and Science
+DTSTART:20261026T231500Z
+DTEND:20261027T003000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ab6ede786d845003118d290
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab6ede786d845003118d290
+END:VEVENT
+END:VCALENDAR

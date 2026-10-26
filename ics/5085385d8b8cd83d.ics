@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:852b11167b61e0daca72bcacb45a4e697acd6638@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Speakeasy Murder Mystery Party
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+LOCATION:Bayernmoor Cellars Woodinville Tasting Room\, 17140 135th Ave NE\, Suite 1040\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/speakeasy-murder-mystery-party-bayernmoor-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/speakeasy-murder-mystery-party-bayernmoor-cellars/
+END:VEVENT
+END:VCALENDAR

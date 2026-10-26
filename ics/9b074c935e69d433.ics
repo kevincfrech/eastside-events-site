@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1b87759a24dbc72b7168043d66bb0e1571beca03@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Sunday Supper
+DTSTART:20261102T010000Z
+DTEND:20261102T033000Z
+LOCATION:Alexandria Nicole Cellars - Woodin Creek\, 17140 135TH AVE NE BLDG 2D STE 1010\, WOODINVILLE\, WA\, 98072-4555
+URL:https://woodinvillewinecountry.com/event/sunday-supper-alexandria-nicole-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sunday-supper-alexandria-nicole-cellars/
+END:VEVENT
+END:VCALENDAR

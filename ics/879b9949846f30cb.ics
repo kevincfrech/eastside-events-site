@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:82beb7bbf19be6caca25fdfd5439ed4d92926ff2@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Green Redmond Day
+DTSTART:20261031T160000Z
+DTEND:20261031T190000Z
+LOCATION:176th Avenue NE and NE 124th Street\, Redmond\, WA 98052
+URL:https://www.redmond.gov/Calendar.aspx?EID=3542
+DESCRIPTION:Details: https://www.redmond.gov/Calendar.aspx?EID=3542
+END:VEVENT
+END:VCALENDAR

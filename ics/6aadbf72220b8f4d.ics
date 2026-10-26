@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a4d692a099f902ae986807ee9cb49d6718d35c98@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Halloween Costume Parade and Crafts
+DTSTART:20261031T190000Z
+DTEND:20261031T230000Z
+LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
+URL:https://kcls.bibliocommons.com/events/6acebccdfee2d21deb23139e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acebccdfee2d21deb23139e
+END:VEVENT
+END:VCALENDAR

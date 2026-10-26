@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1c18868b9656b0dca72019f42e15819e4d4bf8a8@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Sarah Brunner
+DTSTART:20261025T010000Z
+DTEND:20261025T040000Z
+LOCATION:Freebush Cellars\, 19495 144th Ave NE Ste B2353\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/sarah-brunner-freebush-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sarah-brunner-freebush-cellars/
+END:VEVENT
+END:VCALENDAR

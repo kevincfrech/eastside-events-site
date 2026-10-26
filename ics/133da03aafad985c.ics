@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e081f6a4320b7e300fb85f4c671bb0c326c443d1@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Nature Club for Teens: Leaf Lanterns
+DTSTART:20261024T213000Z
+DTEND:20261024T233000Z
+LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
+URL:https://kcls.bibliocommons.com/events/6ac5555c29c3d600332e189c
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5555c29c3d600332e189c
+END:VEVENT
+END:VCALENDAR

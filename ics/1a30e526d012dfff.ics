@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7c896db7cf4c5e6bdbbd2a93972fab4d2c954023@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Coffee and Conversation
+DTSTART:20261027T203000Z
+DTEND:20261027T213000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/6a85e64757c264087ad23b32
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a85e64757c264087ad23b32
+END:VEVENT
+END:VCALENDAR

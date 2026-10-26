@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a056ca7d7044ed3f84abd79ad3686105a83caab7@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Eastside Día de los Muertos Celebration
+DTSTART:20261024T190000Z
+DTEND:20261024T230000Z
+LOCATION:Crossroads Community Center\, Crossroads Community Center\,\n16000 NE 10th St
+URL:https://bellevuewa.gov/events/eastside-dia-de-los-muertos-celebration
+DESCRIPTION:Details: https://bellevuewa.gov/events/eastside-dia-de-los-muertos-celebration
+END:VEVENT
+END:VCALENDAR

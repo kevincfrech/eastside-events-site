@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:071c1d3b112236e39474c34647338e0558a464e9@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Treasure Hunt!
+DTSTART:20261029T003000Z
+DTEND:20261029T020000Z
+LOCATION:Snoqualmie Library\, 7824 Center Boulevard SE\, Snoqualmie\, WA 98065
+URL:https://kcls.bibliocommons.com/events/6a9266a63b6c71003e5c2cec
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a9266a63b6c71003e5c2cec
+END:VEVENT
+END:VCALENDAR

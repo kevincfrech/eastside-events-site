@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5ee925ddc20f02f09b77390f56707cfd86bb76bf@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Make A Difference Day!
+DTSTART:20261024T150000Z
+DTEND:20261024T220000Z
+LOCATION:Greater Maple Valley Community Center
+URL:https://www.facebook.com/profile.php?id=100069772338276
+DESCRIPTION:Details: https://www.facebook.com/profile.php?id=100069772338276
+END:VEVENT
+END:VCALENDAR

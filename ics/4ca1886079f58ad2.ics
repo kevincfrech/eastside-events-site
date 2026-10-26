@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:506c63aa5ddb0d76b8eb97fd9f409304b65f830f@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Downtown Trick-or-Treating and Halloween Party at Legacy Square
+DTSTART:20261024T200000Z
+LOCATION:Legacy Square\, 510 S 3rd St\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Activities-Events/Activities/Arts-and-Culture/Renton-Municipal-Arts-Commission-RMAC/Halloween-Party
+DESCRIPTION:Details: https://www.rentonwa.gov/Activities-Events/Activities/Arts-and-Culture/Renton-Municipal-Arts-Commission-RMAC/Halloween-Party
+END:VEVENT
+END:VCALENDAR

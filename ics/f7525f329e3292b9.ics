@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:914e37018ea01bc562ddccb9ef02bbc45b95ba90@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Creature Feature! Family Film Screening
+DTSTART:20261031T203000Z
+DTEND:20261031T223000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6ad65e1cfee2d21deb2458e8
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad65e1cfee2d21deb2458e8
+END:VEVENT
+END:VCALENDAR

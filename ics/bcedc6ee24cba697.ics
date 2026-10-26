@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3e68af1ac1f5ce9d7b7d0a12e2e67493084423a6@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Signature Culinary Experiences
+DTSTART:20261029T003000Z
+DTEND:20261029T033000Z
+LOCATION:Brian Carter Cellars\, 17140 135th Ave Ne suite 1030\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/signature-culinary-experiences-brian-carter-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/signature-culinary-experiences-brian-carter-cellars/
+END:VEVENT
+END:VCALENDAR

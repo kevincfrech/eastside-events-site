@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d20de1a3ae76033758743fbb15826f384cfa2e9f@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Celebrate Latine Heritage Month with Marco Cortes!
+DTSTART:20261028T230000Z
+DTEND:20261029T000000Z
+LOCATION:Renton Highlands Library\, 2801 NE 10th Street\, Renton\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6aadbe8a86d845003117315b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aadbe8a86d845003117315b
+END:VEVENT
+END:VCALENDAR

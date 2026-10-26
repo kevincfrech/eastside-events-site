@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:74175d3aeb83f03e56f68f3f99daf9b8d22cf77d@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:South Norway Hill Park Forest Restoration Day
+DTSTART:20261101T193000Z
+LOCATION:South Norway Hill Park\, 14701 122nd Ave NE\, Kirkland\, 98034
+URL:https://www.kirklandwa.gov/Eventbrite/South-Norway-Hill-Park-Forest-Restoration-Day-2003211668024
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/South-Norway-Hill-Park-Forest-Restoration-Day-2003211668024
+END:VEVENT
+END:VCALENDAR

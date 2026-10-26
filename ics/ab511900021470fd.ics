@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b171d3c0f36f2767a34b1fa29062af527cceb5db@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Spooky Season Movie Nights
+DTSTART:20261030T010000Z
+DTEND:20261030T023000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6abc7a0ce06996003a803060
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abc7a0ce06996003a803060
+END:VEVENT
+END:VCALENDAR

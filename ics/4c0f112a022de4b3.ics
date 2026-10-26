@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ceadcc11e94d4a4e40497f3c035397bcbb42fdde@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Trunk or Treat at Snoqualmie Valley YMCA
+DTSTART:20261024T203000Z
+DTEND:20261024T220000Z
+LOCATION:35018 SE Ridge St\, Snoqualmie\, WA 98065
+URL:https://www.snoqualmiewa.gov/Calendar.aspx?EID=3410
+DESCRIPTION:Details: https://www.snoqualmiewa.gov/Calendar.aspx?EID=3410
+END:VEVENT
+END:VCALENDAR

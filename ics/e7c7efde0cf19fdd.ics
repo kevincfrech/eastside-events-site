@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2e7292e81de8129a165ca085cd4255fcc5d79bb9@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Tree Giveaway
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+LOCATION:Bannerwood Sports Park\, 1790 Richards Rd\, Bellevue\, WA 98005
+URL:https://bellevuewa.gov/events/tree-giveaway
+DESCRIPTION:Details: https://bellevuewa.gov/events/tree-giveaway
+END:VEVENT
+END:VCALENDAR

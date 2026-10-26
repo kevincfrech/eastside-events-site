@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d0ca727f525b42b3e7f9065d79bfe7757de00c5d@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Beats Beyond Boundaries
+DTSTART:20261029T003000Z
+DTEND:20261029T011500Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6940ba637ed7c62f00aaa71b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6940ba637ed7c62f00aaa71b
+END:VEVENT
+END:VCALENDAR

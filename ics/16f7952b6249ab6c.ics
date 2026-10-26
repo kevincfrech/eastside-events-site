@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:4b91ac94fdb1f78fe1f2398f59cdf544f4a2bff2@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Trick-or-Treat Story Time
+DTSTART:20261030T180000Z
+DTEND:20261030T200000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6ab463b3825ea713bf67a7f6
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab463b3825ea713bf67a7f6
+END:VEVENT
+END:VCALENDAR

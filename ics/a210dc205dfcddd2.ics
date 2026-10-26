@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f468d4c0a28a0cc630031ed3d35937f541c5b8c7@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Halloween Story Time
+DTSTART:20261029T173000Z
+DTEND:20261029T181500Z
+LOCATION:Snoqualmie Library\, 7824 Center Boulevard SE\, Snoqualmie\, WA 98065
+URL:https://kcls.bibliocommons.com/events/6ab1c1ccab7a8e0037c37c20
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab1c1ccab7a8e0037c37c20
+END:VEVENT
+END:VCALENDAR

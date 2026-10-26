@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b8326ec47878a04cec0dc38e254b47c17f3786ba@eastside-events
+DTSTAMP:20261025T063630Z
+SUMMARY:Lifting Literacy: Trick or Treat at the Maple Valley Library
+DTSTART:20261024T200000Z
+DTEND:20261024T220000Z
+LOCATION:Maple Valley Library\, 21844 SE 248th Street\, Maple Valley\, WA 98038
+URL:https://kcls.bibliocommons.com/events/6ac2963dc6cddb004595a094
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac2963dc6cddb004595a094
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6dd97a4689bccb43e3a55d0fff87300e38f76f8f@eastside-events
+DTSTAMP:20261026T042339Z
+SUMMARY:Cookie Decorating Night
+DTSTART:20261029T000000Z
+DTEND:20261029T020000Z
+LOCATION:Tsillan Cellars Woodinville\, 13550 NE Village Square Drive\, Unit 1070\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/cookie-decorating-night-tsillan-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/cookie-decorating-night-tsillan-cellars/
+END:VEVENT
+END:VCALENDAR
