@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8c18dfc46d27fda6a5f2ffee595d93e01a25cc44@eastside-events
+DTSTAMP:20261030T184521Z
+SUMMARY:Cascade Canoe & Kayak Distance Race
+DTSTART:20261031T170000Z
+DTEND:20261031T210000Z
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3908/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3908/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:365212bb1a288bf9f96f2f6a00d267c1d2caab60@eastside-events
+DTSTAMP:20261030T184521Z
+SUMMARY:Farm Fresh Market
+DTSTART:20261031T160000Z
+DTEND:20261031T210000Z
+LOCATION:232 Front St N\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14789
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14789
+END:VEVENT
+END:VCALENDAR

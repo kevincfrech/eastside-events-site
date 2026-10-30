@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1245b6849b4c50abe3241a007ff250cef8cefa90@eastside-events
+DTSTAMP:20261030T184521Z
+SUMMARY:COMEDY NIGHT: DUANE GOAD\, ANTHONY SHUMAN\, AND LYNETTE MANNING
+DTSTART:20261031T020000Z
+DTEND:20261031T040000Z
+LOCATION:Gard Estate Wines Junction Tasting Room\, 19151 144th Ave NE Ste D\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/comedy-night-duane-goad-anthony-shuman-and-lynette-manning-gard-estate-wines/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/comedy-night-duane-goad-anthony-shuman-and-lynette-manning-gard-estate-wines/
+END:VEVENT
+END:VCALENDAR

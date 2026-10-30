@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:98131806e856c8d90eeaed617cefad452a027fcb@eastside-events
+DTSTAMP:20261030T184521Z
+SUMMARY:Halloween Candy
+DTSTART:20261030T180000Z
+DTEND:20261102T040000Z
+LOCATION:Goose Ridge Woodinville\, 14450 Woodinville Redmond RD NE STE 108\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/halloween-candy-goose-ridge-woodinville/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/halloween-candy-goose-ridge-woodinville/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5dd1f144b649c0988710a9418945666134d3d2f1@eastside-events
+DTSTAMP:20261030T184521Z
+SUMMARY:Women Empowered Self-Defense Workshop
+DTSTART:20261101T212000Z
+DTEND:20261101T231000Z
+LOCATION:Bellevue Police Department\,\n450 110th Ave NE
+URL:https://bellevuewa.gov/events/women-empowered-self-defense-workshop-9
+DESCRIPTION:Details: https://bellevuewa.gov/events/women-empowered-self-defense-workshop-9
+END:VEVENT
+END:VCALENDAR

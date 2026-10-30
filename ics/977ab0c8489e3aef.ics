@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:71bfbc19bbba0deca31d183c6dbe973163a9442b@eastside-events
+DTSTAMP:20261030T184521Z
+SUMMARY:LIVE MUSIC: E Pruitt
+DTSTART:20261101T220000Z
+DTEND:20261102T000000Z
+LOCATION:Gard Estate Wines at the Junction\, 19151 144th Ave NE Ste D\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/live-music-e-pruitt-gard-estate-wines-at-the-junction/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/live-music-e-pruitt-gard-estate-wines-at-the-junction/
+END:VEVENT
+END:VCALENDAR
