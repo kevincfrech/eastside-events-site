@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0ced0533d8a6a16f49a5bdf2edff1e073cb1dd85@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:First Tuesday Book Group
+DTSTART:20261104T030000Z
+DTEND:20261104T040000Z
+LOCATION:North Bend Library\, 115 E 4th Street\, North Bend\, WA 98045
+URL:https://kcls.bibliocommons.com/events/6ad65fc4fee2d21deb245966
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad65fc4fee2d21deb245966
+END:VEVENT
+END:VCALENDAR

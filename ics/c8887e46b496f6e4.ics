@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1c334a58a02c56d9125aba937b147076e2ceb91d@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Basics of Emergency Prep
+DTSTART:20261106T023000Z
+DTEND:20261106T040000Z
+LOCATION:2550 NE Park Drive\, Issaquah\, WA 98029
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14775
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14775
+END:VEVENT
+END:VCALENDAR

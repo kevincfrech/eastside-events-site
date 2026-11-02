@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d7772c09fbdc9729dc65db20264989768d5436ee@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Building Club
+DTSTART:20261104T001500Z
+DTEND:20261104T011500Z
+LOCATION:Mercer Island Library\, 4400  88th Ave SE\, Mercer Island\, WA 98040
+URL:https://kcls.bibliocommons.com/events/6ac55ed9de300e004518ae83
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac55ed9de300e004518ae83
+END:VEVENT
+END:VCALENDAR

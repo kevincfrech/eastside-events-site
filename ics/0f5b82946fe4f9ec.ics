@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:be86bbf1af11a4f1bc8ce55bcab9eb56c3b96cf3@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Chess Drop-In
+DTSTART:20261104T233000Z
+DTEND:20261105T010000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6a4bfba4449946010198cac8
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a4bfba4449946010198cac8
+END:VEVENT
+END:VCALENDAR

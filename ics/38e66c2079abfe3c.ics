@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:401e3aa122e6ced5cca836d3f8fc6c5a2224497f@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Chess Club
+DTSTART:20261103T233000Z
+DTEND:20261104T013000Z
+LOCATION:Issaquah Library\, 10 W Sunset Way\, Issaquah\, WA 98027
+URL:https://kcls.bibliocommons.com/events/6ad2a13496ec3a003adb1c45
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad2a13496ec3a003adb1c45
+END:VEVENT
+END:VCALENDAR

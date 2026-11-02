@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:10946b39cfa28429a458e4bd5d96ce3decfe3ce7@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Film & Community Conversations - ﻿﻿TransMilitary
+DTSTART:20261105T020000Z
+DTEND:20261105T040000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6a9893b569166f088b96e1bb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a9893b569166f088b96e1bb
+END:VEVENT
+END:VCALENDAR

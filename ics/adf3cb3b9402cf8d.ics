@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:4ba3189805b20c79519f0466c53d6d0f3046249b@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Middle School & Tween Graphic Novel Club
+DTSTART:20261106T000000Z
+DTEND:20261106T010000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6945d9bd1e64afd01e4ffc27
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6945d9bd1e64afd01e4ffc27
+END:VEVENT
+END:VCALENDAR

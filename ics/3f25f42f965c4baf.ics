@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:23c0bfe153e9ae1577be658d2a3b9b4eb0c7ec49@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Sammamish LGBTQ+ Youth Group
+DTSTART:20261104T000000Z
+DTEND:20261104T013000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/69b0a317b48451fc3c08086f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69b0a317b48451fc3c08086f
+END:VEVENT
+END:VCALENDAR

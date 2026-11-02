@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:12667e3f6d46ac2ca8569d958fc5aae9ca4965b3@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Yoga & Mindfulness for Tweens
+DTSTART:20261103T003000Z
+DTEND:20261103T010000Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/6ac813a2a85a2c00337e2b3c
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac813a2a85a2c00337e2b3c
+END:VEVENT
+END:VCALENDAR

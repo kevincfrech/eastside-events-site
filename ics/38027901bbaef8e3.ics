@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1eaca9138158522f097af06456bdbf9ccca4dd04@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Felted Gnomes and Homes with Green Apple Alpacas
+DTSTART:20261105T013000Z
+DTEND:20261105T033000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6a8202e3aafa6100295d0108
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a8202e3aafa6100295d0108
+END:VEVENT
+END:VCALENDAR

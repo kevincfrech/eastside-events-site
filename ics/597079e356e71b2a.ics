@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6ba8a337d862e0539fe540f20fbfcec5b78345bd@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Friday Fromage
+DTSTART:20261107T023000Z
+DTEND:20261107T033000Z
+LOCATION:L’Ecole Nº 41 Woodinville\, 17401 133rd Ave NE\, Suite 1010\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/friday-fromage-lecole-%e2%84%96-41-woodinville-4/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/friday-fromage-lecole-%e2%84%96-41-woodinville-4/
+END:VEVENT
+END:VCALENDAR

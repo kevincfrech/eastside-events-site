@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a6f58f7a9207e20a955f20ecefa4c26dfd7558f4@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:The Nutcracker with Ensemble Ballet Theatre
+DTSTART:20261107T210000Z
+DTEND:20261107T214500Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6a820570aafa6100295d01a6
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a820570aafa6100295d01a6
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:40a92d458fd1be335a3da03e1ae1655bab5e0bc3@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Art Cart
+DTSTART:20261104T230000Z
+DTEND:20261105T010000Z
+LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
+URL:https://kcls.bibliocommons.com/events/6a921fd3aafa6100295ff1dd
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a921fd3aafa6100295ff1dd
+END:VEVENT
+END:VCALENDAR

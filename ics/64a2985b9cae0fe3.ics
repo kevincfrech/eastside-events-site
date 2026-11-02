@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:dcd05f8a35a5d4e20f500a69c027613618875f0a@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Chair Yoga for Adults
+DTSTART:20261104T201500Z
+DTEND:20261104T211500Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/6abadece9abb62002c6acaef
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abadece9abb62002c6acaef
+END:VEVENT
+END:VCALENDAR

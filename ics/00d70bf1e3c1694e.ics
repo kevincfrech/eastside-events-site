@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:8f1411c47f0276437e8fe20cd9328937509468da@eastside-events
-DTSTAMP:20261026T045331Z
+UID:7ddb04d34f8fbe4d4c5659a1e2a08d328aa83af4@eastside-events
+DTSTAMP:20261102T102700Z
 SUMMARY:7-week Community Emergency Response Team Series
-DTSTART:20261030T010000Z
+DTSTART:20261106T020000Z
 LOCATION:Renton Regional Fire Authority Station # 14\, 900 Lind Ave SW\, Renton\, WA\, 98057
 URL:https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/CERT-Fall-Course
 DESCRIPTION:Details: https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/CERT-Fall-Course

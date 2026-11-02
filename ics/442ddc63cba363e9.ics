@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a004557c0bab22880d8b53ac3610367cf0b16c30@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Jigsaw Puzzle Race
+DTSTART:20261107T220000Z
+DTEND:20261108T010000Z
+LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
+URL:https://kcls.bibliocommons.com/events/6ac81d5b377296003a4aacbd
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac81d5b377296003a4aacbd
+END:VEVENT
+END:VCALENDAR

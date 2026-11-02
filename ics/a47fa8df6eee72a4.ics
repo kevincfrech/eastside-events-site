@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:dea1a2abe4def35599c74659f90f2ea18ddb1651@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Redmond Library Book Group
+DTSTART:20261105T220000Z
+DTEND:20261105T233000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/691ce47edff9d93e00d0b161
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/691ce47edff9d93e00d0b161
+END:VEVENT
+END:VCALENDAR

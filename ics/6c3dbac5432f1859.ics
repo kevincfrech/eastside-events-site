@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:671ce1633706a27a33d5b13ef5e5f8e738deb630@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Open Mic Night
+DTSTART:20261105T020000Z
+DTEND:20261105T050000Z
+LOCATION:78 1st Ave NE\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14360
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14360
+END:VEVENT
+END:VCALENDAR

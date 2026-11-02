@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f28bd2377af60c395dabfb6b14f1e9d594d80025@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Tech Help for Seniors
+DTSTART:20261107T191500Z
+DTEND:20261107T201500Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ad6600bfee2d21deb24596b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad6600bfee2d21deb24596b
+END:VEVENT
+END:VCALENDAR

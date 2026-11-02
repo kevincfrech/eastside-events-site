@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f57b9df5846d10d17f075431329221508feaa166@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Mac N Cheese Weekend
+DTSTART:20261106T220000Z
+DTEND:20261109T020000Z
+LOCATION:L’Ecole Nº 41 Woodinville\, 17401 133rd Ave NE\, Suite 1010\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/mac-n-cheese-weekend-lecole-no-41-woodinville/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/mac-n-cheese-weekend-lecole-no-41-woodinville/
+END:VEVENT
+END:VCALENDAR

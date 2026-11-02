@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:29c576085d007d5fd270ac3d4736efc8f5255e3b@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Teen Writer's Workshop
+DTSTART:20261106T003000Z
+DTEND:20261106T013000Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6acd1c0d29c3d600332f69f8
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd1c0d29c3d600332f69f8
+END:VEVENT
+END:VCALENDAR

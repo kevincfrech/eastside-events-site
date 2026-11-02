@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:82b1b2bbb12d6a79210ca690eb350ad5e3524fca@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Juanita Open Space #4 Habitat Stewardship Day
+DTSTART:20261107T180000Z
+LOCATION:Juanita Open Space #4\, 14401 107th Ave NE\, Kirkland\, 98034
+URL:https://www.kirklandwa.gov/Eventbrite/Juanita-Open-Space-4-Habitat-Stewardship-Day-2003303577929
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Juanita-Open-Space-4-Habitat-Stewardship-Day-2003303577929
+END:VEVENT
+END:VCALENDAR

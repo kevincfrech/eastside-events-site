@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5e06f648a817a69f7fa1cc4fc1681af3c80f1c7e@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Sip &amp\; Shop Block Party
+DTSTART:20261107T190000Z
+DTEND:20261108T020000Z
+LOCATION:Redwood Place\, 14450 Woodinville Redmond Rd\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/sip-shop-block-party-redwood-place/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sip-shop-block-party-redwood-place/
+END:VEVENT
+END:VCALENDAR

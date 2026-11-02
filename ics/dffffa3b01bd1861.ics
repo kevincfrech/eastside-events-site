@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1ed4f13c167462e56e9370932d8f80b062632773@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Community Fall Tree Planting Event
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3837/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3837/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:96454bbfc6de2bc79a42cd75c9fb5db4014b3dc2@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Learn to Play the Ancient Game of Go!
+DTSTART:20261108T220000Z
+DTEND:20261109T010000Z
+LOCATION:Snoqualmie Library\, 7824 Center Boulevard SE\, Snoqualmie\, WA 98065
+URL:https://kcls.bibliocommons.com/events/6ac54435de300e004518a46d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac54435de300e004518a46d
+END:VEVENT
+END:VCALENDAR

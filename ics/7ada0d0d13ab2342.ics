@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e96f9cb3a9462cdc5e7531df0a9bf52554cbb3e7@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Festival of Lights: A Guided Sound Bath
+DTSTART:20261108T180000Z
+DTEND:20261108T190000Z
+LOCATION:Sparkman Cellars\, 14300 NE 145th St\, #102\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/festival-of-lights-a-guided-sound-bath-sparkman-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/festival-of-lights-a-guided-sound-bath-sparkman-cellars/
+END:VEVENT
+END:VCALENDAR

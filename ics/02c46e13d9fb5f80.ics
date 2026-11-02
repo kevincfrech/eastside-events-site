@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f6c2f7f97fdc1044f9c60cca8ffe30ed5a32181f@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Introduction to Microcontrollers
+DTSTART:20261108T210000Z
+DTEND:20261108T223000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6ac571109abb62002c6cbbef
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac571109abb62002c6cbbef
+END:VEVENT
+END:VCALENDAR

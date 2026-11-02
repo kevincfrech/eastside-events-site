@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ced3b02ca06acddb7f7da7f01c2765189433bfe1@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Small Business Workshop Series
+DTSTART:20261105T023000Z
+DTEND:20261105T043000Z
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3901/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3901/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a725fe905cb7fbd8f9f04023f7d6f94ce4b08d30@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Sip &amp\; Shop
+DTSTART:20261107T190000Z
+DTEND:20261108T020000Z
+LOCATION:Redwood Place\, 14450 Woodinville Redmond RD NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/sip-shop-redwood-place/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sip-shop-redwood-place/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d3351370705b2efd689afd9dd89d9911fb949d09@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Paint a Diya for Diwali
+DTSTART:20261105T000000Z
+DTEND:20261105T010000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6acd1bebfee2d21deb22c6d0
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd1bebfee2d21deb22c6d0
+END:VEVENT
+END:VCALENDAR

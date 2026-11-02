@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:58f9e006c2da2d9452be843cad33e50fb3e633e3@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Sunken Treasures of Lake Washington
+DTSTART:20261107T223000Z
+DTEND:20261108T000000Z
+LOCATION:Kingsgate Library\, 12315 NE 143rd Street\, Kirkland\, WA 98034
+URL:https://kcls.bibliocommons.com/events/6ab2bac23dd190003e73c2e7
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab2bac23dd190003e73c2e7
+END:VEVENT
+END:VCALENDAR

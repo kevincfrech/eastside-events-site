@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:31e805958da9b78e89fa9d8ecf9069ffbc76d539@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Kandi Bracelets
+DTSTART:20261103T000000Z
+DTEND:20261103T013000Z
+LOCATION:Kingsgate Library\, 12315 NE 143rd Street\, Kirkland\, WA 98034
+URL:https://kcls.bibliocommons.com/events/6abffb22035faf0033d9e253
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abffb22035faf0033d9e253
+END:VEVENT
+END:VCALENDAR

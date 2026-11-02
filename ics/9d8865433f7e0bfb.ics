@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9ad58076d8f0c693ab72a2d88c75a325ba715d41@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Community Development Block Grants Information Session
+DTSTART:20261104T200000Z
+DTEND:20261104T210000Z
+LOCATION:18415 101st Avenue NE\, Bothell\, WA 98011
+URL:https://www.bothellwa.gov/Calendar.aspx?EID=2756
+DESCRIPTION:Details: https://www.bothellwa.gov/Calendar.aspx?EID=2756
+END:VEVENT
+END:VCALENDAR

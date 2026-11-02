@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:025eccba96f669c239b3e043e8e56ee2b1a68124@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Peter Ali: A Musical Journey with Native & Mesoamerican Flutes
+DTSTART:20261108T000000Z
+DTEND:20261108T013000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/6a516ae464ed854800a507b1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a516ae464ed854800a507b1
+END:VEVENT
+END:VCALENDAR

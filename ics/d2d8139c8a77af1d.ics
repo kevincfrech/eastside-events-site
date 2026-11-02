@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:00a7e696ee95fdd9fd7313d301f6ab3bc1a587d1@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Family Story Time
+DTSTART:20261104T183000Z
+DTEND:20261104T190000Z
+LOCATION:Kingsgate Library\, 12315 NE 143rd Street\, Kirkland\, WA 98034
+URL:https://kcls.bibliocommons.com/events/6aadaa23a5dbde002aa5a333
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aadaa23a5dbde002aa5a333
+END:VEVENT
+END:VCALENDAR

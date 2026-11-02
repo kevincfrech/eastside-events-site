@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:54007863b51a1cb6a6cbc8e150b53cb88a1e5011@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Tree Giveaway
+DTSTART:20261107T170000Z
+LOCATION:Sammamish
+URL:https://www.sammamish.us/news/events/events/tree-giveaway/november-7-2026-tree-giveaway/
+DESCRIPTION:Details: https://www.sammamish.us/news/events/events/tree-giveaway/november-7-2026-tree-giveaway/
+END:VEVENT
+END:VCALENDAR

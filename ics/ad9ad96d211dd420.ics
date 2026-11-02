@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0b8896aba51ad60a7408d8960dd6824097fb1300@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Modern Calligraphy and Pumpkin Lettering for Beginners
+DTSTART:20261105T023000Z
+DTEND:20261105T040000Z
+LOCATION:Wilridge Pie Wine Bar\, 19255 Woodinville Snohomish Road\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/modern-calligraphy-and-pumpkin-lettering-for-beginners-wilridge-pie-wine-bar/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/modern-calligraphy-and-pumpkin-lettering-for-beginners-wilridge-pie-wine-bar/
+END:VEVENT
+END:VCALENDAR

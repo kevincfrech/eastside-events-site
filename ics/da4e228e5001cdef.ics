@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3efc29ea832465441a9f68095eac79b4d6245ba3@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:J.A. Jance Author Event: The Taken Ones
+DTSTART:20261108T200000Z
+DTEND:20261108T213000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a2a1788dcc1022f003931a1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a2a1788dcc1022f003931a1
+END:VEVENT
+END:VCALENDAR

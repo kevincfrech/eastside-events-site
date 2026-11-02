@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:10898f833cd1ff2d6ee47f9e8597b1bd40bfc415@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Washington Health Outreach for Free and Low-Cost Veterinary Care
+DTSTART:20261108T190000Z
+DTEND:20261108T220000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/69cdadb54dacf581ff85eb40
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69cdadb54dacf581ff85eb40
+END:VEVENT
+END:VCALENDAR

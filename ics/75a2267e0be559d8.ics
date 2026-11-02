@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:674571aad8dbb4791d8dbccd442ab81075116cee@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Chocolate Truffle Workshop: Ganache & Tempering Basics
+DTSTART:20261106T003000Z
+DTEND:20261106T013000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6a926a591c197d11325ba277
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a926a591c197d11325ba277
+END:VEVENT
+END:VCALENDAR

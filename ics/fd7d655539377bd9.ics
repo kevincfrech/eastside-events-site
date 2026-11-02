@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:9b640b4d9f2ff639ef9db2202f35f226d3544429@eastside-events
-DTSTAMP:20261030T184521Z
+UID:07465f852c78ebb735ba0f9fd0ebe8dde90e7efa@eastside-events
+DTSTAMP:20261102T102700Z
 SUMMARY:English Language Learners (ELL) Classes\, Level 3: Intermediate Speakers
-DTSTART:20261031T183000Z
-DTEND:20261031T193000Z
+DTSTART:20261107T193000Z
+DTEND:20261107T203000Z
 LOCATION:Lake Hills Library\, 15590 Lake Hills Boulevard\, Bellevue\, WA 98007
 URL:https://kcls.bibliocommons.com/events/6aa0a0e5a3fb9722897b261f
 DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa0a0e5a3fb9722897b261f

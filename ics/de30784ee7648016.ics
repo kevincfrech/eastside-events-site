@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:029d9508774c2e898ac0b513d7ed0a6ee801527b@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Sewing & Crafts
+DTSTART:20261105T210000Z
+DTEND:20261105T230000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6ab1b4f3001a4a0e055b0d5b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab1b4f3001a4a0e055b0d5b
+END:VEVENT
+END:VCALENDAR

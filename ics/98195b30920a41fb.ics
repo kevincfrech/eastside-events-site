@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6b25c8fa70f63d7913235bbbdb1beaa4f9d7d026@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:The Nutcracker Ballet
+DTSTART:20261108T000000Z
+DTEND:20261108T010000Z
+LOCATION:Renton Highlands Library\, 2801 NE 10th Street\, Renton\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ac570df29c3d600332e22dc
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac570df29c3d600332e22dc
+END:VEVENT
+END:VCALENDAR

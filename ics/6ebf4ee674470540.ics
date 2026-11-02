@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9809364b07a363cd44fc6c9f408fcd77c6c91352@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:中文读书会 Chinese Book Group
+DTSTART:20261105T210000Z
+DTEND:20261105T223000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a2738e43e640a440018d5ac
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a2738e43e640a440018d5ac
+END:VEVENT
+END:VCALENDAR

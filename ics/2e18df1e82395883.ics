@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:74dff20361cc7e5d20bc21f491e553aafad94aeb@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:SilverKite Community Arts\, Beading: Make an Intention Bracelet
+DTSTART:20261103T200000Z
+DTEND:20261103T210000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6ab2b6ee001a4a0e055b3072
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab2b6ee001a4a0e055b3072
+END:VEVENT
+END:VCALENDAR

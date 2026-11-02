@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9c7403f1336591c00e3f866eb82dffe82ef4ee44@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Embroider a PNW Landscape Ornament
+DTSTART:20261104T013000Z
+DTEND:20261104T033000Z
+LOCATION:Black Diamond Library\, 24707 Roberts Drive\, Black Diamond\, WA 98010
+URL:https://kcls.bibliocommons.com/events/6a820239d4b10d003006de6b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a820239d4b10d003006de6b
+END:VEVENT
+END:VCALENDAR

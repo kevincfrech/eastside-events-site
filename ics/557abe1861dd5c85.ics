@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:753626c28429d3e320cf1d83923c514be2461598@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Thanksgiving Trivia
+DTSTART:20261105T020000Z
+DTEND:20261105T040000Z
+LOCATION:Bayernmoor Cellars\, 17140 135th Ave NE Ste 1040\, Woodinville\, WA\, 98292
+URL:https://woodinvillewinecountry.com/event/thanksgiving-trivia-bayernmoor-cellars-tasting-room/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/thanksgiving-trivia-bayernmoor-cellars-tasting-room/
+END:VEVENT
+END:VCALENDAR

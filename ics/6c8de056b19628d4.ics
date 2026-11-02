@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b8da5bf1107796067fccab087ee2ade445c1e083@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Toddler and Preschool Yoga
+DTSTART:20261104T180000Z
+DTEND:20261104T183000Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/6ac81456a85a2c00337e2c9f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac81456a85a2c00337e2c9f
+END:VEVENT
+END:VCALENDAR

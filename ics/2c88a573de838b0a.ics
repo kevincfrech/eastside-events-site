@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0a0234e9dd3474c5675d0760f82ce6d7c6967ed8@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Diwali: Festival of Lights Celebration दिवाली: रोशनी और खुशियों का त्योहार ।
+DTSTART:20261104T010000Z
+DTEND:20261104T030000Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ac813c1ebad220045440ebf
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac813c1ebad220045440ebf
+END:VEVENT
+END:VCALENDAR

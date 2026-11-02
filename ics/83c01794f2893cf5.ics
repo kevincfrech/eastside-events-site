@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1152dc771aef44b5644ddf292e71e7f1c821f038@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Planting at Beaver Lake Preserve
+DTSTART:20261107T190000Z
+LOCATION:Sammamish
+URL:https://www.sammamish.us/news/events/events/volunteer-opportunities/11-07-planting-at-beaver-lake-preserve/
+DESCRIPTION:Details: https://www.sammamish.us/news/events/events/volunteer-opportunities/11-07-planting-at-beaver-lake-preserve/
+END:VEVENT
+END:VCALENDAR

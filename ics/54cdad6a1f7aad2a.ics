@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:87204ffbe3dde698bc2c7aafef43dd01bc346c78@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Thriving Together - A Local Business and Community Event
+DTSTART:20261105T020000Z
+DTEND:20261105T043000Z
+LOCATION:Lake Wilderness Lodge
+URL:https://maplevalleywa.gov/community/community_events/thriving_together.php
+DESCRIPTION:Details: https://maplevalleywa.gov/community/community_events/thriving_together.php
+END:VEVENT
+END:VCALENDAR

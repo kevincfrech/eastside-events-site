@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3fbcfc1522089a61748384bec2d4c240b333aa20@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Guided Nature Walk at Wallace Swamp Creek
+DTSTART:20261106T170000Z
+DTEND:20261106T190000Z
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3879/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3879/
+END:VEVENT
+END:VCALENDAR

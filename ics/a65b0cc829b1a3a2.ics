@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:05ccc0f94b21da2689277cfdaecaa6fbbec50cba@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Issaquah History Museums Volunteering Open House
+DTSTART:20261104T003000Z
+DTEND:20261104T013000Z
+LOCATION:165 SE Andrews Street\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14788
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14788
+END:VEVENT
+END:VCALENDAR

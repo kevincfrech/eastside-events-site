@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1100d000d7e436a049dcc6b1d540169cf0d4e81d@eastside-events
+DTSTAMP:20261102T102700Z
+SUMMARY:Fall Rustic Wreath Workshop
+DTSTART:20261107T220000Z
+DTEND:20261108T000000Z
+LOCATION:Love that Red\, 19501 144th Ave NE Ste E400\, Woodinville\, WA\, 98077
+URL:https://woodinvillewinecountry.com/event/fall-rustic-wreath-workshop-love-that-red/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/fall-rustic-wreath-workshop-love-that-red/
+END:VEVENT
+END:VCALENDAR
