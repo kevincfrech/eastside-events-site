@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:42d909de008ad1139c51142b45a13e909bdb41b9@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Intro to the Bellevue Makerspace
+DTSTART:20261107T220000Z
+DTEND:20261107T224500Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6ae12badfee2d21deb26300d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ae12badfee2d21deb26300d
+END:VEVENT
+END:VCALENDAR

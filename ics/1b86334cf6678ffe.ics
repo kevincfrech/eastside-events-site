@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3a18f12379082332eaff8092d6798eae6f85fb88@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Aidan Rufer Performing
+DTSTART:20261107T020000Z
+DTEND:20261107T050000Z
+LOCATION:Freebush Cellars\, 19495 144th Ave NE Ste B235\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/aidan-rufer-performing-freebush-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/aidan-rufer-performing-freebush-cellars/
+END:VEVENT
+END:VCALENDAR

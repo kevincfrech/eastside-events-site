@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6988cca08be929f233a2cd27e1ad981f4de14e6f@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:The Art of Blending Herbal Teas
+DTSTART:20261108T210000Z
+DTEND:20261108T230000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6ac81d87ebad2200454410f1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac81d87ebad2200454410f1
+END:VEVENT
+END:VCALENDAR

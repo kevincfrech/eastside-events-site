@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:717492603e79f56016ab19deddb10826545cb1fe@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Diwali (Hindu\, Sikh)
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+LOCATION:Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14225
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14225
+END:VEVENT
+END:VCALENDAR

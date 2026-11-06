@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ad8fc857e24ad9cc36202c4a1d3d3df761cb8570@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:First Friday Pool Party for Teens
+DTSTART:20261107T040000Z
+DTEND:20261107T060000Z
+LOCATION:Covington
+URL:https://www.covingtonwa.gov/calendar.php
+DESCRIPTION:Details: https://www.covingtonwa.gov/calendar.php
+END:VEVENT
+END:VCALENDAR

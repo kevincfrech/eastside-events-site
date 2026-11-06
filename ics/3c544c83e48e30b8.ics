@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:4311a90f9a23b5480315db358d8728d5f8684cbc@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:The Junction Chili Cook-Off
+DTSTART:20261107T210000Z
+DTEND:20261108T000000Z
+LOCATION:Sky River Mead\, 19151 144th Ave NE  Ste. G\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/the-junction-chili-cook-off-the-junction/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/the-junction-chili-cook-off-the-junction/
+END:VEVENT
+END:VCALENDAR

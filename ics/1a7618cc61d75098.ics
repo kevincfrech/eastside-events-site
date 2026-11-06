@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1f3c4897bcda8b43d30f52c20b9b0814204e1225@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Keep Bellevue Beautiful - Lake Hills Cleanup
+DTSTART:20261107T170000Z
+DTEND:20261107T190000Z
+LOCATION:Lake Hills\, Sammamish High School\,\n100 140th Ave SE
+URL:https://bellevuewa.gov/events/keep-bellevue-beautiful-lake-hills-cleanup-0
+DESCRIPTION:Details: https://bellevuewa.gov/events/keep-bellevue-beautiful-lake-hills-cleanup-0
+END:VEVENT
+END:VCALENDAR

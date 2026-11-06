@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a172cf3bd16f8c59e3950317d8e6c9bdf1c71386@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:STEM Saturday: Young Engineers Lab: Build Your Own Arduino Memory Game! with the Sammamish Chapter of the Washington Youth Alliance
+DTSTART:20261107T220000Z
+DTEND:20261108T000000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a7bb35f350156002ab24ea1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a7bb35f350156002ab24ea1
+END:VEVENT
+END:VCALENDAR

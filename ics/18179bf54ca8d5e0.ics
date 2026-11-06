@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:82f13ef73827d37be88912d71565040bffe76b46@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Glorydays: A Tabletop Roleplaying Game
+DTSTART:20261107T220000Z
+DTEND:20261108T000000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/6a553848fb418a28009aad54
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a553848fb418a28009aad54
+END:VEVENT
+END:VCALENDAR

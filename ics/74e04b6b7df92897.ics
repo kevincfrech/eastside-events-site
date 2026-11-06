@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6c21ce2d6791793eddc1f60ab39b8bb2b9141b2e@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Synne Session: Recharge with Robbie Egelstad | Live Acoustic Music
+DTSTART:20261107T013000Z
+DTEND:20261107T033000Z
+LOCATION:Hollywood Schoolhouse - Synne Cellars\, 14810 NE 145th Street\, Suite B-downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/synne-session-recharge-with-robbie-egelstad-live-acoustic-music-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/synne-session-recharge-with-robbie-egelstad-live-acoustic-music-synne-cellars/
+END:VEVENT
+END:VCALENDAR

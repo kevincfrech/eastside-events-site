@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:de101938bd857c187e9388f02bc8c4cb224a844a@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Story Stroll: Apple Pie Picnic
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+LOCATION:Issaquah Library\, 10 W Sunset Way\, Issaquah\, WA 98027
+URL:https://kcls.bibliocommons.com/events/6aa0a306442d35226f67899e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa0a306442d35226f67899e
+END:VEVENT
+END:VCALENDAR

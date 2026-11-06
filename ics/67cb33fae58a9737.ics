@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0f7ad413a7a0f272587de3ef33e644c9dde6e702@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Juanita Bay Park (East) Habitat Stewardship Day
+DTSTART:20261106T180000Z
+LOCATION:Juanita Bay Park East\, 10442 Forbes Creek Dr\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Eventbrite/Juanita-Bay-Park-East-Habitat-Stewardship-Day-1999787917494
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Juanita-Bay-Park-East-Habitat-Stewardship-Day-1999787917494
+END:VEVENT
+END:VCALENDAR

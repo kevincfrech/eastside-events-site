@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ccaefefd471ef3730b91326caaa0aa1c1c3b6cca@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:DJingo: Sunday Funday Vinyl DJ Bingo
+DTSTART:20261109T000000Z
+DTEND:20261109T020000Z
+LOCATION:Synne Cellars-Hollywood Schoolhouse\, 14810 NE 145th Street\, Suite B-downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/djingo-sunday-funday-vinyl-dj-bingo-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/djingo-sunday-funday-vinyl-dj-bingo-synne-cellars/
+END:VEVENT
+END:VCALENDAR

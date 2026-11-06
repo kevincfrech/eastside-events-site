@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:483381ec6c805be9c6fd6e847f7ea5e506b023e2@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:November Issaquah Litter Clean-up Event
+DTSTART:20261107T170000Z
+DTEND:20261108T075900Z
+LOCATION:NW Gilman Blvd\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14797
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14797
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5f19449e6447725129259762b8a255f719b7b28e@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Flowers for Wolves Performing
+DTSTART:20261108T020000Z
+DTEND:20261108T050000Z
+LOCATION:Freebush Cellars\, 19495 144th Ave NE Ste B235\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/flowers-for-wolves-performing-freebush-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/flowers-for-wolves-performing-freebush-cellars/
+END:VEVENT
+END:VCALENDAR

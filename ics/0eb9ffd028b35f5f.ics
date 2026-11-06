@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:dffcf024b9dc18678fc9c4b1d4096091416d6ab1@eastside-events
+DTSTAMP:20261106T231030Z
+SUMMARY:Glass Pint of Emotion Collab Release and Movember Fundraiser
+DTSTART:20261107T010000Z
+DTEND:20261107T040000Z
+LOCATION:Watts Brewing Company\, 15510 Redmond-Woodinville Rd NE Ste E110\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/glass-pint-of-emotion-collab-release-and-movember-fundraiser-watts-brewing-company/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/glass-pint-of-emotion-collab-release-and-movember-fundraiser-watts-brewing-company/
+END:VEVENT
+END:VCALENDAR
