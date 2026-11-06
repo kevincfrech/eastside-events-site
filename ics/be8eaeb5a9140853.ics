@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8fc5162bef09a59d738d3a94c14cf1d169ab16a9@eastside-events
+DTSTAMP:20261106T111325Z
+SUMMARY:Veterans Dance
+DTSTART:20261107T013000Z
+LOCATION:Renton Community Center\, 1715 Maple Valley HWY\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Veterans-Dance
+DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Veterans-Dance
+END:VEVENT
+END:VCALENDAR

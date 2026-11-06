@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:f807eb66810168f368f869196c50aace9cfbe867@eastside-events
-DTSTAMP:20261102T102700Z
+DTSTAMP:20261106T111325Z
 SUMMARY:The Friends of Black Diamond Library's "Fall Book Sale"
 DTSTART:20261107T190000Z
 DTEND:20261108T000000Z
 LOCATION:Black Diamond Library\, 24707 Roberts Drive\, Black Diamond\, WA 98010
-URL:https://kcls.bibliocommons.com/events/6aa8700ca433d308573b8994
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8700ca433d308573b8994
+URL:https://kcls.bibliocommons.com/events/6aa8700ca433d308573b8996
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8700ca433d308573b8996
 END:VEVENT
 END:VCALENDAR
