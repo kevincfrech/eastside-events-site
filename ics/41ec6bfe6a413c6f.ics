@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:c6b49cf60aa2089c692084216de52631e56ad69d@eastside-events
-DTSTAMP:20261107T050206Z
+DTSTAMP:20261108T050158Z
 SUMMARY:Garden and Nature Science for Kids with King County Master Gardeners
 DTSTART:20261107T193000Z
 DTEND:20261107T203000Z
 LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
-URL:https://kcls.bibliocommons.com/events/6ad6603929c3d6003331069f
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad6603929c3d6003331069f
+URL:https://kcls.bibliocommons.com/events/6ad6603929c3d600333106a0
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad6603929c3d600333106a0
 END:VEVENT
 END:VCALENDAR

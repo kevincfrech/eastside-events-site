@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:dd94c68385bb14a5c6899cc63bca9d47e3a90276@eastside-events
-DTSTAMP:20261107T050206Z
+DTSTAMP:20261108T050158Z
 SUMMARY:Crafternoon for Adults
 DTSTART:20261107T220000Z
 DTEND:20261108T000000Z
 LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
-URL:https://kcls.bibliocommons.com/events/69ebc807c1cf6f9a75878cab
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69ebc807c1cf6f9a75878cab
+URL:https://kcls.bibliocommons.com/events/69ebc807c1cf6f9a75878cac
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69ebc807c1cf6f9a75878cac
 END:VEVENT
 END:VCALENDAR
