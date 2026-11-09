@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bca00dfa451da6de7b516d8c95684f5b81438a31@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Українська година казок- Ukrainian Story Time
+DTSTART:20261113T183000Z
+DTEND:20261113T190000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6a679642c7e02e3d006bfb08
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a679642c7e02e3d006bfb08
+END:VEVENT
+END:VCALENDAR

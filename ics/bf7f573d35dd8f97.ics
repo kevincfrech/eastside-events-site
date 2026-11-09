@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:478625923fbf2118303af878c5770fb1f5665dc6@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:SilverKite Community Arts Presents: Making Art in Response to Music
+DTSTART:20261111T020000Z
+DTEND:20261111T030000Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6ac57106de300e004518b4ea
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac57106de300e004518b4ea
+END:VEVENT
+END:VCALENDAR

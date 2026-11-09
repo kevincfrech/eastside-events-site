@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ca214d750b7b3aa722786837bf302f4457d84a14@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Sip &amp\; Stroll Art Exhibition
+DTSTART:20261114T010000Z
+DTEND:20261115T040000Z
+LOCATION:The Winemaker's Reserve\, 5902 Woodinville-Redmond RD NE Suite D\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/sip-stroll-art-exhibition-the-winemakers-reserve/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sip-stroll-art-exhibition-the-winemakers-reserve/
+END:VEVENT
+END:VCALENDAR

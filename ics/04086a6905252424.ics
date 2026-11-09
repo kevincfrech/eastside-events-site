@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a59217bb72708853a4ca02c0bef84a0ea1fdb642@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:A Friday Night Favorite Returns: Ian Skavdahl Live
+DTSTART:20261114T010000Z
+DTEND:20261114T040000Z
+LOCATION:Hollywood Schoolhouse - Synne Cellars\, 14810 NE 145th Street\, Suite B-downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/a-friday-night-favorite-returns-ian-skavdahl-live-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/a-friday-night-favorite-returns-ian-skavdahl-live-synne-cellars/
+END:VEVENT
+END:VCALENDAR

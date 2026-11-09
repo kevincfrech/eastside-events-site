@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d974b6de038ffbab363168adbcd9ae708b9f7fb1@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:COMEDY NIGHT
+DTSTART:20261114T030000Z
+DTEND:20261114T043000Z
+LOCATION:LOVE THAT RED WINERY\, 19501 144TH AVE NE STE E400\, WOODINVILLE\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/comedy-night-love-that-red-winery/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/comedy-night-love-that-red-winery/
+END:VEVENT
+END:VCALENDAR

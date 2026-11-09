@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:fab35815abf3fbb298a6797afcc88b985e8d9772@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Woodinville Library Book Group
+DTSTART:20261111T023000Z
+DTEND:20261111T033000Z
+LOCATION:Woodinville Library\, 17105 Avondale Road NE\, Woodinville\, WA 98072
+URL:https://kcls.bibliocommons.com/events/6a2cb345414ef43d0096b309
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a2cb345414ef43d0096b309
+END:VEVENT
+END:VCALENDAR

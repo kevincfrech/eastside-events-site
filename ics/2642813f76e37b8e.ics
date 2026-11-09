@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a0a02e97e033f221e745570e519630bf15656096@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Jazz Noir: A Mid-Century Supper Club Evening
+DTSTART:20261115T010000Z
+DTEND:20261115T043000Z
+LOCATION:Bayernmoor Cellars\, 17140 135th Ave NE\, Suite 1040\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/jazz-noir-a-mid-century-supper-club-evening-bayernmoor-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/jazz-noir-a-mid-century-supper-club-evening-bayernmoor-cellars/
+END:VEVENT
+END:VCALENDAR

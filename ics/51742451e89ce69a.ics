@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:42d62fc994c608906ec0db95d2b8a52eea29d8fc@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Holiday Maker's Market at No Boat
+DTSTART:20261114T200000Z
+DTEND:20261115T010000Z
+LOCATION:35214 SE Center St #2\, Snoqualmie\, WA 98065
+URL:https://www.snoqualmiewa.gov/Calendar.aspx?EID=3428
+DESCRIPTION:Details: https://www.snoqualmiewa.gov/Calendar.aspx?EID=3428
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:88333753e64c6f0f7939333e382349c96b612508@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:The PNW Holiday Heritage Grand Affaire
+DTSTART:20261115T223000Z
+DTEND:20261116T020000Z
+LOCATION:The SOMM Hotel & Spa\, 14800 NE 144th Street\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/the-pnw-holiday-heritage-grand-affaire-the-somm-hotel-spa/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/the-pnw-holiday-heritage-grand-affaire-the-somm-hotel-spa/
+END:VEVENT
+END:VCALENDAR

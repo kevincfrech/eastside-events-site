@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e8c69090f0837583eb8b28f839b5b08e51159908@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Fix It\, Issaquah!
+DTSTART:20261115T230000Z
+DTEND:20261116T001500Z
+LOCATION:Issaquah Library\, 10 W Sunset Way\, Issaquah\, WA 98027
+URL:https://kcls.bibliocommons.com/events/6ab2cbe8ab7a8e0037c39ffd
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab2cbe8ab7a8e0037c39ffd
+END:VEVENT
+END:VCALENDAR

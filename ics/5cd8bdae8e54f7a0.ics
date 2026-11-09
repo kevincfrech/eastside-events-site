@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:17b03c01946da87fa354340007dcaf8cff2431ee@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Chess Club for All Ages
+DTSTART:20261114T223000Z
+DTEND:20261115T003000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/69e2b7b6deee9abd8ee8214b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69e2b7b6deee9abd8ee8214b
+END:VEVENT
+END:VCALENDAR

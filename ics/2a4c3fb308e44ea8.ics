@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:48147815056fff18a6a5f5594b41a28babeea270@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Chess Club
+DTSTART:20261114T000000Z
+DTEND:20261114T013000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6aa324dff9ed2e00384fb022
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa324dff9ed2e00384fb022
+END:VEVENT
+END:VCALENDAR

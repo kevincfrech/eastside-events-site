@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0f11c5515abc8f13c6509284529e15fe5115fb92@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Mercer Island Library Book Group
+DTSTART:20261110T213000Z
+DTEND:20261110T230000Z
+LOCATION:Mercer Island Library\, 4400  88th Ave SE\, Mercer Island\, WA 98040
+URL:https://kcls.bibliocommons.com/events/6987e4788b29ea2800ceae9f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6987e4788b29ea2800ceae9f
+END:VEVENT
+END:VCALENDAR

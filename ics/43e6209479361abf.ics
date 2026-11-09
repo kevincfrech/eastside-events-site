@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ee7bffc6052f8e4712752d6c14b0bc6b8a29f858@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Newport Way Library Association Book Sale
+DTSTART:20261114T190000Z
+DTEND:20261115T020000Z
+LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
+URL:https://kcls.bibliocommons.com/events/6aa0c651aafa610029627adc
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa0c651aafa610029627adc
+END:VEVENT
+END:VCALENDAR

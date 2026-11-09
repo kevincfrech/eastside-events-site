@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:71cfb12c4778f0d37ca9f8a5ba53342f2556a16a@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Luminaria Crafting
+DTSTART:20261111T000000Z
+DTEND:20261111T020000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/6ab42bd9825ea713bf679d28
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab42bd9825ea713bf679d28
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0ce05c3125146d0367c19dbced3814d42395f8ac@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Sugar Skulls\, Calaveritas de Azucar
+DTSTART:20261113T000000Z
+DTEND:20261113T011500Z
+LOCATION:Lake Hills Library\, 15590 Lake Hills Boulevard\, Bellevue\, WA 98007
+URL:https://kcls.bibliocommons.com/events/6a926ad23b6c71003e5c2d42
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a926ad23b6c71003e5c2d42
+END:VEVENT
+END:VCALENDAR

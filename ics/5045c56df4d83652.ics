@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0f8952624c5448167e3bf39e1c0708ffc981ccf0@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Kirkland Turkey Trot
+DTSTART:20261115T170000Z
+LOCATION:Juanita Beach Park\, 9703 NE Juanita Drive\, Kirkland\, 98034
+URL:https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Special-Events-Division/Kirkland-Turkey-Trot
+DESCRIPTION:Details: https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Special-Events-Division/Kirkland-Turkey-Trot
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e0eb3d6491b21a4d6484df94f31d7529d204ba3c@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:The History and Legacy of the Hillcrest Bakery
+DTSTART:20261114T210000Z
+DTEND:20261114T223000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/6a613271a41369ab2c67f77e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a613271a41369ab2c67f77e
+END:VEVENT
+END:VCALENDAR

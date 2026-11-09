@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b490a8ff1b60d55fcfaaea6e6537009bd7431bb3@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Healing Cultural and Political Divides with Community Music Therapy
+DTSTART:20261113T190000Z
+DTEND:20261113T200000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6aa1f46e129d8e0031f0ff5c
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa1f46e129d8e0031f0ff5c
+END:VEVENT
+END:VCALENDAR

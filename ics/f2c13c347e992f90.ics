@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:86dccfdd0cb35caddf3d6a5bae3019837ec5d940@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Story Time Yoga With Kids
+DTSTART:20261114T220000Z
+DTEND:20261114T224500Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6aa8a4be3dd190003e71ffa2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a4be3dd190003e71ffa2
+END:VEVENT
+END:VCALENDAR

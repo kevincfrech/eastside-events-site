@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d36e4dc197a880865cd34a508a4de1890b7f3793@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:የአማርኛ እና የትግርኛ ታሪክ ክፍለ ጊዜ--Amharic and Tigrigna Story Times at the Family First Community Center
+DTSTART:20261111T020000Z
+DTEND:20261111T023000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6a76c2c174e3b8b75db87c88
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a76c2c174e3b8b75db87c88
+END:VEVENT
+END:VCALENDAR

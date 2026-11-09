@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:897d86fc49a89c34f9df9b963e2c707be72f7b29@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Intro to 3D Printing
+DTSTART:20261111T020000Z
+DTEND:20261111T030000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6a8206bc2dac6e00371f76e9
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a8206bc2dac6e00371f76e9
+END:VEVENT
+END:VCALENDAR

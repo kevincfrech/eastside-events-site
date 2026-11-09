@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0e465ef9f66b9afd5bcb8e949cf1745866e622df@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Maple Valley Library Monday Morning Book Group
+DTSTART:20261109T190000Z
+DTEND:20261109T203000Z
+LOCATION:Maple Valley Library\, 21844 SE 248th Street\, Maple Valley\, WA 98038
+URL:https://kcls.bibliocommons.com/events/69657eb98b29ea2800c91550
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69657eb98b29ea2800c91550
+END:VEVENT
+END:VCALENDAR

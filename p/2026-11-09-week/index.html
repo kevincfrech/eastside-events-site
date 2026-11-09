@@ -1,0 +1,1676 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>This Week on the Eastside · Nov 9–15 · Let&#39;s Get Out</title>
+<meta name="description" content="112 things to do in Bellevue, Redmond, Kirkland, Issaquah, the Snoqualmie Valley and more, Nov 9–15. Links, maps and calendar files for every event.">
+<meta property="og:title" content="This Week on the Eastside · Nov 9–15">
+<meta property="og:site_name" content="Let&#39;s Get Out · Eastside">
+<meta property="og:description" content="112 things to do, with links to every event.">
+<link rel="canonical" href="https://letsgetouteastside.com/p/2026-11-09-week/">
+<meta name="theme-color" content="#0E6B47">
+<style>
+/* Mobile first: most visits come from the Instagram and TikTok in-app browsers.
+   Same visual language as the slides: guide-sign green headings, paper list. */
+@font-face { font-family: "Overpass"; src: url("../../assets/Overpass.ttf") format("truetype"); font-weight: 100 900; font-display: swap; }
+@font-face { font-family: "Atkinson"; src: url("../../assets/AtkinsonHyperlegible-Regular.ttf") format("truetype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Atkinson"; src: url("../../assets/AtkinsonHyperlegible-Bold.ttf") format("truetype"); font-weight: 700; font-display: swap; }
+
+:root {
+  --bg: #F3F4EF; --surface: #FFFFFF; --ink: #16201B; --muted: #56615A; --hair: #DCE0D8;
+  --sign: #0E6B47; --sign-ink: #FFFFFF; --link: #0B5C3D;
+  --accent: #E8A23A; --accent-ink: #3A2204;
+  --display: "Overpass", "Arial Narrow", Arial, sans-serif;
+  --body: "Atkinson", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0F1411; --surface: #18201B; --ink: #E5EBE6; --muted: #9DAAA2; --hair: #2B352F;
+          --sign: #13744E; --link: #7FD1A8; color-scheme: dark; }
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 12px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.5 var(--body); -webkit-font-smoothing: antialiased; }
+a { color: var(--link); }
+a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left)); padding-right: max(16px, env(safe-area-inset-right)); }
+
+/* header sign */
+header { background: var(--sign); color: var(--sign-ink); padding-top: env(safe-area-inset-top); }
+header .wrap { padding-block: 22px 26px; }
+.signbox { border: 4px solid var(--sign-ink); border-radius: 14px; padding: 18px 20px 20px; position: relative; }
+.tab { position: absolute; top: -4px; right: 18px; transform: translateY(-100%); background: var(--accent); color: var(--accent-ink);
+  font: 800 13px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; padding: 8px 10px 6px; border-radius: 8px 8px 0 0; }
+.eyebrow { font: 700 17px var(--display); opacity: .92; }
+h1 { font: 800 clamp(40px, 11vw, 64px)/1 var(--display); margin: 4px 0 6px; letter-spacing: -.01em; }
+.dates { font: 700 22px var(--display); }
+.lede { margin: 14px 0 0; font-size: 16px; opacity: .92; max-width: 60ch; }
+.switches { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: 14px; }
+.switch { display: inline-block; color: var(--sign-ink); font: 700 15px var(--display); }
+
+/* sticky chips */
+/* City (or day) buttons wrap onto as many rows as they need, and each row stretches to the
+   full width, so every city is visible at once with no hidden sideways scroll. */
+nav { background: var(--bg); border-bottom: 1px solid var(--hair); }
+nav .wrap { display: flex; flex-wrap: wrap; gap: 8px; padding-block: 14px; }
+nav a { flex: 1 1 auto; text-align: center; text-decoration: none; color: var(--ink); background: var(--surface);
+  border: 1px solid var(--hair); border-radius: 999px; padding: 8px 12px 6px; font: 700 15px var(--display); white-space: nowrap; }
+nav a:hover { border-color: var(--sign); }
+.top { display: inline-block; margin-top: 12px; font: 700 15px var(--display); text-decoration: none; }
+
+/* sections */
+main .wrap { padding-block: 8px 40px; }
+section { margin-top: 30px; }
+.section-head { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.shield { font: 800 14px/1 var(--display); padding: 6px 8px 4px; border-radius: 6px; background: var(--sign); color: var(--sign-ink); }
+.shield.i { background: #1F4E9C; border-top: 4px solid #C8102E; border-radius: 6px 6px 12px 12px; }
+h2 { font: 800 26px/1.1 var(--display); margin: 0; }
+.section-head .sub { color: var(--muted); font: 600 15px var(--display); }
+
+.list { background: var(--surface); border: 1px solid var(--hair); border-radius: 16px; overflow: hidden; }
+.ev { display: grid; grid-template-columns: 76px minmax(0, 1fr); gap: 4px 14px; padding: 16px; border-top: 1px solid var(--hair); }
+.ev:first-child { border-top: 0; }
+.when { font-family: var(--display); font-variant-numeric: tabular-nums; line-height: 1.2; padding-top: 2px; }
+.when .d { display: block; font-weight: 800; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--sign); }
+@media (prefers-color-scheme: dark) { .when .d { color: var(--link); } }
+.when .t { display: block; font-weight: 700; font-size: 15px; }
+.ev h3 { font: 700 18px/1.25 var(--body); margin: 0; overflow-wrap: anywhere; }
+.where { color: var(--muted); font-size: 15px; margin-top: 2px; overflow-wrap: anywhere; }
+.free { display: inline-block; background: var(--accent); color: var(--accent-ink); font: 800 11px/1 var(--display);
+  letter-spacing: .08em; padding: 5px 6px 3px; border-radius: 4px; margin-right: 6px; vertical-align: 2px; }
+.blurb { overflow-wrap: anywhere; margin: 6px 0 0; font-size: 15px; color: var(--ink); opacity: .86; }
+.actions { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; font: 700 15px var(--display); }
+.actions a { text-decoration: none; padding: 4px 0; }
+.actions a:hover { text-decoration: underline; }
+
+details { margin-top: 10px; }
+summary { cursor: pointer; font: 700 16px var(--display); color: var(--link); padding: 10px 2px; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: "+ "; }
+details[open] summary::before { content: "− "; }
+details .ev { padding: 12px 16px; }
+details .ev h3 { font-size: 16px; }
+
+.note { background: var(--surface); border: 1px solid var(--hair); border-radius: 14px; padding: 14px 16px; margin-top: 18px; font-size: 15px; }
+.cta { display: inline-block; margin-top: 10px; background: var(--sign); color: var(--sign-ink); text-decoration: none;
+  font: 800 17px var(--display); padding: 12px 16px 9px; border-radius: 10px; }
+/* map card: the big invitation to open the map */
+.mapcard { display: grid; grid-template-columns: minmax(0, 1fr); margin: 18px 0 4px; background: var(--surface); color: var(--ink);
+  border: 2px solid var(--sign); border-radius: 18px; overflow: hidden; text-decoration: none;
+  box-shadow: 0 6px 20px rgba(14, 107, 71, .18); transition: transform .15s ease, box-shadow .15s ease; }
+.mapcard:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(14, 107, 71, .26); }
+.mapcard .mm { display: block; width: 100%; height: 260px; }
+.mm-land { fill: #E6EADF; } .mm-water path { fill: #BFD9E6; }
+.mm-names text { font: 700 11px var(--display); fill: #56615A; letter-spacing: .02em; paint-order: stroke; stroke: #E6EADF; stroke-width: 3px; stroke-linejoin: round; }
+.mm-dots circle { fill: var(--accent); stroke: #16201B; stroke-width: 1.6; }
+.mm-roads path { fill: none; stroke: #FFFFFF; stroke-linecap: round; stroke-linejoin: round; }
+.mm-arterial .c { stroke: #D3D8CD; stroke-width: 2.4; } .mm-arterial path { stroke-width: 1.2; }
+.mm-highway .c { stroke: #BCC3B6; stroke-width: 3.6; } .mm-highway path { stroke-width: 2.2; }
+.mm-motorway .c { stroke: #9FA89A; stroke-width: 5; } .mm-motorway path { stroke-width: 3.2; }
+@media (prefers-color-scheme: dark) {
+  .mm-land { fill: #1E2621; } .mm-water path { fill: #213847; } .mm-names text { fill: #9DAAA2; stroke: #1E2621; }
+  .mm-roads path { stroke: #3A4640; } .mm-roads .c { stroke: #151B17; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .mm-dots circle { animation: drop .5s ease-out backwards; }
+  .mm-dots circle:nth-child(3n) { animation-delay: .1s; } .mm-dots circle:nth-child(3n+1) { animation-delay: .2s; }
+}
+@keyframes drop { from { opacity: 0; transform: translateY(-8px); } }
+.mapcard-body { padding: 16px 18px 18px; display: grid; gap: 4px; }
+.kicker { font: 800 12px var(--display); letter-spacing: .1em; text-transform: uppercase; color: var(--sign); }
+@media (prefers-color-scheme: dark) { .kicker { color: var(--link); } }
+.mapcard strong { font: 800 26px/1.1 var(--display); }
+.mapcard .sub2 { color: var(--muted); font-size: 15px; }
+.mapcard .go { justify-self: start; margin-top: 10px; background: var(--sign); color: var(--sign-ink); font: 800 17px var(--display);
+  padding: 12px 18px 9px; border-radius: 10px; }
+@media (min-width: 640px) {
+  .mapcard { grid-template-columns: 1.15fr 1fr; align-items: center; }
+  .mapcard .mm { height: 100%; min-height: 250px; }
+  .mapcard-body { padding: 22px; }
+}
+.maplink { margin-left: auto; font: 700 15px var(--display); text-decoration: none; white-space: nowrap; }
+.maplink::before { content: ""; display: inline-block; width: 10px; height: 10px; margin-right: 6px; border-radius: 50%;
+  background: var(--accent); border: 2px solid var(--ink); vertical-align: -1px; }
+/* floating map button once the card has scrolled away */
+.fab { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: calc(18px + env(safe-area-inset-bottom)); z-index: 10;
+  display: inline-flex; align-items: center; gap: 8px; background: var(--sign); color: var(--sign-ink); text-decoration: none;
+  font: 800 16px var(--display); padding: 13px 18px 11px; border-radius: 999px; box-shadow: 0 6px 18px rgba(0,0,0,.28);
+  opacity: 0; transform: translateY(16px); pointer-events: none; transition: opacity .2s, transform .2s; }
+.fab.show { opacity: 1; transform: none; pointer-events: auto; }
+.fab svg { width: 18px; height: 18px; }
+footer { color: var(--muted); font-size: 14px; padding-bottom: calc(40px + env(safe-area-inset-bottom)); }
+footer p { margin: 8px 0; max-width: 62ch; }
+.eyebrow .dot { display: inline-block; width: .2em; height: .2em; border-radius: 50%; background: currentColor; opacity: .8; margin: 0 .45em; vertical-align: .22em; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="signbox" style="margin-top: 26px">
+      <span class="tab">112 things to do</span>
+      <div class="eyebrow">Let&#39;s Get Out<span class="dot" aria-hidden="true"></span>Eastside</div>
+      <h1>This Week</h1>
+      <div class="dates">Nov 9–15</div>
+    </div>
+    <p class="lede">This is the saved list for Nov 9–15. The picks from @letsgetouteastside, with a link, a map and a calendar file for each one. Times come from city, library and venue calendars, so check the event page before you head out.</p>
+    <div class="switches">
+      <a class="switch" href="../../weekend/">This weekend →</a>
+    </div>
+  </div>
+</header>
+
+
+<div class="wrap">
+  <a class="mapcard" id="mapcard" href="../../map/#from=2026-11-09&amp;to=2026-11-15">
+    <svg class="mm" viewBox="0 0 400 453" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Map preview: 103 events Nov 9–15" xmlns="http://www.w3.org/2000/svg"><rect class="mm-land" width="400" height="453"/><g class="mm-water" fill-rule="evenodd"><path d="M6.8,154.5L9.1,158.2L11.1,156.6L11.2,158.4L10.3,159.0L10.0,159.5L10.1,160.1L14.2,159.6L16.1,158.9L16.4,157.4L17.5,157.3L17.7,159.0L23.3,158.8L25.2,161.8L24.0,171.8L19.9,178.7L21.9,186.2L17.3,206.5L16.5,212.6L18.1,217.1L16.4,222.9L22.0,236.4L23.9,235.5L31.2,242.1L30.3,244.2L32.9,246.1L36.6,257.2L40.6,255.0L40.4,246.0L43.3,246.0L46.3,254.9L43.9,259.3L38.3,260.5L38.4,264.0L34.9,269.5L33.4,276.3L36.4,285.7L34.2,289.5L44.1,299.0L52.2,301.2L66.1,312.2L71.2,312.1L78.6,307.5L76.7,299.1L71.6,292.4L76.7,283.1L76.3,279.2L82.6,272.3L82.1,255.6L84.7,253.8L88.0,244.8L83.7,236.1L90.3,230.4L77.6,224.6L72.0,210.8L72.1,205.3L68.5,199.1L69.1,195.5L74.8,197.9L74.1,195.2L65.2,188.3L62.4,196.3L58.0,190.0L51.6,188.9L48.6,177.3L50.6,155.5L56.8,165.1L56.9,162.0L58.2,162.5L56.4,158.5L57.8,148.8L59.4,150.6L60.7,162.9L63.5,160.3L64.6,152.6L67.6,148.1L69.9,148.1L72.1,152.8L76.7,150.8L74.2,143.8L75.7,126.0L70.2,119.8L67.3,109.9L67.6,102.9L72.4,95.2L66.1,92.4L59.2,99.9L50.4,97.5L37.7,80.9L30.9,55.4L32.5,55.2L34.3,47.8L38.3,42.6L38.0,37.0L40.4,34.7L28.9,36.1L19.5,46.7L17.3,56.8L20.9,63.4L21.2,74.5L27.9,103.4L34.2,110.3L44.6,112.5L46.5,117.7L39.0,130.6L31.1,135.5L30.1,142.3L24.5,148.3L24.5,153.0L21.2,147.4L16.4,143.6L15.7,143.6L14.0,146.7L10.0,147.0L10.3,141.5L6.8,154.5ZM42.4,225.3L40.9,212.6L44.2,213.1L46.7,209.2L52.7,213.1L59.9,210.0L62.3,214.6L62.1,219.5L78.8,229.0L73.0,244.0L72.9,270.6L61.7,286.1L52.6,280.4L48.5,275.0L48.4,270.2L52.5,266.6L54.0,258.6L57.5,252.2L57.3,245.2L55.3,238.6L42.4,225.3Z"/><path d="M144.1,199.0L146.7,206.3L144.1,226.4L145.4,231.5L156.4,236.7L163.2,237.2L170.0,252.9L177.0,250.2L178.5,246.7L177.1,245.6L184.7,245.1L184.7,240.6L177.0,238.1L169.5,226.4L164.9,223.8L161.2,214.6L166.6,205.5L166.3,202.4L175.1,191.0L175.8,186.7L173.2,179.2L173.5,169.6L164.6,159.8L165.6,159.1L157.1,144.9L146.9,148.3L151.9,160.1L161.2,168.3L161.7,177.4L159.1,182.4L147.2,192.4L144.1,199.0Z"/></g><g class="mm-roads"><g class="mm-arterial"><path class="c" d="M12,76L18,77L23,92L23,99M90,119L106,119L112,121M82,119L74,122M29,278L29,291L35,290M16,247L22,255L28,269L29,278M78,184L79,201L83,211M94,186L121,186M121,202L121,124M198,283L199,267M121,165L121,202M137,125L117,124L105,119M78,154L74,136L75,123M35,290L38,291L43,298M198,283L200,288L208,298M6,85L12,71L12,58L16,51M12,62L13,57L18,45L26,38M46,34L70,42L71,40M28,129L22,131L16,138L7,139L4,157M163,143L171,145L179,144M137,120L137,125L148,129M129,98L129,81L126,69L123,64M106,34L105,38L101,39L104,44L108,48L114,61L120,61M235,55L235,70M235,174L229,174L223,165L214,159L197,155L189,148L179,144L171,145L163,143M103,206L96,200L91,199L90,198M102,239L102,230M121,220L121,202M23,99L31,107M98,183L121,176M83,211L86,205L86,190L92,190M104,272L107,280L106,284L109,290M163,143L158,141L151,132M137,120L131,109L129,98M141,127L152,133M103,224L105,219L106,214L103,207M104,272L105,265L103,256L104,251L100,242L102,239M24,39L19,32L13,29M20,41L30,34L41,33L55,36L70,42L71,34L74,33M68,-3L66,1L65,8L69,19M69,19L74,28M74,33L79,33M84,37L92,33M7,290L13,304L10,316L19,336L16,346M63,311L67,322L67,334M15,350L9,368L10,387L9,401M35,323L39,329L47,332M89,310L92,314L98,306L102,306L106,308L111,306M67,334L69,339L66,344M67,334L59,336L55,334M81,369L82,416L78,421L78,450L79,450M82,376L82,370L78,367L74,356L74,346M71,446L74,450L79,450L87,455M45,435L44,429L44,387L47,378L46,371L48,369L46,351M209,454L210,462M207,447L202,439L192,430L193,419L197,413L197,410L183,386L173,375L171,365L166,356L161,354M167,357L164,354L134,352L111,346L94,337L90,337L82,329M35,290L38,291L45,300L51,301L63,311M59,407L44,407M29,387L20,401L21,406M235,374L233,369L229,363L216,353L204,335L209,316L208,298L201,290M63,439L71,446M35,323L23,309L23,304M245,34L235,43L234,63L236,88M307,238L306,239L299,235L289,234L281,229L275,228L268,225L259,217L253,207L253,200L256,191L254,183L240,176L230,174L227,171M307,237L306,233L288,209L288,205L291,177L286,167L286,161L292,132L292,120L267,107L252,106L245,103L237,91L236,85M307,238L317,240L323,245L334,249L340,254L345,254L341,257L345,263L344,266L346,268M347,269L357,291L364,298M244,1L257,21L254,27L236,42M373,324L382,315L356,290M240,379L234,373L233,369L227,362M245,384L240,379"/><path d="M12,76L18,77L23,92L23,99M90,119L106,119L112,121M82,119L74,122M29,278L29,291L35,290M16,247L22,255L28,269L29,278M78,184L79,201L83,211M94,186L121,186M121,202L121,124M198,283L199,267M121,165L121,202M137,125L117,124L105,119M78,154L74,136L75,123M35,290L38,291L43,298M198,283L200,288L208,298M6,85L12,71L12,58L16,51M12,62L13,57L18,45L26,38M46,34L70,42L71,40M28,129L22,131L16,138L7,139L4,157M163,143L171,145L179,144M137,120L137,125L148,129M129,98L129,81L126,69L123,64M106,34L105,38L101,39L104,44L108,48L114,61L120,61M235,55L235,70M235,174L229,174L223,165L214,159L197,155L189,148L179,144L171,145L163,143M103,206L96,200L91,199L90,198M102,239L102,230M121,220L121,202M23,99L31,107M98,183L121,176M83,211L86,205L86,190L92,190M104,272L107,280L106,284L109,290M163,143L158,141L151,132M137,120L131,109L129,98M141,127L152,133M103,224L105,219L106,214L103,207M104,272L105,265L103,256L104,251L100,242L102,239M24,39L19,32L13,29M20,41L30,34L41,33L55,36L70,42L71,34L74,33M68,-3L66,1L65,8L69,19M69,19L74,28M74,33L79,33M84,37L92,33M7,290L13,304L10,316L19,336L16,346M63,311L67,322L67,334M15,350L9,368L10,387L9,401M35,323L39,329L47,332M89,310L92,314L98,306L102,306L106,308L111,306M67,334L69,339L66,344M67,334L59,336L55,334M81,369L82,416L78,421L78,450L79,450M82,376L82,370L78,367L74,356L74,346M71,446L74,450L79,450L87,455M45,435L44,429L44,387L47,378L46,371L48,369L46,351M209,454L210,462M207,447L202,439L192,430L193,419L197,413L197,410L183,386L173,375L171,365L166,356L161,354M167,357L164,354L134,352L111,346L94,337L90,337L82,329M35,290L38,291L45,300L51,301L63,311M59,407L44,407M29,387L20,401L21,406M235,374L233,369L229,363L216,353L204,335L209,316L208,298L201,290M63,439L71,446M35,323L23,309L23,304M245,34L235,43L234,63L236,88M307,238L306,239L299,235L289,234L281,229L275,228L268,225L259,217L253,207L253,200L256,191L254,183L240,176L230,174L227,171M307,237L306,233L288,209L288,205L291,177L286,167L286,161L292,132L292,120L267,107L252,106L245,103L237,91L236,85M307,238L317,240L323,245L334,249L340,254L345,254L341,257L345,263L344,266L346,268M347,269L357,291L364,298M244,1L257,21L254,27L236,42M373,324L382,315L356,290M240,379L234,373L233,369L227,362M245,384L240,379"/></g><g class="mm-highway"><path class="c" d="M309,307L305,332L302,338L299,340L290,342L282,349L271,350L264,355L260,362L254,369L251,379M141,462L182,435L191,425L195,413L226,396L237,386L251,379M66,344L68,366L64,392L65,413L63,418L50,431L47,437M12,429L22,431L24,440L30,446L45,444"/><path d="M309,307L305,332L302,338L299,340L290,342L282,349L271,350L264,355L260,362L254,369L251,379M141,462L182,435L191,425L195,413L226,396L237,386L251,379M66,344L68,366L64,392L65,413L63,418L50,431L47,437M12,429L22,431L24,440L30,446L45,444"/></g><g class="mm-motorway"><path class="c" d="M82,226L128,228L148,238L161,249L184,262L195,266L206,278L217,273L235,279L240,279L247,274L264,278L267,280L272,288L296,306L343,297L346,299L360,317M50,164L60,166L74,158L80,160L88,170L101,172L113,173L126,163L127,158L125,144L129,135L132,132L145,132L148,125M63,-10L82,5L91,31L87,71L94,93L89,129L88,192L93,204L93,214L98,227L95,237M90,242L83,258L83,272L81,278L81,305L84,316M35,353L43,353L55,348L70,347L76,343L77,337L85,322L81,304L81,282L84,272M255,277L266,279L272,288L296,306L343,297L346,299L360,317L373,325L383,340L414,342M95,237L90,242"/><path d="M82,226L128,228L148,238L161,249L184,262L195,266L206,278L217,273L235,279L240,279L247,274L264,278L267,280L272,288L296,306L343,297L346,299L360,317M50,164L60,166L74,158L80,160L88,170L101,172L113,173L126,163L127,158L125,144L129,135L132,132L145,132L148,125M63,-10L82,5L91,31L87,71L94,93L89,129L88,192L93,204L93,214L98,227L95,237M90,242L83,258L83,272L81,278L81,305L84,316M35,353L43,353L55,348L70,347L76,343L77,337L85,322L81,304L81,282L84,272M255,277L266,279L272,288L296,306L343,297L346,299L360,317L373,325L383,340L414,342M95,237L90,242"/></g></g><g class="mm-dots"><circle cx="165.8" cy="41.0" r="5"/><circle cx="200.0" cy="278.3" r="5"/><circle cx="118.5" cy="61.5" r="5"/><circle cx="122.2" cy="62.6" r="5"/><circle cx="179.6" cy="269.6" r="5"/><circle cx="114.2" cy="27.0" r="5"/><circle cx="199.3" cy="278.3" r="5"/><circle cx="105.5" cy="93.8" r="5"/><circle cx="97.5" cy="120.8" r="5"/><circle cx="83.6" cy="331.1" r="5"/><circle cx="117.1" cy="237.3" r="5"/><circle cx="318.5" cy="281.5" r="5"/><circle cx="68.4" cy="91.7" r="5"/><circle cx="84.4" cy="127.3" r="5"/><circle cx="198.5" cy="280.4" r="5"/><circle cx="190.5" cy="442.2" r="6.5"/><circle cx="318.5" cy="280.4" r="6.5"/><circle cx="235.6" cy="53.9" r="6.5"/><circle cx="104.0" cy="271.8" r="6.5"/><circle cx="129.5" cy="200.6" r="6.5"/><circle cx="117.8" cy="24.8" r="6.5"/><circle cx="63.3" cy="343.0" r="6.5"/><circle cx="42.2" cy="33.4" r="6.5"/><circle cx="109.8" cy="41.0" r="6.5"/><circle cx="72.7" cy="32.4" r="6.5"/><circle cx="116.4" cy="29.1" r="6.5"/><circle cx="289.5" cy="151.0" r="6.5"/><circle cx="93.8" cy="312.8" r="6.5"/><circle cx="64.7" cy="240.5" r="6.5"/><circle cx="302.5" cy="238.4" r="6.5"/><circle cx="122.9" cy="62.6" r="6.5"/><circle cx="117.8" cy="22.7" r="6.5"/><circle cx="77.8" cy="123.0" r="8"/><circle cx="78.5" cy="332.2" r="8"/><circle cx="113.5" cy="365.6" r="8"/><circle cx="122.2" cy="61.5" r="8"/><circle cx="198.5" cy="204.9" r="8"/><circle cx="97.5" cy="64.7" r="8"/><circle cx="132.4" cy="119.7" r="8"/><circle cx="84.4" cy="183.4" r="8"/></g><g class="mm-names"><text x="72.1" y="21.9" text-anchor="end">Bothell</text><text x="67.7" y="117.0" text-anchor="end">Kirkland</text><text x="153.1" y="131.1" text-anchor="start">Redmond</text><text x="70.9" y="196.0" text-anchor="end">Bellevue</text><text x="205.6" y="191.3" text-anchor="start">Sammamish</text><text x="209.7" y="284.3" text-anchor="start">Issaquah</text><text x="61.599999999999994" y="335.2" text-anchor="end">Renton</text><text x="342.4" y="269.8" text-anchor="end">Snoqualmie</text><text x="372.5" y="331.4" text-anchor="end">North Bend</text><text x="199.6" y="432.6" text-anchor="start">Maple Valley</text><text x="63.9" y="262.5" text-anchor="middle">Mercer Island</text><text x="112.5" y="34.5" text-anchor="start">Woodinville</text><text x="135.3" y="475.7" text-anchor="end">Covington</text></g></svg>
+    <div class="mapcard-body">
+      <span class="kicker">Live map</span>
+      <strong>What's near you?</strong>
+      <span class="sub2">All 113 events this week on one map. Find the closest, filter to free or kid-friendly, and get directions.</span>
+      <span class="go">Open the map →</span>
+    </div>
+  </a>
+</div>
+
+
+<nav id="cities" aria-label="Days">
+  <div class="wrap">
+    <a href="#monday">Mon</a><a href="#tuesday">Tue</a><a href="#wednesday">Wed</a><a href="#thursday">Thu</a><a href="#friday">Fri</a><a href="#saturday">Sat</a><a href="#sunday">Sun</a>
+  </div>
+</nav>
+
+
+
+<main>
+  <div class="wrap">
+    
+    <section id="monday" aria-labelledby="h-monday">
+      <div class="section-head">
+        <span class="shield">MON</span>
+        <h2 id="h-monday">Monday</h2>
+        <span class="sub">Nov 9</span>
+        <a class="maplink" href="../../map/#from=2026-11-09&amp;to=2026-11-09">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Baby Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Sammamish Library</div>
+    <p class="blurb">Share nursery rhymes, songs and stories with your baby! Connect and have fun with other families. Newborn to 12 months with adult…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6adac730901b02002cc48aa2" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sammamish+Library%2C+825+228th+Avenue+SE%2C+Sammamish%2C+WA+98075" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/3ba2574cb045e3b8.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Maple Valley Library Monday Morning Book Group</h3>
+    <div class="where"><span class="free">FREE</span>Maple Valley</div>
+    <p class="blurb">Join the discussion on the 2nd Monday of the month at 11am. As always, newcomers are encouraged to attend. February 9: The City and Its…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/69657eb98b29ea2800c91550" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Maple+Valley+Library%2C+21844+SE+248th+Street%2C+Maple+Valley%2C+WA+98038" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f104de377ad6a32e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3:30 PM</span></div>
+  <div>
+    <h3>After School Hangout</h3>
+    <div class="where"><span class="free">FREE</span>Kingsgate Library, Kirkland</div>
+    <p class="blurb">Play games, make crafts, work on homework, or hang out. Every 2nd and 4th Mondays (none on December 28). For Middle and High Schoolers…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa3301a607483003826170c" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kingsgate+Library%2C+12315+NE+143rd+Street%2C+Kirkland%2C+WA+98034" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/b43fac992d6adf43.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4:30 PM</span></div>
+  <div>
+    <h3>Creative Corner: Tween Paint and Sip</h3>
+    <div class="where"><span class="free">FREE</span>Covington Library</div>
+    <p class="blurb">Join us in a paint and sip session! We will provide all supplies along with a cup of hot chocolate. Ages 9-12, age restrictions will be…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a6ce9cf9006f753531412d7" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Covington+Library%2C+27100+164th+Avenue+SE%2C+Covington%2C+WA+98042" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f3a443b399eba137.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4:30 PM</span></div>
+  <div>
+    <h3>Living Voices: Native Vision</h3>
+    <div class="where"><span class="free">FREE</span>Kirkland Library</div>
+    <p class="blurb">A dynamic, solo performance combined with archival film immerses the audience in the experiences of Native American boarding schools and…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab6ee0e86d845003118d292" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kirkland+Library%2C+308+Kirkland+Avenue%2C+Kirkland%2C+WA+98033" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/1b82df0db39ffeec.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <details>
+        <summary>1 more on Monday</summary>
+        <div class="list"><article class="ev">
+  <div class="when"><span class="t">4:30 PM</span></div>
+  <div>
+    <h3>Yoga &amp; Mindfulness for Tweens</h3>
+    <div class="where"><span class="free">FREE</span>Carnation Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab2bc78ab7a8e0037c39ca4" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Carnation+Library%2C+4804+Tolt+Avenue%2C+Carnation%2C+WA+98014" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/d0719d16d0bb589e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      </details>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+    <section id="tuesday" aria-labelledby="h-tuesday">
+      <div class="section-head">
+        <span class="shield">TUE</span>
+        <h2 id="h-tuesday">Tuesday</h2>
+        <span class="sub">Nov 10</span>
+        <a class="maplink" href="../../map/#from=2026-11-10&amp;to=2026-11-10">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Crafts for Adults: Fall Felt Garlands</h3>
+    <div class="where"><span class="free">FREE</span>Kingsgate Library, Kirkland</div>
+    <p class="blurb">Come craft a felt garland with fall-themed decorations to bring the feeling of autumn to your home! No registration required. Space and…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ad16e8f901b02002cc2cfc9" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kingsgate+Library%2C+12315+NE+143rd+Street%2C+Kirkland%2C+WA+98034" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/c26e6bc514beebbf.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Seasonal Crochet</h3>
+    <div class="where"><span class="free">FREE</span>Renton Highlands Library</div>
+    <p class="blurb">Join our five-part crochet series at the library and learn to craft your own interchangeable seasonal garland! Over five sessions, you will…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6acd150c29c3d600332f68e2" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Highlands+Library%2C+2801+NE+10th+Street%2C+Renton%2C+WA+98056" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/a06088b991c7ce31.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1:30 PM</span></div>
+  <div>
+    <h3>Mercer Island Library Book Group</h3>
+    <div class="where"><span class="free">FREE</span>Mercer Island</div>
+    <p class="blurb">A Gentleman in Moscow by Amor Towles. New members always welcome. In-person and online! Please register for a Zoom link to attend online…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6987e4788b29ea2800ceae9f" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Mercer+Island+Library%2C+4400++88th+Ave+SE%2C+Mercer+Island%2C+WA+98040" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/ed88edb75b46edec.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Fall City Library Book Group</h3>
+    <div class="where"><span class="free">FREE</span>Fall City</div>
+    <p class="blurb">Join a warm circle of readers for lively conversation, laughter, and connection. Discover new voices, exchange ideas that stay with you…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/691d3bb8dff9d93e00d0c34b" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fall+City+Library%2C+33415+SE+42nd+Place%2C+Fall+City%2C+WA+98024" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/8fe705e1119cc76f.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5 PM</span></div>
+  <div>
+    <h3>Bingo Night</h3>
+    <div class="where">Alexandria Nicole Cellars - Woodin Creek, Woodinville</div>
+    <p class="blurb">Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/bingo-night-alexandria-nicole-cellars-3/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Alexandria+Nicole+Cellars+-+Woodin+Creek%2C+Woodinville%2C+WA" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/a544ca2d58f5e1a7.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <details>
+        <summary>16 more on Tuesday</summary>
+        <div class="list"><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>International Community Health Services (ICHS)</h3>
+    <div class="where"><span class="free">FREE</span>Renton Highlands Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/69bb6be723b45fff20f26a03" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Highlands+Library%2C+2801+NE+10th+Street%2C+Renton%2C+WA+98056" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/fe98d67fcd84bb86.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>Afternoon Play Date</h3>
+    <div class="where"><span class="free">FREE</span>Covington Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a85d90bb20478002993ecfd" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Covington+Library%2C+27100+164th+Avenue+SE%2C+Covington%2C+WA+98042" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/e35047a35d9e5bd8.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>English Language Learners (ELL) Classes</h3>
+    <div class="where"><span class="free">FREE</span>Renton Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6958394476261f280062167d" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Library%2C+100+Mill+Avenue+S%2C+Renton%2C+WA+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/19691e09d11f2465.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>Luminaria Crafting</h3>
+    <div class="where"><span class="free">FREE</span>Fall City Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab42bd9825ea713bf679d28" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fall+City+Library%2C+33415+SE+42nd+Place%2C+Fall+City%2C+WA+98024" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/4a82bf0711aaca58.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4:15 PM</span></div>
+  <div>
+    <h3>Pokemon Club</h3>
+    <div class="where"><span class="free">FREE</span>Carnation Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac57108de300e004518b4ec" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Carnation+Library%2C+4804+Tolt+Avenue%2C+Carnation%2C+WA+98014" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/aea25da249a3220e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4:30 PM</span></div>
+  <div>
+    <h3>Reader’s Theater for Kids: From Story to Stage</h3>
+    <div class="where"><span class="free">FREE</span>Renton Highlands Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a6ce9f2f4e5db3d00c5a367" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Highlands+Library%2C+2801+NE+10th+Street%2C+Renton%2C+WA+98056" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f312894a89aa0cc2.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5:30 PM</span></div>
+  <div>
+    <h3>Youth Writers Group</h3>
+    <div class="where"><span class="free">FREE</span>Snoqualmie Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a921a27aafa6100295ff0b4" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Snoqualmie+Library%2C+7824+Center+Boulevard+SE%2C+Snoqualmie%2C+WA+98065" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/e6bf735e248d281b.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5:30 PM</span></div>
+  <div>
+    <h3>Quiet Reading Party</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a46e2dbc52cdc3600ee7841" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/ead9bca4af170f81.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5:30 PM</span></div>
+  <div>
+    <h3>Embroidered Winter Botanical Ornament</h3>
+    <div class="where"><span class="free">FREE</span>Renton Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6acd5ca029c3d600332f7c23" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Library%2C+100+Mill+Avenue+S%2C+Renton%2C+WA+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/9078cc2971b675ad.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>SilverKite Community Arts Presents: Making Art in Response to Music</h3>
+    <div class="where"><span class="free">FREE</span>Duvall Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac57106de300e004518b4ea" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Duvall+Library%2C+15508+Main+Street+NE%2C+Duvall%2C+WA+98019" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/bf7f573d35dd8f97.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>የአማርኛ እና የትግርኛ ታሪክ ክፍለ ጊዜ--Amharic and Tigrigna Story Times at the Family First Community Center</h3>
+    <div class="where"><span class="free">FREE</span>Fairwood Library, Renton</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a76c2c174e3b8b75db87c88" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fairwood+Library%2C+17009+140th+Avenue+SE%2C+Renton%2C+WA+98058" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/afcde50c10383105.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Intro to 3D Printing</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a8206bc2dac6e00371f76e9" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/533d69cc3d7defc1.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Youth Chess Club</h3>
+    <div class="where"><span class="free">FREE</span>Sammamish Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/69580fa94a9fd98b7f753804" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sammamish+Library%2C+825+228th+Avenue+SE%2C+Sammamish%2C+WA+98075" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/51bf6569f336a1f4.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6:30 PM</span></div>
+  <div>
+    <h3>Family Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Kingsgate Library, Kirkland</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aadaa28607483003827f42c" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kingsgate+Library%2C+12315+NE+143rd+Street%2C+Kirkland%2C+WA+98034" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/7f4826ddfb6f742b.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6:30 PM</span></div>
+  <div>
+    <h3>Woodinville Library Book Group</h3>
+    <div class="where"><span class="free">FREE</span>Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a2cb345414ef43d0096b309" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Woodinville+Library%2C+17105+Avondale+Road+NE%2C+Woodinville%2C+WA+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/4ed056310c64365f.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6:30 PM</span></div>
+  <div>
+    <h3>Black Diamond Library Book Club</h3>
+    <div class="where"><span class="free">FREE</span>Black Diamond</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a8206d52dac6e00371f76ec" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Black+Diamond+Library%2C+24707+Roberts+Drive%2C+Black+Diamond%2C+WA+98010" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/9f7b1e2419c508ae.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      </details>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+    <section id="wednesday" aria-labelledby="h-wednesday">
+      <div class="section-head">
+        <span class="shield">WED</span>
+        <h2 id="h-wednesday">Wednesday</h2>
+        <span class="sub">Nov 11</span>
+        <a class="maplink" href="../../map/#from=2026-11-11&amp;to=2026-11-11">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">All day</span></div>
+  <div>
+    <h3>City Hall Holiday Closures for 2026</h3>
+    <div class="where">Kirkland</div>
+    <p class="blurb">City Hall Holiday Closures for 2026</p>
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Whats-Happening/Community-Events/CMO/City-Hall-Holiday-Closures-for-2026" rel="noopener" target="_blank">Event page ↗</a>
+      
+      <a href="../../ics/0e1e28f96467e471.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Veterans Day Service</h3>
+    <div class="where">Issaquah</div>
+    
+    <div class="actions">
+      <a href="https://www.issaquahwa.gov/m/calendar/event/detail/14784" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=75+N.E.+Creek+Way%2C+Issaquah%2C+WA+98027" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f5bc1df30e5e4e80.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+    <section id="thursday" aria-labelledby="h-thursday">
+      <div class="section-head">
+        <span class="shield">THU</span>
+        <h2 id="h-thursday">Thursday</h2>
+        <span class="sub">Nov 12</span>
+        <a class="maplink" href="../../map/#from=2026-11-12&amp;to=2026-11-12">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>中文家庭故事会 / Mandarin Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Mercer Island Library</div>
+    <p class="blurb">家庭活动计划，老少咸宜。 欣赏故事、音乐、动作和韵律，提高孩子的早期识字能力。欢迎有兴趣学中文的朋友參加。…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a6ba3514523092f0033b553" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Mercer+Island+Library%2C+4400++88th+Ave+SE%2C+Mercer+Island%2C+WA+98040" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/08c6ae2f31feea67.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>WeatherEye Vineyards Third Thursdays</h3>
+    <div class="where">The Burke Room at The Willows Lodge, Woodinville</div>
+    <p class="blurb">Join us for an intimate seated tasting of WeatherEye Vineyards wines in the warm hospitality of The Burke Room at The Willows Lodge…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/weathereye-vineyards-third-thursdays-willows-lodge/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=The+Burke+Room+at+The+Willows+Lodge%2C+14580+NE+145th+St%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/0d9fe608451c78d3.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>7-week Community Emergency Response Team Series</h3>
+    <div class="where">Renton Regional Fire Authority Station # 14</div>
+    <p class="blurb">The Community Emergency Response Team (CERT) 7-week program empowers you with the basic knowledge and skills to take action during an…</p>
+    <div class="actions">
+      <a href="https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/CERT-Fall-Course" rel="noopener" target="_blank">City calendar ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Regional+Fire+Authority+Station+%23+14%2C+900+Lind+Ave+SW%2C+Renton%2C+WA%2C+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/b9a2955dc622c4ac.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Modern Calligraphy &amp;amp; Ornament Lettering for Beginners</h3>
+    <div class="where">Sky River Mead and Wine, Woodinville</div>
+    <p class="blurb">Join us at Sky River Mead in Woodinville, WA for pretty lettering! Whether you’re a stationery nerd, DIY Bride-to-be, or just a crafty…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/modern-calligraphy-ornament-lettering-for-beginners-sky-river-mead/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sky+River+Mead+and+Wine%2C+19151+144th+Ave+NE%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/616ce6513b9c4553.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Open House: Newport Neighborhood</h3>
+    <div class="where">Issaquah</div>
+    
+    <div class="actions">
+      <a href="https://www.issaquahwa.gov/m/calendar/event/detail/14783" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=750+17th+Ave.+N.W.%2C+Issaquah%2C+WA+98027" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/36cdd7ec9059d4fe.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <details>
+        <summary>11 more on Thursday</summary>
+        <div class="list"><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Toddler Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab463b90c7bf418f4e3c6c7" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/59cdd8c839d244f4.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Baby Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Kirkland Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac810b5901b02002cc110af" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kirkland+Library%2C+308+Kirkland+Avenue%2C+Kirkland%2C+WA+98033" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/15e15014951daa58.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Big Play Date</h3>
+    <div class="where"><span class="free">FREE</span>Newcastle Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ad665a7fee2d21deb245b4e" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Newcastle+Library%2C+12901+Newcastle+Way%2C+Newcastle%2C+WA+98056" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/29a221339b635556.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>Advance Directive Workshop</h3>
+    <div class="where"><span class="free">FREE</span>Renton Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa1c114ca248a002914a450" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Library%2C+100+Mill+Avenue+S%2C+Renton%2C+WA+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/0329c544e405c4c9.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>Fiestas de alfabetización temprana en español</h3>
+    <div class="where"><span class="free">FREE</span>Covington Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a80d8462dac6e00371f586c" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Covington+Library%2C+27100+164th+Avenue+SE%2C+Covington%2C+WA+98042" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/3bfba1306b490ee6.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>Hand-Loom Weaving Workshop</h3>
+    <div class="where"><span class="free">FREE</span>Carnation Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac5710529c3d600332e22f4" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Carnation+Library%2C+4804+Tolt+Avenue%2C+Carnation%2C+WA+98014" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/b5a553a8d0b76c7c.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3:45 PM</span></div>
+  <div>
+    <h3>Teens Around the Fire - A Teen Hangout Space</h3>
+    <div class="where"><span class="free">FREE</span>Sammamish Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6abeee7796ec3a003ad7a458" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sammamish+Library%2C+825+228th+Avenue+SE%2C+Sammamish%2C+WA+98075" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/5fa78e6041a32174.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>Sugar Skulls, Calaveritas de Azucar</h3>
+    <div class="where"><span class="free">FREE</span>Lake Hills Library, Bellevue</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a926ad23b6c71003e5c2d42" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Lake+Hills+Library%2C+15590+Lake+Hills+Boulevard%2C+Bellevue%2C+WA+98007" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/57ba06487afa88da.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4:30 PM</span></div>
+  <div>
+    <h3>Reading with Rover</h3>
+    <div class="where"><span class="free">FREE</span>Fairwood Library, Renton</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa8a42eab7a8e0037c1d47d" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fairwood+Library%2C+17009+140th+Avenue+SE%2C+Renton%2C+WA+98058" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/054c79a2974b5f6e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Caviar &amp;amp; Magnums</h3>
+    <div class="where">Upchurch Vineyard, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/caviar-magnums-upchurch-vineyard/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Upchurch+Vineyard%2C+14455+Woodinville+Redmond+Rd.+Suite+B%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/54f976bac28ccb9c.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6:30 PM</span></div>
+  <div>
+    <h3>Music Bingo</h3>
+    <div class="where">Tsillan Cellars Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/music-bingo-tsillan-cellars-14/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Tsillan+Cellars+Woodinville%2C+13550+NE+Village+Square+Drive%2C+Unit+1070%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/04ffdbfe7c0a8e82.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      </details>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+    <section id="friday" aria-labelledby="h-friday">
+      <div class="section-head">
+        <span class="shield">FRI</span>
+        <h2 id="h-friday">Friday</h2>
+        <span class="sub">Nov 13</span>
+        <a class="maplink" href="../../map/#from=2026-11-13&amp;to=2026-11-13">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Українська година казок- Ukrainian Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Kirkland Library</div>
+    <p class="blurb">Час української історії Ми читатимемо улюблені казки українською, співатимемо пісеньки та просто проведемо час разом у затишній, дружній…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a679642c7e02e3d006bfb08" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kirkland+Library%2C+308+Kirkland+Avenue%2C+Kirkland%2C+WA+98033" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/dfb6d2b356c2bb40.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Lap Sit Baby Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    <p class="blurb">Enjoy stories, music, movement and rhymes that help develop your baby’s early literacy skills! There will be up to 20 minutes of free time…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab463b60c7bf418f4e3c6bf" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/08afea1f64800dd6.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">12 PM</span></div>
+  <div>
+    <h3>Cascade Recycling Center Tour (In-Person)</h3>
+    <div class="where">Kirkland</div>
+    <p class="blurb">Take a behind-the-scenes tour to see where your recycling goes and learn the latest on recycling in Kirkland.</p>
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Whats-Happening/Community-Events/Public-Works-Department-Events/CRC-Tour" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Cascade+Recycling+Center%2C+14020+NE+190th+St%2C+Woodinville%2C+98072%2C+Kirkland%2C+WA" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/7069d567ad9de1d8.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>Live Music</h3>
+    <div class="where">Bayernmoor Cellars, Woodinville</div>
+    <p class="blurb">John is back with his popular blend of blues, funk, and jazz! On guitar, vocals, and often the harmonica, he livens up any space. Enjoy his…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/live-music-bayernmoor-cellars-6/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bayernmoor+Cellars%2C+17140+135th+Ave+NE+Ste+1040%2C+Woodinville%2C+WA%2C+98292" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/32598f793d057b8e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5 PM</span></div>
+  <div>
+    <h3>Live Music Friday</h3>
+    <div class="where">Evergreen Family Wines, Woodinville</div>
+    <p class="blurb">Kick off your weekend with Live Music Fridays at Evergreen Family Wines! Enjoy talented local musicians performing live while you sip your…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/live-music-friday-evergreen-family-wines/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Evergreen+Family+Wines%2C+14450+Redmond-Woodinville+Rd+NE+Ste+101-A%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/74e196deb0b8f42a.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <details>
+        <summary>15 more on Friday</summary>
+        <div class="list"><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>English Language Learners (ELL) Classes</h3>
+    <div class="where"><span class="free">FREE</span>Renton Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6958395576261f28006216a5" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Library%2C+100+Mill+Avenue+S%2C+Renton%2C+WA+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/1f1048ffa51275b2.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Japanese Story Time/日本語ストーリータイム</h3>
+    <div class="where"><span class="free">FREE</span>Kingsgate Library, Kirkland</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac00fc0035faf0033d9e7c8" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kingsgate+Library%2C+12315+NE+143rd+Street%2C+Kirkland%2C+WA+98034" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/3602327648a17e3e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Healing Cultural and Political Divides with Community Music Therapy</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa1f46e129d8e0031f0ff5c" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/0e644639b50c34b9.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1:30 PM</span></div>
+  <div>
+    <h3>Colored Pencils Class</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6abadfd89abb62002c6acb35" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/7559ea1ba6e7ec1a.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Second Friday Arts for Adults: Yarn Birds</h3>
+    <div class="where"><span class="free">FREE</span>Kenmore Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a721f76cca66c2f00a81fbd" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kenmore+Library%2C+6531+NE+181st+Street%2C+Kenmore%2C+WA+98028" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/43fc58078aedcec4.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2:30 PM</span></div>
+  <div>
+    <h3>AlterKnits!</h3>
+    <div class="where"><span class="free">FREE</span>Fairwood Library, Renton</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a4bfc9e24b39f59000b474b" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fairwood+Library%2C+17009+140th+Avenue+SE%2C+Renton%2C+WA+98058" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/eda344cb4332a43e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3:30 PM</span></div>
+  <div>
+    <h3>Second Friday STEM Afternoon</h3>
+    <div class="where"><span class="free">FREE</span>Black Diamond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a85e44257c264087ad23ace" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Black+Diamond+Library%2C+24707+Roberts+Drive%2C+Black+Diamond%2C+WA+98010" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/6466ed1646d732d2.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>Chess Club</h3>
+    <div class="where"><span class="free">FREE</span>Kirkland Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa324dff9ed2e00384fb022" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kirkland+Library%2C+308+Kirkland+Avenue%2C+Kirkland%2C+WA+98033" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/2a4c3fb308e44ea8.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5 PM</span></div>
+  <div>
+    <h3>A Friday Night Favorite Returns: Ian Skavdahl Live</h3>
+    <div class="where">Hollywood Schoolhouse - Synne Cellars, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/a-friday-night-favorite-returns-ian-skavdahl-live-synne-cellars/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Hollywood+Schoolhouse+-+Synne+Cellars%2C+14810+NE+145th+Street%2C+Suite+B-downstairs%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/04086a6905252424.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5 PM</span></div>
+  <div>
+    <h3>Sip &amp;amp; Stroll Art Exhibition</h3>
+    <div class="where"><span class="free">FREE</span>The Winemaker&#39;s Reserve, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/sip-stroll-art-exhibition-the-winemakers-reserve/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=The+Winemaker%27s+Reserve%2C+5902+Woodinville-Redmond+RD+NE+Suite+D%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/23deeea654fa5d67.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Tyler McGinnis Performing</h3>
+    <div class="where">Freebush Cellars, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/tyler-mcginnis-performing-freebush-cellars/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Freebush+Cellars%2C+19495+144th+Ave+NE+Ste+B235%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/224330a287c65e73.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>SIP AND PAINT</h3>
+    <div class="where">Gard Estate Wines Junction Tasting Room, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/sip-and-paint-gard-estate-wines-at-the-junction/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Gard+Estate+Wines+Junction+Tasting+Room%2C+19151+144th+Ave+NE+Ste+D%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/566a6fd8e6f63277.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6:30 PM</span></div>
+  <div>
+    <h3>Words &amp;amp; Wine. Poetry Night. Featured Speakers followed by Open Mic</h3>
+    <div class="where">Goose Ridge Winery, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/words-wine-poetry-night-featured-speakers-followed-by-open-mic-goose-ridge/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Goose+Ridge+Winery%2C+14450+Woodinville+Redmond+Rd+NE+%23108%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/fded7d9803ef5ac7.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">7 PM</span></div>
+  <div>
+    <h3>COMEDY NIGHT</h3>
+    <div class="where">LOVE THAT RED WINERY, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/comedy-night-love-that-red-winery/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=LOVE+THAT+RED+WINERY%2C+19501+144TH+AVE+NE+STE+E400%2C+WOODINVILLE%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/118c4d8a647019f6.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">7:30 PM</span></div>
+  <div>
+    <h3>Writers &amp;amp; Wine - Songwriter Sessions</h3>
+    <div class="where">Maryhill Winery Tasting Room &amp; Bistro, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/writers-wine-songwriter-sessions-maryhill-winery-tasting-room-and-bistro/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Maryhill+Winery+Tasting+Room+%26+Bistro%2C+14810+NE+145th+St+%23A%2C+Woodinville+%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/527864fc615254df.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      </details>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+    <section id="saturday" aria-labelledby="h-saturday">
+      <div class="section-head">
+        <span class="shield">SAT</span>
+        <h2 id="h-saturday">Saturday</h2>
+        <span class="sub">Nov 14</span>
+        <a class="maplink" href="../../map/#from=2026-11-14&amp;to=2026-11-14">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">8:30 AM</span></div>
+  <div>
+    <h3>7-week Community Emergency Response Team Series</h3>
+    <div class="where">Renton Regional Fire Authority Station # 14</div>
+    <p class="blurb">The Community Emergency Response Team (CERT) 7-week program empowers you with the basic knowledge and skills to take action during an…</p>
+    <div class="actions">
+      <a href="https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/CERT-Fall-Course" rel="noopener" target="_blank">City calendar ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Regional+Fire+Authority+Station+%23+14%2C+900+Lind+Ave+SW%2C+Renton%2C+WA%2C+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/b9a2955dc622c4ac.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">9 AM</span></div>
+  <div>
+    <h3>Farm Fresh Market</h3>
+    <div class="where">Issaquah</div>
+    
+    <div class="actions">
+      <a href="https://www.issaquahwa.gov/m/calendar/event/detail/14791" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=232+Front+St+N%2C+Issaquah%2C+WA+98027" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/6a155351ebfdb1bb.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10 AM</span></div>
+  <div>
+    <h3>Diversity in Law Enforcement Career Workshop</h3>
+    <div class="where"><span class="free">FREE</span>Renton Community Center</div>
+    <p class="blurb">The Diversity in Law Enforcement Career Workshop is a free and interactive workshop designed for anyone 21 years old and older adults…</p>
+    <div class="actions">
+      <a href="https://www.rentonwa.gov/Government/Departments-and-Offices/Police/Police-Events/Diversity-in-Law-Enforcement-Career-Workshop" rel="noopener" target="_blank">City calendar ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Renton+Community+Center%2C+1715+Maple+Valley+Hwy%2C+Renton%2C+WA%2C+98057" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/7f01a43090e93340.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Holiday Open House</h3>
+    <div class="where">Snoqualmie</div>
+    
+    <div class="actions">
+      <a href="https://www.snoqualmiewa.gov/Calendar.aspx?EID=3421" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Snoqualmie%2C+WA+98065" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/a80727db225fee40.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">12 PM</span></div>
+  <div>
+    <h3>Holiday Maker&#39;s Market at No Boat</h3>
+    <div class="where">Snoqualmie</div>
+    
+    <div class="actions">
+      <a href="https://www.snoqualmiewa.gov/Calendar.aspx?EID=3428" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=35214+SE+Center+St+%232%2C+Snoqualmie%2C+WA+98065" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/51742451e89ce69a.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <details>
+        <summary>27 more on Saturday</summary>
+        <div class="list"><article class="ev">
+  <div class="when"><span class="t">All day</span></div>
+  <div>
+    <h3>Community Fall Tree Planting Event</h3>
+    <div class="where">Kenmore</div>
+    
+    <div class="actions">
+      <a href="https://www.kenmorewa.gov/Home/Components/Calendar/Event/3839/" rel="noopener" target="_blank">Event page ↗</a>
+      
+      <a href="../../ics/e5d69ae05eaee1c8.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">9 AM</span></div>
+  <div>
+    <h3>WM Recycle Right Event November 14th</h3>
+    <div class="where">Lake Washington Institute for Technology, Kirkland</div>
+    
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Whats-Happening/Community-Events/Public-Works-Department-Events/Recycle-Right-Event" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Lake+Washington+Institute+for+Technology%2C+11605+132nd+Ave+NE%2C+Kirkland%2C+98034" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/03af87c3274d97f9.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10 AM</span></div>
+  <div>
+    <h3>Rose Hill Meadows Park Habitat Restoration Volunteer Event</h3>
+    <div class="where">Kirkland</div>
+    
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Eventbrite/Rose-Hill-Meadows-Park-Habitat-Restoration-Volunteer-Event-1998508883870" rel="noopener" target="_blank">City calendar ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Rose+Hill+Meadows+Park%2C+8200+124th+Ave+NE%2C+Kirkland%2C+98033%2C+WA" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/e33c806820f0d201.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10 AM</span></div>
+  <div>
+    <h3>Juanita Open Space #1 Habitat Stewardship Day</h3>
+    <div class="where">Kirkland</div>
+    
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Eventbrite/Juanita-Open-Space-1-Habitat-Stewardship-Day-1997771777164" rel="noopener" target="_blank">City calendar ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Juanita+Open+Space+%231%2C+103rd+Ave+NE+%26+NE+123rd+St%2C+Kirkland%2C+98034%2C+WA" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/1402cab4bc9f9dc2.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10:30 AM</span></div>
+  <div>
+    <h3>Yoga Uncorked</h3>
+    <div class="where">Evergreen Family Wines, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/yoga-uncorked-evergreen-family-wines-7/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Evergreen+Family+Wines%2C+14450+Redmond-Woodinville+Rd+NE+Ste+101-A%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/c3293c42886a2e2c.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Adopt a Park Volunteer Work Party</h3>
+    <div class="where">Kenmore</div>
+    
+    <div class="actions">
+      <a href="https://www.kenmorewa.gov/Home/Components/Calendar/Event/3827/" rel="noopener" target="_blank">Event page ↗</a>
+      
+      <a href="../../ics/ab9771da8a4ac39d.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Newport Way Library Association Book Sale</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa0c651aafa610029627adc" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Newport+Way+Library%2C+14250+SE+Newport+Way%2C+Bellevue%2C+WA+98006-1507" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/43e6209479361abf.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Evans Meadow Restoration</h3>
+    <div class="where">Sammamish</div>
+    
+    <div class="actions">
+      <a href="https://www.sammamish.us/news/events/events/volunteer-opportunities/11-14-evans-meadow-restoration/" rel="noopener" target="_blank">Event page ↗</a>
+      
+      <a href="../../ics/05e7f589266798f0.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11:15 AM</span></div>
+  <div>
+    <h3>ASL Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Kenmore Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a76c37ce30fe4845967df1d" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kenmore+Library%2C+6531+NE+181st+Street%2C+Kenmore%2C+WA+98028" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/61bbb032d6d4f55e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11:30 AM</span></div>
+  <div>
+    <h3>English Language Learners (ELL) Classes, Level 3: Intermediate Speakers</h3>
+    <div class="where"><span class="free">FREE</span>Lake Hills Library, Bellevue</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa0a0e5a3fb9722897b261f" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Lake+Hills+Library%2C+15590+Lake+Hills+Boulevard%2C+Bellevue%2C+WA+98007" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/ba76d0ad02764cd3.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>Travel Workshop: Know your transportation options in Bellevue!</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6993d946d34a4e759285ecca" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/16963065c7222d50.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>The History and Legacy of the Hillcrest Bakery</h3>
+    <div class="where"><span class="free">FREE</span>Bothell Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a613271a41369ab2c67f77e" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bothell+Library%2C+18215+98th+Avenue+NE%2C+Bothell%2C+WA+98011" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/b0d6a1dd8d956822.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>MISO Hungry! For Thanksgiving - Miso-accented Bites and Wine Pairing</h3>
+    <div class="where">Cedergreen Cellars Tasting Studio, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/miso-hungry-for-thanksgiving-miso-accented-bites-and-wine-pairing-cedergreen-cellars-tasting-studio-2/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Cedergreen+Cellars+Tasting+Studio%2C+18646+142nd+Ave+NE%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/ab9c94f6593bc76c.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 &amp; 2 PM</span></div>
+  <div>
+    <h3>Let&#39;s Dance!</h3>
+    <div class="where"><span class="free">FREE</span>Maple Valley Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a820757aafa6100295d0218" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Maple+Valley+Library%2C+21844+SE+248th+Street%2C+Maple+Valley%2C+WA+98038" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/534abd2b25c20615.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>Family Board Games</h3>
+    <div class="where"><span class="free">FREE</span>Kingsgate Library, Kirkland</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac81b01377296003a4aac70" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Kingsgate+Library%2C+12315+NE+143rd+Street%2C+Kirkland%2C+WA+98034" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/d7c26432176cfafe.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>Fall Into Fun</h3>
+    <div class="where"><span class="free">FREE</span>Sammamish Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ad52281377296003a4cda6c" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sammamish+Library%2C+825+228th+Avenue+SE%2C+Sammamish%2C+WA+98075" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f1d19b1b5f67b346.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Intro to Dungeons &amp; Dragons for Teens</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab2ce283dd190003e73c8e4" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/96d5f7f36d2b9a81.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Indian Traditional Arts on Functional Wooden Pieces</h3>
+    <div class="where"><span class="free">FREE</span>Fall City Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab2bdf8ab7a8e0037c39ce5" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fall+City+Library%2C+33415+SE+42nd+Place%2C+Fall+City%2C+WA+98024" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f9199499d4eea181.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Story Time Yoga With Kids</h3>
+    <div class="where"><span class="free">FREE</span>Newcastle Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6aa8a4be3dd190003e71ffa2" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Newcastle+Library%2C+12901+Newcastle+Way%2C+Newcastle%2C+WA+98056" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/f2c13c347e992f90.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Crafternoon for Adults</h3>
+    <div class="where"><span class="free">FREE</span>Duvall Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/69f3a8da129f1274383bd8a6" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Duvall+Library%2C+15508+Main+Street+NE%2C+Duvall%2C+WA+98019" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/42f5d359653d7217.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>J.A. Jance Author Event: The Taken Ones</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a163e8d90cc4e3a79093b48" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/05f9a49fdfb2fc8f.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2:30 PM</span></div>
+  <div>
+    <h3>Chess Club for All Ages</h3>
+    <div class="where"><span class="free">FREE</span>Covington Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/69e2b7b6deee9abd8ee8214b" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Covington+Library%2C+27100+164th+Avenue+SE%2C+Covington%2C+WA+98042" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/5cd8bdae8e54f7a0.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>SilverKite Community Arts: Festive Felt Botanicals</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab2be1dca248a0029179ac6" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/d1e2d3c84edb7ebe.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>Make a Machine-Sewn Notebook</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac570f3e06996003a81cae1" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/085b172682bcef24.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">5 PM</span></div>
+  <div>
+    <h3>Jazz Noir: A Mid-Century Supper Club Evening</h3>
+    <div class="where">Bayernmoor Cellars, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/jazz-noir-a-mid-century-supper-club-evening-bayernmoor-cellars/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bayernmoor+Cellars%2C+17140+135th+Ave+NE%2C+Suite+1040%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/2642813f76e37b8e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">6 PM</span></div>
+  <div>
+    <h3>Electric Boots Performing</h3>
+    <div class="where">Freebush Cellars, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/electric-boots-performing-freebush-cellars/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Freebush+Cellars%2C+19495+144th+Ave+NE+Ste+B235%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/d8c29d1532c9ae11.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">7:30 PM</span></div>
+  <div>
+    <h3>Writers &amp;amp; Wine - Songwriter Sessions</h3>
+    <div class="where">Maryhill Winery Tasting Room &amp; Bistro, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/writers-wine-songwriter-sessions-maryhill-winery-tasting-room-and-bistro-2/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Maryhill+Winery+Tasting+Room+%26+Bistro%2C+14810+NE+145th+St+%23A%2C+Woodinville+%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/12fd3c45c4d836e0.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      </details>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+    <section id="sunday" aria-labelledby="h-sunday">
+      <div class="section-head">
+        <span class="shield">SUN</span>
+        <h2 id="h-sunday">Sunday</h2>
+        <span class="sub">Nov 15</span>
+        <a class="maplink" href="../../map/#from=2026-11-15&amp;to=2026-11-15">Map</a>
+      </div>
+      <div class="list"><article class="ev">
+  <div class="when"><span class="t">9 AM</span></div>
+  <div>
+    <h3>Kirkland Turkey Trot</h3>
+    <div class="where">Juanita Beach Park, Kirkland</div>
+    <p class="blurb">Kick off your holiday season with a festive run for all ages! Join us at beautiful Juanita Beach Park for the annual Kirkland Turkey Trot…</p>
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Special-Events-Division/Kirkland-Turkey-Trot" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Juanita+Beach+Park%2C+9703+NE+Juanita+Drive%2C+Kirkland%2C+98034%2C+WA" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/5045c56df4d83652.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">10 AM</span></div>
+  <div>
+    <h3>Everest Park Forest Stewardship Event</h3>
+    <div class="where">500 8th St S, Kirkland</div>
+    <p class="blurb">Join the Green Kirkland Partnership for a fun day of stewardship at Everest Park!</p>
+    <div class="actions">
+      <a href="https://www.kirklandwa.gov/Eventbrite/Everest-Park-Forest-Stewardship-Event-2001888813330" rel="noopener" target="_blank">City calendar ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=500+8th+St+S%2C+500+8th+Street+South%2C+Kirkland%2C+98033%2C+WA" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/204cfac950cddf67.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11 AM</span></div>
+  <div>
+    <h3>Exploring Photography: Shutter Speed</h3>
+    <div class="where"><span class="free">FREE</span>Sammamish Library</div>
+    <p class="blurb">For adults. Join us for another hands-on photography practice session focused on shutter speed. Using a camera or smartphone, we’ll explore…</p>
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a7bb37461e11c0051770e8d" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Sammamish+Library%2C+825+228th+Avenue+SE%2C+Sammamish%2C+WA+98075" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/8184616fd4a83735.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1 PM</span></div>
+  <div>
+    <h3>MISO Hungry! For Thanksgiving - Miso-accented Bites and Wine Pairing</h3>
+    <div class="where">Cedergreen Cellars Tasting Studio, Woodinville</div>
+    <p class="blurb">For Thanksgiving – Miso-accented bites with wine pairings Delicous, savory appetizers, soups and sauces that are light and have great depth…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/miso-hungry-for-thanksgiving-miso-accented-bites-and-wine-pairing-cedergreen-cellars-tasting-studio/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Cedergreen+Cellars+Tasting+Studio%2C+18646+142nd+Ave+NE%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/707f33a70c1f27fb.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2:30 PM</span></div>
+  <div>
+    <h3>The PNW Holiday Heritage Grand Affaire</h3>
+    <div class="where">The SOMM Hotel &amp; Spa, Woodinville</div>
+    <p class="blurb">The PNW Holiday Heritage Grand Affaire Sunday, November 15th, 2026 | 2:30 pm – 6:00 pm in The SOMM Ballroom | $75++/Person Includes Welcome…</p>
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/the-pnw-holiday-heritage-grand-affaire-the-somm-hotel-spa/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=The+SOMM+Hotel+%26+Spa%2C+14800+NE+144th+Street%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/aa9518b6f301e2c7.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      
+      <details>
+        <summary>10 more on Sunday</summary>
+        <div class="list"><article class="ev">
+  <div class="when"><span class="t">11:15 AM</span></div>
+  <div>
+    <h3>Family Story Time</h3>
+    <div class="where"><span class="free">FREE</span>Mercer Island Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a7e21c1be14820029872db3" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Mercer+Island+Library%2C+4400++88th+Ave+SE%2C+Mercer+Island%2C+WA+98040" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/c2bcd86d4a1bd28a.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11:30 AM</span></div>
+  <div>
+    <h3>Yoga for Stress Relief</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6a926b143b6c71003e5c2d56" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/4a9f83daa9e4e7e2.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">11:30 AM</span></div>
+  <div>
+    <h3>The Research Series: From Question to Plan</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6acd1c86de300e004519f282" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/e9b26fb3fb47008e.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">1:30 PM</span></div>
+  <div>
+    <h3>Intro to the Laser Cutter</h3>
+    <div class="where"><span class="free">FREE</span>Bellevue Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ac570f129c3d600332e22e0" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bellevue+Library%2C+1111+110th+Avenue+NE%2C+Bellevue%2C+WA+98004" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/2d775f87133eab60.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">2 PM</span></div>
+  <div>
+    <h3>Engayging in Sapphistry: A Book Club</h3>
+    <div class="where"><span class="free">FREE</span>Redmond Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/68f00af13cbc052f008000fc" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Redmond+Library%2C+15990+NE+85th+Street%2C+Redmond%2C+WA+98052" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/28354251613f9d6a.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>Fix It, Issaquah!</h3>
+    <div class="where"><span class="free">FREE</span>Issaquah Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ab2cbe8ab7a8e0037c39ffd" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Issaquah+Library%2C+10+W+Sunset+Way%2C+Issaquah%2C+WA+98027" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/8e7529c66c059366.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>Festive Spiral Ornaments Workshop</h3>
+    <div class="where"><span class="free">FREE</span>Fairwood Library, Renton</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6ad665e8fee2d21deb245b60" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Fairwood+Library%2C+17009+140th+Avenue+SE%2C+Renton%2C+WA+98058" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/d8aa7c80fbb13114.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">3 PM</span></div>
+  <div>
+    <h3>中文读书会 Chinese Book Group</h3>
+    <div class="where"><span class="free">FREE</span>Bothell Library</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/68f10b7fef7a7c3600819d1e" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Bothell+Library%2C+18215+98th+Avenue+NE%2C+Bothell%2C+WA+98011" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/8613231501282821.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>Snoqualmie Library Book Group</h3>
+    <div class="where"><span class="free">FREE</span>Snoqualmie</div>
+    
+    <div class="actions">
+      <a href="https://kcls.bibliocommons.com/events/6930e06c6f92613600091e66" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Snoqualmie+Library%2C+7824+Center+Boulevard+SE%2C+Snoqualmie%2C+WA+98065" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/5928f491a0398685.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article><article class="ev">
+  <div class="when"><span class="t">4 PM</span></div>
+  <div>
+    <h3>Synne Session: KOZMO Live</h3>
+    <div class="where">Synne Cellars-Hollywood Schoolhouse, Woodinville</div>
+    
+    <div class="actions">
+      <a href="https://woodinvillewinecountry.com/event/synne-session-kozmo-live-synne-cellars/" rel="noopener" target="_blank">Event page ↗</a>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Synne+Cellars-Hollywood+Schoolhouse%2C+14810+NE+145th+Street%2C+Suite+B-Downstairs%2C+Woodinville%2C+WA%2C+98072" rel="noopener" target="_blank">Map</a>
+      <a href="../../ics/64214acd44314293.ics" download>+ Calendar</a>
+    </div>
+  </div>
+</article></div>
+      </details>
+      
+      <a class="top" href="#cities">↑ All days</a>
+    </section>
+    
+
+    <div class="note">
+      
+      <strong>Hosting something on the Eastside?</strong> Send the details to @letsgetouteastside and it could make next week's list.
+      
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Listings are gathered from public calendars run by Eastside cities, the King County Library System, Woodinville Wine Country and others. We don't run these events; the organizer's page has the final word on times, tickets and cancellations.</p>
+    <p>Map data © <a href="https://www.openstreetmap.org/copyright" rel="noopener" target="_blank">OpenStreetMap</a> contributors.</p>
+    <p>Updated Sun Nov 8, 9:02 PM. </p>
+  </div>
+</footer>
+<a class="fab" id="fab" href="../../map/#from=2026-11-09&amp;to=2026-11-15" aria-label="Open the map">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+  Map
+</a>
+<script>
+(() => {   // show the floating map button once the big map card is off screen
+  const card = document.getElementById("mapcard"), fab = document.getElementById("fab");
+  if (!card || !("IntersectionObserver" in window)) { fab.classList.add("show"); return; }
+  new IntersectionObserver(([e]) => fab.classList.toggle("show", !e.isIntersecting)).observe(card);
+})();
+</script>
+</body>
+</html>

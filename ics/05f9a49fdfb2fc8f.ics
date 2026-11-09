@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e641793e1cd168a598acc205600eea2da29e90f9@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:J.A. Jance Author Event: The Taken Ones
+DTSTART:20261114T220000Z
+DTEND:20261114T233000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6a163e8d90cc4e3a79093b48
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a163e8d90cc4e3a79093b48
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bc9d147c52b649afcf5d14e4fec88a020685a838@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Writers &amp\; Wine - Songwriter Sessions
+DTSTART:20261115T033000Z
+LOCATION:Maryhill Winery Tasting Room & Bistro\, 14810 NE 145th St #A\, Woodinville \, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/writers-wine-songwriter-sessions-maryhill-winery-tasting-room-and-bistro-2/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/writers-wine-songwriter-sessions-maryhill-winery-tasting-room-and-bistro-2/
+END:VEVENT
+END:VCALENDAR

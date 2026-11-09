@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:01f794da8489642b0939df24f1e6e475b7ed1373@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Reading with Rover
+DTSTART:20261113T003000Z
+DTEND:20261113T013000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6aa8a42eab7a8e0037c1d47d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a42eab7a8e0037c1d47d
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:24ef135b12d6d67ffc2e942ee1fb079da878f8f2@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Open House: Newport Neighborhood
+DTSTART:20261113T020000Z
+DTEND:20261113T030000Z
+LOCATION:750 17th Ave. N.W.\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14783
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14783
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7ea3f439067e3a03f35eb1ec37867c461afa6dbf@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Second Friday STEM Afternoon
+DTSTART:20261113T233000Z
+DTEND:20261114T003000Z
+LOCATION:Black Diamond Library\, 24707 Roberts Drive\, Black Diamond\, WA 98010
+URL:https://kcls.bibliocommons.com/events/6a85e44257c264087ad23ace
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a85e44257c264087ad23ace
+END:VEVENT
+END:VCALENDAR

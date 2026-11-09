@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bc6147ee5a3dd61d9fedbe4f0dc858f7463d6c7c@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:SIP AND PAINT
+DTSTART:20261114T020000Z
+DTEND:20261114T020000Z
+LOCATION:Gard Estate Wines Junction Tasting Room\, 19151 144th Ave NE Ste D\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/sip-and-paint-gard-estate-wines-at-the-junction/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sip-and-paint-gard-estate-wines-at-the-junction/
+END:VEVENT
+END:VCALENDAR

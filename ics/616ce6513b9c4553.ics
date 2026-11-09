@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:02aaa7f50bc36a376e2daf3bd0b7e511f2d1e55a@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Modern Calligraphy &amp\; Ornament Lettering for Beginners
+DTSTART:20261113T020000Z
+DTEND:20261113T033000Z
+LOCATION:Sky River Mead and Wine\, 19151 144th Ave NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/modern-calligraphy-ornament-lettering-for-beginners-sky-river-mead/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/modern-calligraphy-ornament-lettering-for-beginners-sky-river-mead/
+END:VEVENT
+END:VCALENDAR

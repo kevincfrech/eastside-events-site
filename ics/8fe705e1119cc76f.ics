@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:862714d427a6216d2c97f1064e6628a33e1ceb2f@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Fall City Library Book Group
+DTSTART:20261110T220000Z
+DTEND:20261110T230000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/691d3bb8dff9d93e00d0c34b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/691d3bb8dff9d93e00d0c34b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a3d69e98821b4beccf243386ccf0532f3d4d2078@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Make a Machine-Sewn Notebook
+DTSTART:20261114T230000Z
+DTEND:20261115T010000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6ac570f3e06996003a81cae1
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac570f3e06996003a81cae1
+END:VEVENT
+END:VCALENDAR

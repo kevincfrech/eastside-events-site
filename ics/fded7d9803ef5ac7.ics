@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0161a32b55352b8811cac48c575f22d1cb21ecd9@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Words &amp\; Wine. Poetry Night. Featured Speakers followed by Open Mic
+DTSTART:20261114T023000Z
+DTEND:20261114T040000Z
+LOCATION:Goose Ridge Winery\, 14450 Woodinville Redmond Rd NE #108\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/words-wine-poetry-night-featured-speakers-followed-by-open-mic-goose-ridge/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/words-wine-poetry-night-featured-speakers-followed-by-open-mic-goose-ridge/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9d6444e38fbfebd82f5f9f5e872ea1d00c032eea@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:MISO Hungry! For Thanksgiving - Miso-accented Bites and Wine Pairing
+DTSTART:20261114T210000Z
+DTEND:20261115T020000Z
+LOCATION:Cedergreen Cellars Tasting Studio\, 18646 142nd Ave NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/miso-hungry-for-thanksgiving-miso-accented-bites-and-wine-pairing-cedergreen-cellars-tasting-studio-2/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/miso-hungry-for-thanksgiving-miso-accented-bites-and-wine-pairing-cedergreen-cellars-tasting-studio-2/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9331b937910f9be95729a076778b718ef43b67d5@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Diversity in Law Enforcement Career Workshop
+DTSTART:20261114T180000Z
+LOCATION:Renton Community Center\, 1715 Maple Valley Hwy\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Police/Police-Events/Diversity-in-Law-Enforcement-Career-Workshop
+DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Police/Police-Events/Diversity-in-Law-Enforcement-Career-Workshop
+END:VEVENT
+END:VCALENDAR

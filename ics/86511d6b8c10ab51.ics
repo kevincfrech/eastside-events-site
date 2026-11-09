@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:4f8c9ad7a99273201c70553303ca60b68c805b15@eastside-events
-DTSTAMP:20261108T050158Z
+DTSTAMP:20261109T050200Z
 SUMMARY:Anime Club
 DTSTART:20261108T210000Z
 DTEND:20261108T230000Z
 LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
-URL:https://kcls.bibliocommons.com/events/6ac5543c29c3d600332e1881
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5543c29c3d600332e1881
+URL:https://kcls.bibliocommons.com/events/6ac5543c29c3d600332e1882
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5543c29c3d600332e1882
 END:VEVENT
 END:VCALENDAR

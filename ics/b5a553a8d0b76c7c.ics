@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3e109f31a676233bc75279b51dd3ec7f12dba4c3@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Hand-Loom Weaving Workshop
+DTSTART:20261112T230000Z
+DTEND:20261113T010000Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/6ac5710529c3d600332e22f4
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5710529c3d600332e22f4
+END:VEVENT
+END:VCALENDAR

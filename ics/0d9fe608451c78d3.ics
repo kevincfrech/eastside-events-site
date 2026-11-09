@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0849f7fc5dfa9e030ebcc8e5b3a84a88127edb20@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:WeatherEye Vineyards Third Thursdays
+DTSTART:20261112T230000Z
+DTEND:20261113T040000Z
+LOCATION:The Burke Room at The Willows Lodge\, 14580 NE 145th St\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/weathereye-vineyards-third-thursdays-willows-lodge/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/weathereye-vineyards-third-thursdays-willows-lodge/
+END:VEVENT
+END:VCALENDAR

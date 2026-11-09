@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:812be5563886ba992fb85530f0a4ca77b5692ae9@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Embroidered Winter Botanical Ornament
+DTSTART:20261111T013000Z
+DTEND:20261111T033000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6acd5ca029c3d600332f7c23
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd5ca029c3d600332f7c23
+END:VEVENT
+END:VCALENDAR

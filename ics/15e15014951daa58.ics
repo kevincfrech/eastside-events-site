@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3d9714d6b069483887a056cab4ae4313ab711fc4@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Baby Story Time
+DTSTART:20261112T183000Z
+DTEND:20261112T190000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ac810b5901b02002cc110af
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac810b5901b02002cc110af
+END:VEVENT
+END:VCALENDAR

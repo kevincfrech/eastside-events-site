@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:44791a8f158afe840b6ff22234ec485ea9fb94b8@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Caviar &amp\; Magnums
+DTSTART:20261113T020000Z
+DTEND:20261113T040000Z
+LOCATION:Upchurch Vineyard\, 14455 Woodinville Redmond Rd. Suite B\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/caviar-magnums-upchurch-vineyard/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/caviar-magnums-upchurch-vineyard/
+END:VEVENT
+END:VCALENDAR

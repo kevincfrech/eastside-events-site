@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2d1af21e1b09f6b8cb25d7c973f8f5f177f3a3c3@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Living Voices: Native Vision
+DTSTART:20261110T003000Z
+DTEND:20261110T013000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ab6ee0e86d845003118d292
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab6ee0e86d845003118d292
+END:VEVENT
+END:VCALENDAR

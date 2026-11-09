@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f0409186e58e9bcaf4cdef3a77449f926d9c5dfc@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:City Hall Holiday Closures for 2026
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+LOCATION:Kirkland
+URL:https://www.kirklandwa.gov/Whats-Happening/Community-Events/CMO/City-Hall-Holiday-Closures-for-2026
+DESCRIPTION:Details: https://www.kirklandwa.gov/Whats-Happening/Community-Events/CMO/City-Hall-Holiday-Closures-for-2026
+END:VEVENT
+END:VCALENDAR

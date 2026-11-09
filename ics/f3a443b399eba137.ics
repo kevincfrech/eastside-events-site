@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b428dee06386dfa2bca44d87771419bba8d3229b@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Creative Corner: Tween Paint and Sip
+DTSTART:20261110T003000Z
+DTEND:20261110T013000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6a6ce9cf9006f753531412d7
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a6ce9cf9006f753531412d7
+END:VEVENT
+END:VCALENDAR

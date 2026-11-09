@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:50d641b1a54dcd76c0cb821a6f99b629363ab300@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Bingo Night
+DTSTART:20261111T010000Z
+DTEND:20261111T030000Z
+LOCATION:Alexandria Nicole Cellars - Woodin Creek
+URL:https://woodinvillewinecountry.com/event/bingo-night-alexandria-nicole-cellars-3/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/bingo-night-alexandria-nicole-cellars-3/
+END:VEVENT
+END:VCALENDAR

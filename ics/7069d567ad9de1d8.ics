@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b74995001172caca4600f69c6299dfe00ecb3415@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Cascade Recycling Center Tour (In-Person)
+DTSTART:20261113T200000Z
+LOCATION:Cascade Recycling Center\, 14020 NE 190th St\, Woodinville\, 98072
+URL:https://www.kirklandwa.gov/Whats-Happening/Community-Events/Public-Works-Department-Events/CRC-Tour
+DESCRIPTION:Details: https://www.kirklandwa.gov/Whats-Happening/Community-Events/Public-Works-Department-Events/CRC-Tour
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ebdf337b37b7ab6a93064a6a65727d674fbea893@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Yoga Uncorked
+DTSTART:20261114T183000Z
+DTEND:20261114T193000Z
+LOCATION:Evergreen Family Wines\, 14450 Redmond-Woodinville Rd NE Ste 101-A\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/yoga-uncorked-evergreen-family-wines-7/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/yoga-uncorked-evergreen-family-wines-7/
+END:VEVENT
+END:VCALENDAR

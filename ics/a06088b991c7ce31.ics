@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:19f841eda430b801e3d0fd224bf4868046ff37c8@eastside-events
+DTSTAMP:20261109T050200Z
+SUMMARY:Seasonal Crochet
+DTSTART:20261110T183000Z
+DTEND:20261110T200000Z
+LOCATION:Renton Highlands Library\, 2801 NE 10th Street\, Renton\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6acd150c29c3d600332f68e2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd150c29c3d600332f68e2
+END:VEVENT
+END:VCALENDAR
