@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cf18ecb57f15b928b6265fc32e0b3d3f7b9c045b@eastside-events
+DTSTAMP:20261110T082410Z
+SUMMARY:Paint and Sip: Starry Night Pumpkin Patch
+DTSTART:20261112T020000Z
+DTEND:20261112T031500Z
+LOCATION:Darby\, 14450 Redmond - Woodinville Road Northeast\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/paint-and-sip-starry-night-pumpkin-patch-darby-winery/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/paint-and-sip-starry-night-pumpkin-patch-darby-winery/
+END:VEVENT
+END:VCALENDAR

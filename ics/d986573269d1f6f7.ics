@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:86083dac77c13875c0a383d3431e0424a0be97d0@eastside-events
+DTSTAMP:20261110T082410Z
+SUMMARY:Harvest Pumpkin Centerpiece Workshop
+DTSTART:20261114T210000Z
+DTEND:20261114T221500Z
+LOCATION:425 Cellars\, 14525 148th Avenue NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/harvest-pumpkin-centerpiece-workshop-425-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/harvest-pumpkin-centerpiece-workshop-425-cellars/
+END:VEVENT
+END:VCALENDAR
