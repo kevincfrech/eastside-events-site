@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:3b66b8711b470fe20a9a1f8ee8a564671e7ec05e@eastside-events
-DTSTAMP:20261110T082410Z
+DTSTAMP:20261111T052315Z
 SUMMARY:Lap Sit Baby Story Time
 DTSTART:20261113T183000Z
 DTEND:20261113T193000Z
 LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
-URL:https://kcls.bibliocommons.com/events/6ab463b60c7bf418f4e3c6bf
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab463b60c7bf418f4e3c6bf
+URL:https://kcls.bibliocommons.com/events/6ab463b60c7bf418f4e3c6be
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab463b60c7bf418f4e3c6be
 END:VEVENT
 END:VCALENDAR

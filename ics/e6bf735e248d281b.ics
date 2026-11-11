@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:99f26d7a506a226f40e4e398fb0311c6e4fa5c5c@eastside-events
-DTSTAMP:20261110T082410Z
+DTSTAMP:20261111T052315Z
 SUMMARY:Youth Writers Group
 DTSTART:20261111T013000Z
 DTEND:20261111T030000Z
 LOCATION:Snoqualmie Library\, 7824 Center Boulevard SE\, Snoqualmie\, WA 98065
-URL:https://kcls.bibliocommons.com/events/6a921a27aafa6100295ff0b4
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a921a27aafa6100295ff0b4
+URL:https://kcls.bibliocommons.com/events/6a921a27aafa6100295ff0b5
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a921a27aafa6100295ff0b5
 END:VEVENT
 END:VCALENDAR

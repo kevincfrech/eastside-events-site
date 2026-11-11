@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:d3f5db625c8480c77aa7c8cc6a4801b218b9d61a@eastside-events
-DTSTAMP:20261110T082410Z
+DTSTAMP:20261111T052315Z
 SUMMARY:Youth Chess Club
 DTSTART:20261111T020000Z
 DTEND:20261111T034500Z
 LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
-URL:https://kcls.bibliocommons.com/events/69580fa94a9fd98b7f753804
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69580fa94a9fd98b7f753804
+URL:https://kcls.bibliocommons.com/events/69580fa94a9fd98b7f753803
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69580fa94a9fd98b7f753803
 END:VEVENT
 END:VCALENDAR
