@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:7af5a37eed10746e9ebbb183b58bb8335006b7e9@eastside-events
-DTSTAMP:20261112T082251Z
+DTSTAMP:20261113T055605Z
 SUMMARY:Teens Around the Fire - A Teen Hangout Space
 DTSTART:20261112T234500Z
 DTEND:20261113T013000Z
 LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
-URL:https://kcls.bibliocommons.com/events/6abeee7796ec3a003ad7a457
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abeee7796ec3a003ad7a457
+URL:https://kcls.bibliocommons.com/events/6abeee7796ec3a003ad7a458
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abeee7796ec3a003ad7a458
 END:VEVENT
 END:VCALENDAR

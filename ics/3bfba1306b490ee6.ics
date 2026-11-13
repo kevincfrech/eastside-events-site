@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:0c6ef12b9c1377cd397adc7efa384ad6aadb3ed8@eastside-events
-DTSTAMP:20261112T082251Z
+DTSTAMP:20261113T055605Z
 SUMMARY:Fiestas de alfabetización temprana en español
 DTSTART:20261112T210000Z
 DTEND:20261112T223000Z
 LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
-URL:https://kcls.bibliocommons.com/events/6a80d8462dac6e00371f586b
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a80d8462dac6e00371f586b
+URL:https://kcls.bibliocommons.com/events/6a80d8462dac6e00371f586c
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a80d8462dac6e00371f586c
 END:VEVENT
 END:VCALENDAR

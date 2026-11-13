@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:869f445adaffb592a330935eaa17b4037307d25e@eastside-events
-DTSTAMP:20261112T082251Z
+DTSTAMP:20261113T055605Z
 SUMMARY:Toddler Story Time
 DTSTART:20261112T183000Z
 DTEND:20261112T193000Z
 LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
-URL:https://kcls.bibliocommons.com/events/6ab463b90c7bf418f4e3c6c7
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab463b90c7bf418f4e3c6c7
+URL:https://kcls.bibliocommons.com/events/6ab463b90c7bf418f4e3c6c8
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab463b90c7bf418f4e3c6c8
 END:VEVENT
 END:VCALENDAR

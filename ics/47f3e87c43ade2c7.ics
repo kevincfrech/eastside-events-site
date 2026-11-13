@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:158900c97a439fb7d5e3a5338d53fac9f27de7e2@eastside-events
+DTSTAMP:20261113T055605Z
+SUMMARY:Coffee with Mayor Mayhew
+DTSTART:20261114T200000Z
+DTEND:20261114T210000Z
+LOCATION:7730 Center Blvd SE\, Snoqualmie\, WA 98065
+URL:https://www.snoqualmiewa.gov/Calendar.aspx?EID=3456
+DESCRIPTION:Details: https://www.snoqualmiewa.gov/Calendar.aspx?EID=3456
+END:VEVENT
+END:VCALENDAR

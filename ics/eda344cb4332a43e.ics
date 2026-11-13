@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:fe23373cd048b26d848115728ea8de7d580ce23a@eastside-events
-DTSTAMP:20261112T082251Z
+DTSTAMP:20261113T055605Z
 SUMMARY:AlterKnits!
 DTSTART:20261113T223000Z
 DTEND:20261114T000000Z
 LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
-URL:https://kcls.bibliocommons.com/events/6a4bfc9e24b39f59000b474a
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a4bfc9e24b39f59000b474a
+URL:https://kcls.bibliocommons.com/events/6a4bfc9e24b39f59000b474b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a4bfc9e24b39f59000b474b
 END:VEVENT
 END:VCALENDAR
