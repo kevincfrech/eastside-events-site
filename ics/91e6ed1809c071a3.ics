@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f20d8b3258fb00e9ee718767ea01f6ef661a6dbd@eastside-events
+DTSTAMP:20261114T054659Z
+SUMMARY:Mini City Hall Medicaid Workshop
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+LOCATION:Crossroads Mall Community Room\,\n15600 Northeast 8th Street
+URL:https://bellevuewa.gov/events/mini-city-hall-medicaid-workshop
+DESCRIPTION:Details: https://bellevuewa.gov/events/mini-city-hall-medicaid-workshop
+END:VEVENT
+END:VCALENDAR

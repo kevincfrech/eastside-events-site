@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9d9a893a6d68648dd59c4a68d09bf43b59020bc8@eastside-events
+DTSTAMP:20261114T054659Z
+SUMMARY:Latin Dance Social
+DTSTART:20261114T020000Z
+DTEND:20261114T053000Z
+LOCATION:City Hall\,\n450 110th Ave NE
+URL:https://bellevuewa.gov/events/latin-dance-social
+DESCRIPTION:Details: https://bellevuewa.gov/events/latin-dance-social
+END:VEVENT
+END:VCALENDAR

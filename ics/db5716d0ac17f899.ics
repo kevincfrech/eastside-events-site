@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:374538b6bff567e77175671662a5560a87d65f4a@eastside-events
+DTSTAMP:20261114T054659Z
+SUMMARY:Mini City Hall Medicaid Consultations
+DTSTART:20261114T210000Z
+DTEND:20261115T000000Z
+LOCATION:Mini City Hall\, Crossroads Mall Community Room\,\n15600 Northeast 8th Street
+URL:https://bellevuewa.gov/events/mini-city-hall-medicaid-consultations
+DESCRIPTION:Details: https://bellevuewa.gov/events/mini-city-hall-medicaid-consultations
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:07aa832318754013249199eff0349d4ce99e4b2e@eastside-events
+DTSTAMP:20261114T054659Z
+SUMMARY:Watch Party: Seahawks vs. Raiders
+DTSTART:20261115T210500Z
+DTEND:20261116T000000Z
+LOCATION:Synne Cellars-Hollywood Schoolhouse\, 14810 NE 145th Street\, Suite B-Downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/watch-party-seahawks-vs-raiders-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/watch-party-seahawks-vs-raiders-synne-cellars/
+END:VEVENT
+END:VCALENDAR

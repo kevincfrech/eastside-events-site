@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:4d24530f25c6f69e64e99f688117adccb41f65f0@eastside-events
-DTSTAMP:20261113T055605Z
+DTSTAMP:20261114T054659Z
 SUMMARY:Colored Pencils Class
 DTSTART:20261113T213000Z
 DTEND:20261114T000000Z
 LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
-URL:https://kcls.bibliocommons.com/events/6abadfd89abb62002c6acb35
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abadfd89abb62002c6acb35
+URL:https://kcls.bibliocommons.com/events/6abadfd89abb62002c6acb36
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abadfd89abb62002c6acb36
 END:VEVENT
 END:VCALENDAR
