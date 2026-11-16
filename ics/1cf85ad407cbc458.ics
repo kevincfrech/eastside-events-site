@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c0d1a47353e19adcc9b98da1d0705c5f40a12fba@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Tribal Gond Art from India
+DTSTART:20261119T210000Z
+DTEND:20261119T220000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6ac5713ae06996003a81cb41
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5713ae06996003a81cb41
+END:VEVENT
+END:VCALENDAR

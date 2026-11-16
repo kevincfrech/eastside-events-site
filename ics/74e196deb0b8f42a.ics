@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:fffdc76ad2875e3ce50c706f1d215000bb7f2f7b@eastside-events
-DTSTAMP:20261114T054659Z
+UID:452a460f79e16252dd92dfbd4f84e34473b1ed5a@eastside-events
+DTSTAMP:20261116T054717Z
 SUMMARY:Live Music Friday
-DTSTART:20261114T010000Z
-DTEND:20261114T040000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
 LOCATION:Evergreen Family Wines\, 14450 Redmond-Woodinville Rd NE Ste 101-A\, Woodinville\, WA\, 98072
 URL:https://woodinvillewinecountry.com/event/live-music-friday-evergreen-family-wines/
 DESCRIPTION:Details: https://woodinvillewinecountry.com/event/live-music-friday-evergreen-family-wines/

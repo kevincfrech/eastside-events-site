@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5ebc2a46ee1ce649bd6a4afe7104a0fbe9caca6b@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Русскоязычный книжный клуб | Russian Language Book Group
+DTSTART:20261121T000000Z
+DTEND:20261121T013000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/6902816d886bb73600b83839
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6902816d886bb73600b83839
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:73474e08a38802e33dd7049cf16bea1ef1d02bcd@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Pajama Story Time
+DTSTART:20261118T030000Z
+DTEND:20261118T033000Z
+LOCATION:Maple Valley Library\, 21844 SE 248th Street\, Maple Valley\, WA 98038
+URL:https://kcls.bibliocommons.com/events/6ac29639295b3b0033ca89bc
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac29639295b3b0033ca89bc
+END:VEVENT
+END:VCALENDAR

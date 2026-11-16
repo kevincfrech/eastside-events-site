@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:447a920044cb9355fec6e5f9169c46cc20a1c5bb@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:North Rose Hill Woodlands Park Habitat Stewardship Day
+DTSTART:20261121T180000Z
+LOCATION:North Rose Hill Woodlands Park\, 9930 124th Ave NE\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Eventbrite/North-Rose-Hill-Woodlands-Park-Habitat-Stewardship-Day-2003778846470
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/North-Rose-Hill-Woodlands-Park-Habitat-Stewardship-Day-2003778846470
+END:VEVENT
+END:VCALENDAR

@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:d795dd0da6d6ecfc3b35b3c0927a50c6cf506e3b@eastside-events
-DTSTAMP:20261102T102700Z
+UID:b5dc168d887284ba6a5892cc557dc6f8e01d17d7@eastside-events
+DTSTAMP:20261116T032653Z
 SUMMARY:Music Bingo
-DTSTART:20261106T023000Z
-DTEND:20261106T043000Z
+DTSTART:20261120T023000Z
+DTEND:20261120T043000Z
 LOCATION:Tsillan Cellars Woodinville\, 13550 NE Village Square Drive\, Unit 1070\, Woodinville\, WA\, 98072
 URL:https://woodinvillewinecountry.com/event/music-bingo-tsillan-cellars-14/
 DESCRIPTION:Details: https://woodinvillewinecountry.com/event/music-bingo-tsillan-cellars-14/

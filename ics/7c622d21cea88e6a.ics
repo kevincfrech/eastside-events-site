@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5b6cd3f9bba3cf228bd533fe0471722acdf1f1f0@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Cultural Conversations - Art Meets Culture
+DTSTART:20261117T020000Z
+DTEND:20261117T040000Z
+LOCATION:BelRed Arts District Studio\,\n1615 133rd Pl NE\, Bellevue\, WA 98005
+URL:https://bellevuewa.gov/events/cultural-conversations-art-meets-culture
+DESCRIPTION:Details: https://bellevuewa.gov/events/cultural-conversations-art-meets-culture
+END:VEVENT
+END:VCALENDAR

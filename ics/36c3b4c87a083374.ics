@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b1b07bf5e7753acb480e689b635514ae7c2a692d@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Little Lab: Stories that Count
+DTSTART:20261118T183000Z
+DTEND:20261118T193000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/6ab42bdba472a016061f3c5b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab42bdba472a016061f3c5b
+END:VEVENT
+END:VCALENDAR

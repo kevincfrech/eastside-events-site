@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1bde7a13bac9c1b4999d88cb0ee35c6cb67e06d4@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:T/ween ASL Social
+DTSTART:20261119T013000Z
+DTEND:20261119T023000Z
+LOCATION:Issaquah Library\, 10 W Sunset Way\, Issaquah\, WA 98027
+URL:https://kcls.bibliocommons.com/events/6a63ce693edb05633e902d51
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a63ce693edb05633e902d51
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:63a0c82f3ea9d5fd82c7c67307069f3ee954d592@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Baby Story Time
+DTSTART:20261116T190000Z
+DTEND:20261116T193000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6adac730901b02002cc48aa2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6adac730901b02002cc48aa2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8fa4ca996455676123532e0473908cd34861302c@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Let’s Get Growing Indoors!
+DTSTART:20261119T010000Z
+DTEND:20261119T023000Z
+LOCATION:Snoqualmie Library\, 7824 Center Boulevard SE\, Snoqualmie\, WA 98065
+URL:https://kcls.bibliocommons.com/events/6ab2ccefab7a8e0037c3a06c
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab2ccefab7a8e0037c3a06c
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:611aecf9e26ee42dd83a2b8529e547d7ea4b670d@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Fall Wine Club Release Celebration + Darelle Holden Quartet
+DTSTART:20261122T000000Z
+DTEND:20261122T030000Z
+LOCATION:Hollywood Schoolhouse - Synne Cellars\, 14810 NE 145th Street\, Suite B-downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/fall-wine-club-release-celebration-darelle-holden-quartet-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/fall-wine-club-release-celebration-darelle-holden-quartet-synne-cellars/
+END:VEVENT
+END:VCALENDAR

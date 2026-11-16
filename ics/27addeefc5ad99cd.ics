@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:de65879479c58eceff9888fd9c213bab2cd785fa@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Covington LGBTQ+ Youth Group
+DTSTART:20261120T003000Z
+DTEND:20261120T020000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/69d8149ac1cf6f9a75844c0e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69d8149ac1cf6f9a75844c0e
+END:VEVENT
+END:VCALENDAR

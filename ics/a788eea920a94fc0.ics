@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5742ffec03a9b5033ed33292d1a35eae1d5a6f97@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Crafternoon for Adults
+DTSTART:20261117T230000Z
+DTEND:20261118T010000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ac810d1a85a2c00337e27fe
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac810d1a85a2c00337e27fe
+END:VEVENT
+END:VCALENDAR

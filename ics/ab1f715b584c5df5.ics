@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:502217ab79981c90e5978e748780a4790933c95a@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Chocolate Bar Workshop
+DTSTART:20261119T010000Z
+DTEND:20261119T030000Z
+LOCATION:Alexandria Nicole Cellars - Woodin Creek\, 17140 135TH AVE NE BLDG 2D STE 1010\, WOODINVILLE\, WA\, 98072-4555
+URL:https://woodinvillewinecountry.com/event/chocolate-bar-workshop-alexandria-nicole-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/chocolate-bar-workshop-alexandria-nicole-cellars/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6b615d23b6f185e1d9fb1c18a8a5b7267cb187d9@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Chair Yoga for Adults
+DTSTART:20261118T201500Z
+DTEND:20261118T211500Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6abacf8f29c3d600332c3c86
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abacf8f29c3d600332c3c86
+END:VEVENT
+END:VCALENDAR

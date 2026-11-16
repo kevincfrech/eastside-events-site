@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c5664084f898fe122b2b5f7a73541f359f45ebbe@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Pride Art Day
+DTSTART:20261122T210000Z
+DTEND:20261123T010000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6abaec7bde300e004516cba6
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abaec7bde300e004516cba6
+END:VEVENT
+END:VCALENDAR

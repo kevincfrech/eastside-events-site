@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7ba70ab7e1111790c5366a100d554860ca9b60d0@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Chapter 1 Book Club
+DTSTART:20261121T210000Z
+DTEND:20261121T220000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6a76be4b74e3b8b75db87c3d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a76be4b74e3b8b75db87c3d
+END:VEVENT
+END:VCALENDAR

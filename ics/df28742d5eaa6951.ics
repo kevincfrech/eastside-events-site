@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:17c85b70aa827c0d1d6b92a5dbb8dbddeaf4153e@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Stay Safe Online: Cybersecurity for Older Adults
+DTSTART:20261120T193000Z
+DTEND:20261120T203000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6adad3b8901b02002cc48b74
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6adad3b8901b02002cc48b74
+END:VEVENT
+END:VCALENDAR

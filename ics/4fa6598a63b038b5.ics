@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:75ff682347b0e4d0936b8a723add18b62c37f720@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Sammamish Library Book Group
+DTSTART:20261119T023000Z
+DTEND:20261119T033000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6977fb55377f55c8ec15baaf
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6977fb55377f55c8ec15baaf
+END:VEVENT
+END:VCALENDAR

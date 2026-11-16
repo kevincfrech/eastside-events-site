@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:429e60566cfa8a712cd82011a524c4166c77e79b@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Friends of the Fairwood Library "Pop-Up Sale"
+DTSTART:20261121T200000Z
+DTEND:20261122T010000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6acfe79f901b02002cc274d2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acfe79f901b02002cc274d2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3223088f3f977457b07fbd9bd6aa4979a477bff2@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Keep Bellevue Beautiful - Northwest Bellevue
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+LOCATION:Northtowne Neighborhood Park\, Northtowne Park\,\n2800 Bellevue Way NE
+URL:https://bellevuewa.gov/events/keep-bellevue-beautiful-northwest-bellevue-0
+DESCRIPTION:Details: https://bellevuewa.gov/events/keep-bellevue-beautiful-northwest-bellevue-0
+END:VEVENT
+END:VCALENDAR

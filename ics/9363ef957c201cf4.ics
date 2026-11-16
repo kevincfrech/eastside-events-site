@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7d7ce6db991df9efc28219b463b2b6ebcc11f988@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:中文读书会 Chinese Book Group
+DTSTART:20261115T230000Z
+DTEND:20261116T003000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/68f10b7fef7a7c3600819d1e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/68f10b7fef7a7c3600819d1e
+END:VEVENT
+END:VCALENDAR

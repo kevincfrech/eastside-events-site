@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c5d14e42b8ba3ff05ac48d486b6c8acf24e807a3@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Pokemon Club
+DTSTART:20261121T210000Z
+DTEND:20261121T220000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ac81099a85a2c00337e27ef
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac81099a85a2c00337e27ef
+END:VEVENT
+END:VCALENDAR

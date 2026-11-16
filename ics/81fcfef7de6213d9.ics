@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cb99051e08bcc11b605ef0e3d67be892cdc0beeb@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Harvest &amp\; Gather: A Cozy Fall Haviland Friendsgiving
+DTSTART:20261120T023000Z
+DTEND:20261120T050000Z
+LOCATION:Columbia Collective\, 14030 NE 145th Street\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/harvest-gather-a-cozy-fall-haviland-friendsgiving-columbia-collective/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/harvest-gather-a-cozy-fall-haviland-friendsgiving-columbia-collective/
+END:VEVENT
+END:VCALENDAR

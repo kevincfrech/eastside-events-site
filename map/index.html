@@ -41,6 +41,9 @@ header h1 { margin: 0; font: 800 22px/1.1 var(--display); }
 header h1 .brand { display: block; font: 700 13px var(--display); letter-spacing: .08em; text-transform: uppercase; opacity: .85; margin-bottom: 2px; }
 header h1 small { display: block; font: 600 13px var(--display); opacity: .9; }
 header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: nowrap; }
+header .left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+header .home { flex: none; display: block; width: 44px; height: 44px; border-radius: 10px; overflow: hidden; box-shadow: 0 0 0 2px rgba(255,255,255,.25); }
+header .home img { display: block; width: 100%; height: 100%; }
 
 .filters { background: var(--bg); border-bottom: 1px solid var(--hair); padding: 10px max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left));
   display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
@@ -99,7 +102,10 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
 <body>
 <div class="app">
   <header>
-    <h1><span class="brand">Let&#39;s Get Out</span> Eastside Event Map<small id="updated">Loading…</small></h1>
+    <div class="left">
+      <a class="home" href="../weekend/" aria-label="Let&#39;s Get Out home: this weekend's events"><img src="../assets/logo.png" alt="" width="44" height="44"></a>
+      <h1><span class="brand">Let&#39;s Get Out</span> Eastside Event Map<small id="updated">Loading…</small></h1>
+    </div>
     <a href="../weekend/">This weekend's picks →</a>
   </header>
 
@@ -128,7 +134,7 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
   const STYLE = "https://tiles.openfreemap.org/styles/positron";
   const DATA_URL = "../events.json";
   const HOME = [-122.08, 47.58], HOME_ZOOM = 9.3;
-  const state = { when: "week", from: null, to: null, area: "all", free: false, kids: false, inview: true };
+  const state = { when: "week", from: null, to: null, area: "all", free: false, kids: false, inview: true, focus: null };
   let data = null, map = null, popup = null;
 
   // ---- dates (all in the data's Pacific "today", no browser time zone math) ----
@@ -166,18 +172,31 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
     else if (["today", "weekend", "week", "7days", "month"].includes(p.get("when"))) state.when = p.get("when");
     if (p.get("area")) state.area = p.get("area");
     state.free = p.get("free") === "1"; state.kids = p.get("kids") === "1";
+    state.focus = p.get("event");                   // "#event=<id>": open centered on one event (from the list pages)
+  }
+  // The event a list page linked to: its own day, no filters, so its pin is sure to be on the map.
+  function focusEvent() {
+    if (!state.focus) return null;
+    const base = state.focus.split(":")[0];
+    const e = data.events.find(x => x.id === state.focus) || data.events.find(x => x.id.split(":")[0] === base);
+    if (!e) { state.focus = null; return null; }
+    state.focus = e.id;
+    setCustom(e.d < data.today ? data.today : e.d, e.d < data.today ? data.today : e.d);
+    state.area = "all"; state.free = false; state.kids = false;
+    return e;
   }
   function writeHash() {
     const p = new URLSearchParams(state.when === "custom" ? { from: state.from, to: state.to } : { when: state.when });
     if (state.area !== "all") p.set("area", state.area);
     if (state.free) p.set("free", "1");
     if (state.kids) p.set("kids", "1");
+    if (state.focus) p.set("event", state.focus);
     history.replaceState(null, "", "#" + p.toString());
   }
 
   function filtered() {
     const [a, b] = range(state.when, data.today);
-    return data.events.filter(e => e.d >= a && e.d <= b && !ended(e)
+    return data.events.filter(e => e.d >= a && e.d <= b && (!ended(e) || e.id === state.focus)
       && (state.area === "all" || e.area === state.area)
       && (!state.free || e.free) && (!state.kids || e.kids));
   }
@@ -218,7 +237,13 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
         map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
       }
       map.on("moveend", () => { if (state.inview) renderList(); });
-      fitToArea();
+      const f = state.focus && data.events.find(x => x.id === state.focus);
+      if (f && pinned(f)) {
+        map.jumpTo({ center: [f.lon, f.lat], zoom: 15 });
+        map.once("idle", () => {
+          openPopup([f.lon, f.lat]);
+        });
+      } else fitToArea();
       renderList();
     });
     window.eventMap = map;
@@ -268,7 +293,7 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
     let html = "", day = "";
     for (const e of list.slice(0, 300)) {
       if (e.d !== day) { day = e.d; html += `<div class="day">${esc(dayLabel(day))}</div>`; }
-      html += `<div class="ev" role="button" tabindex="0" data-id="${esc(e.id)}">
+      html += `<div class="ev${e.id === state.focus ? " on" : ""}" role="button" tabindex="0" data-id="${esc(e.id)}">
         <div class="t">${esc(e.t || "Any time")}</div>
         <div><h3>${esc(e.title)}</h3>
           <div class="w">${e.free ? '<span class="badge">FREE</span>' : ""}${esc([e.venue, e.city].filter(Boolean).filter((v, i, a) => i === 0 || !String(a[0]).includes(v)).join(", "))}</div>
@@ -304,6 +329,7 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
     document.getElementById("kids").setAttribute("aria-pressed", state.kids);
   }
   function update(refit) {
+    state.focus = null;                              // any filter change means they've moved on from that one event
     syncControls(); writeHash(); popup?.remove();
     if (map && map.getSource("ev")) map.getSource("ev").setData(geojson(filtered()));
     if (refit) fitToArea();
@@ -335,7 +361,7 @@ header a { color: var(--sign-ink); font: 700 15px var(--display); white-space: n
     d.areas.forEach(a => sel.insertAdjacentHTML("beforeend", `<option value="${esc(a.slug)}">${esc(a.label)}</option>`));
     const last = d.events.length ? d.events[d.events.length - 1].d : d.today;
     for (const id of ["from", "to"]) { const el = document.getElementById(id); el.min = d.today; el.max = last; }
-    readHash(); syncControls();
+    readHash(); focusEvent(); syncControls();
     const g = new Date(d.generated);
     document.getElementById("updated").textContent = "Updated " + g.toLocaleString("en-US", { timeZone: "America/Los_Angeles", weekday: "short", hour: "numeric", minute: "2-digit" });
     try { initMap(); } catch (err) { mapFailed(); }

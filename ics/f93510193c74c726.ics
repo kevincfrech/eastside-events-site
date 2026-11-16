@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:fe56ef5c6d365b5a24fe26b08cc960ec4d1ed967@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Reading ReTreet
+DTSTART:20261117T220000Z
+DTEND:20261117T230000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/6938bab72c65973d0011e9cb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6938bab72c65973d0011e9cb
+END:VEVENT
+END:VCALENDAR

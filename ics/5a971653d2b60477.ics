@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:97ee6e6a3562358e6206cf30dba394f33e4f6335@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Thriving Through the Holidays: How to Support Your Hormones and Stress Before the New Year
+DTSTART:20261122T230000Z
+DTEND:20261123T000000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6a91f35db20478002996500e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a91f35db20478002996500e
+END:VEVENT
+END:VCALENDAR

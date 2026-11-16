@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bbddd3bb6c2ce3876b167d9e94720323370877f0@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Wine Alley Sip &amp\; Shop
+DTSTART:20261121T200000Z
+DTEND:20261122T010000Z
+LOCATION:Wine Alley\, 13590 NE Village Square Dr.\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/wine-alley-sip-shop-wine-alley/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/wine-alley-sip-shop-wine-alley/
+END:VEVENT
+END:VCALENDAR

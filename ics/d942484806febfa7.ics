@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c69e0d475d542e8e71a026ca60d7841f18993b00@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Festive Spiral Ornaments Workshop
+DTSTART:20261115T230000Z
+DTEND:20261116T010000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6ad665e8fee2d21deb245b60
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad665e8fee2d21deb245b60
+END:VEVENT
+END:VCALENDAR

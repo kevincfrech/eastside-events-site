@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:728867e19863f8c9eae77d16bb8cbb8cc206eb34@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Tyler's Table: Turkey-less Thanksgiving
+DTSTART:20261122T200000Z
+DTEND:20261123T013000Z
+LOCATION:Bayernmoor Cellars\, 17140 135th Ave NE Ste 1040\, Woodinville\, WA\, 98292
+URL:https://woodinvillewinecountry.com/event/tylers-table-turkey-less-thanksgiving-bayernmoor-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/tylers-table-turkey-less-thanksgiving-bayernmoor-cellars/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:35dd599dc941ba6ef97c69704a802f55a224f2be@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:STEM Saturday: Building Bridges Together - with Eastlake High School's Science National Honor Society
+DTSTART:20261121T220000Z
+DTEND:20261122T000000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a7bb3884c610f003894831e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a7bb3884c610f003894831e
+END:VEVENT
+END:VCALENDAR

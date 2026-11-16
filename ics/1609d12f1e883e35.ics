@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2603abc8814ceddc11f2cb772f795883a8c47c12@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Fairwood Lively Minds Evening Book Group
+DTSTART:20261118T020000Z
+DTEND:20261118T033000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6a925cacaafa6100295ff904
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a925cacaafa6100295ff904
+END:VEVENT
+END:VCALENDAR

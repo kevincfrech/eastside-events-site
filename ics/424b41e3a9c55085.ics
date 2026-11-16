@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:05a5db32a2cb8c807e46712b711e5c14ca40304a@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Gaming Afternoon
+DTSTART:20261118T233000Z
+DTEND:20261119T010000Z
+LOCATION:Maple Valley Library\, 21844 SE 248th Street\, Maple Valley\, WA 98038
+URL:https://kcls.bibliocommons.com/events/6a6ce9fcf4e5db3d00c5a376
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a6ce9fcf4e5db3d00c5a376
+END:VEVENT
+END:VCALENDAR

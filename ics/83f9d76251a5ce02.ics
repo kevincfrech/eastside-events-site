@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c33a1fa04a10bb5d70dd075b6fd2e86f728459ff@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:The Money Maze: Finding Money for College
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/6ad677f4de300e00451b8141
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad677f4de300e00451b8141
+END:VEVENT
+END:VCALENDAR

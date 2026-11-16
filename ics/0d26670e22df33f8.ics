@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:afd4b2e3a99e4c0b64285bf09bfa0a2be12e915a@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Intro to the Laser Cutter
+DTSTART:20261115T213000Z
+DTEND:20261115T223000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6ac570f129c3d600332e22e0
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac570f129c3d600332e22e0
+END:VEVENT
+END:VCALENDAR

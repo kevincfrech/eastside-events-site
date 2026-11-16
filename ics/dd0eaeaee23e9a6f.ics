@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:4b670dd910691d5554048883f2fb67e6ff2c5095@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Building Belonging: Diversity Advantage Plan 2035 Open House
+DTSTART:20261120T020000Z
+DTEND:20261120T040000Z
+LOCATION:City Hall\, City of Bellevue\,\n450 110th Ave NE
+URL:https://bellevuewa.gov/events/building-belonging-diversity-advantage-plan-2035-open-house
+DESCRIPTION:Details: https://bellevuewa.gov/events/building-belonging-diversity-advantage-plan-2035-open-house
+END:VEVENT
+END:VCALENDAR

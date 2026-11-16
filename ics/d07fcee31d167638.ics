@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:81dac08bb6bde17b49f746d6cfb10ca85d0ef7f5@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Exploring Photography: Shutter Speed
+DTSTART:20261115T190000Z
+DTEND:20261115T203000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6a7bb37461e11c0051770e8d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a7bb37461e11c0051770e8d
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c1486fdda1e877d4ff640e575213d7a040bdfe62@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Handmade Cards for the Holidays
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+LOCATION:Fairwood Library\, 17009 140th Avenue SE\, Renton\, WA 98058
+URL:https://kcls.bibliocommons.com/events/6aeac120901b02002cc75c18
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aeac120901b02002cc75c18
+END:VEVENT
+END:VCALENDAR

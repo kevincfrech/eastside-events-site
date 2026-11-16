@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a4d2f46dceb3f8a134a4136919719bd122afad4f@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Drawing & Donuts
+DTSTART:20261119T233000Z
+DTEND:20261120T011500Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/6ac57144e06996003a81cb46
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac57144e06996003a81cb46
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:feb93ead55f4b8543bbd9815fca443fa86ef8cdb@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:A Better Way to Wine Down | Live Acoustic Music with Robbie Egelstad
+DTSTART:20261121T013000Z
+DTEND:20261121T033000Z
+LOCATION:Hollywood Schoolhouse - Synne Cellars\, 14810 NE 145th Street\, Suite B-downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/a-better-way-to-wine-down-live-acoustic-music-with-robbie-egelstad-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/a-better-way-to-wine-down-live-acoustic-music-with-robbie-egelstad-synne-cellars/
+END:VEVENT
+END:VCALENDAR

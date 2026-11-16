@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2c93fd863c189a78200686dd8ddc53c259a5f3d7@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Synne Session: KOZMO Live
+DTSTART:20261116T000000Z
+DTEND:20261116T020000Z
+LOCATION:Synne Cellars-Hollywood Schoolhouse\, 14810 NE 145th Street\, Suite B-Downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/synne-session-kozmo-live-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/synne-session-kozmo-live-synne-cellars/
+END:VEVENT
+END:VCALENDAR

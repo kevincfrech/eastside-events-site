@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f357701f6374589584d3d03488e763a1ca49d0c8@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Dig into Dinos with Mikey the Rad Scientist
+DTSTART:20261119T020000Z
+DTEND:20261119T024500Z
+LOCATION:North Bend Library\, 115 E 4th Street\, North Bend\, WA 98045
+URL:https://kcls.bibliocommons.com/events/6ad122f1e06996003a83c18a
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad122f1e06996003a83c18a
+END:VEVENT
+END:VCALENDAR

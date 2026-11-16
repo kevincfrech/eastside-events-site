@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6bfc50b6886c3c7256e8b6e3af74723219ec67c5@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Live Music
+DTSTART:20261121T000000Z
+DTEND:20261121T030000Z
+LOCATION:Bayernmoor Cellars\, 17140 135th Ave NE Ste 1040\, Woodinville\, WA\, 98292
+URL:https://woodinvillewinecountry.com/event/live-music-bayernmoor-cellars-7/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/live-music-bayernmoor-cellars-7/
+END:VEVENT
+END:VCALENDAR

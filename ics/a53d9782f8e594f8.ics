@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:49260049f6ef7d55d030e237d7d301353e6b6759@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Bellevue Library Book Group
+DTSTART:20261117T190000Z
+DTEND:20261117T210000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6a74ebb20d65ac360044e9c8
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a74ebb20d65ac360044e9c8
+END:VEVENT
+END:VCALENDAR

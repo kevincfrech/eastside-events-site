@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6c3529ff1371758c2a3f77e714d01ae83f8f5bb0@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:What Are You Reading? Book Group
+DTSTART:20261118T020000Z
+DTEND:20261118T033000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/68dd9a806df9ca153ebdfbcb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/68dd9a806df9ca153ebdfbcb
+END:VEVENT
+END:VCALENDAR

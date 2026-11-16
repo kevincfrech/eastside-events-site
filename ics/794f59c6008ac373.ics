@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8ad9471fc6fec8f61de177f83dd221154ff4b033@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Renton Art Lounge - Paper marbling with Tawnee at Wyldwood Creative
+DTSTART:20261119T000000Z
+LOCATION:Wyldwood Creative\, 822 S 3rd St\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Activities-Events/Activities/Arts-and-Culture/Renton-Municipal-Arts-Commission-RMAC/RMAC-Renton-Art-Lounge-November
+DESCRIPTION:Details: https://www.rentonwa.gov/Activities-Events/Activities/Arts-and-Culture/Renton-Municipal-Arts-Commission-RMAC/RMAC-Renton-Art-Lounge-November
+END:VEVENT
+END:VCALENDAR

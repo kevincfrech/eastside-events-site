@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c462924e61a089279d60ffef40fec90e8e2777b7@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Hopelink Mobility Coordinator Tabling
+DTSTART:20261117T230000Z
+DTEND:20261118T003000Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6adc317fa85a2c003381cab8
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6adc317fa85a2c003381cab8
+END:VEVENT
+END:VCALENDAR

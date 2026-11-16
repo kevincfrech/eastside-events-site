@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:497516fc93b6b7c9a7a31295b8528b7858cd65e7@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Pocket Sized History: A World Tour in Banknotes
+DTSTART:20261119T000000Z
+DTEND:20261119T030000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6ae23996de300e00451d7d26
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ae23996de300e00451d7d26
+END:VEVENT
+END:VCALENDAR

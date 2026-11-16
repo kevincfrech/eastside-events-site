@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7851c8cc16d3184ec65dce974e7a0229ef7a4204@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Guidance for Businesses for How to Interact with Federal Immigration
+DTSTART:20261117T180000Z
+LOCATION:Kirkland City Hall Peter Kirk Room\, 123 5th Avenue\, Kirkland\, 98033
+URL:https://www.kirklandwa.gov/Whats-Happening/Community-Events/City-of-Kirkland-Know-Your-Rights-Training-for-Business
+DESCRIPTION:Details: https://www.kirklandwa.gov/Whats-Happening/Community-Events/City-of-Kirkland-Know-Your-Rights-Training-for-Business
+END:VEVENT
+END:VCALENDAR

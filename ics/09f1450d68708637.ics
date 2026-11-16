@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f221f11e394bf46793e76c0085a5092136ce59d1@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Edith Moulton Park Habitat Restoration Day
+DTSTART:20261121T180000Z
+LOCATION:Edith Moulton Park\, 13710 108th Ave NE\, Kirkland\, 98034
+URL:https://www.kirklandwa.gov/Eventbrite/Edith-Moulton-Park-Habitat-Restoration-Day-2004234247587
+DESCRIPTION:Details: https://www.kirklandwa.gov/Eventbrite/Edith-Moulton-Park-Habitat-Restoration-Day-2004234247587
+END:VEVENT
+END:VCALENDAR

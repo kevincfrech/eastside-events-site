@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:558c8cc2d21b6252681c77b97a1cf10ab56e4f66@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Sammamish Teen Talks Presents: DICHROMATIC - Drawing in Only Two Colors
+DTSTART:20261119T003000Z
+DTEND:20261119T020000Z
+LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
+URL:https://kcls.bibliocommons.com/events/6abeee7196ec3a003ad7a453
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6abeee7196ec3a003ad7a453
+END:VEVENT
+END:VCALENDAR

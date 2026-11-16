@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:0d2194216f5437e5ac4f0f06bf0027fa6485b48b@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Fall into Watercolor with Autumn Leaves
+DTSTART:20261119T213000Z
+DTEND:20261119T233000Z
+LOCATION:Renton Highlands Library\, 2801 NE 10th Street\, Renton\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ac5713f29c3d600332e22fe
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5713f29c3d600332e22fe
+END:VEVENT
+END:VCALENDAR

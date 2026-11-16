@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:70dc6d5392e6dd8e07f0e5fdb7242e1c098c9f79@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:After School Art: Card Making
+DTSTART:20261118T230000Z
+DTEND:20261119T000000Z
+LOCATION:Kingsgate Library\, 12315 NE 143rd Street\, Kirkland\, WA 98034
+URL:https://kcls.bibliocommons.com/events/6ac81afa901b02002cc11380
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac81afa901b02002cc11380
+END:VEVENT
+END:VCALENDAR

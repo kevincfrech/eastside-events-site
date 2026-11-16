@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7fb079ce2d2639ee6f9737fe37a3fe5f33783a5c@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Pajama Story Time
+DTSTART:20261119T030000Z
+DTEND:20261119T033000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ac810a5a85a2c00337e27f3
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac810a5a85a2c00337e27f3
+END:VEVENT
+END:VCALENDAR

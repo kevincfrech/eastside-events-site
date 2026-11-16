@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:18c54f5aa87a9c9c50675178f43d6def32e6705d@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:中文讀書會 Chinese Book Group
+DTSTART:20261121T220000Z
+DTEND:20261121T233000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6a1dcad643b41b3d006ac8f2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a1dcad643b41b3d006ac8f2
+END:VEVENT
+END:VCALENDAR

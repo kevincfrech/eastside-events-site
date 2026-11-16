@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8f53f2a435d62c3e7c4d6af2c51bd58ca9cf9c0f@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:2024 Construction and Fire Code Community Information & Engagement Session
+DTSTART:20261116T210000Z
+DTEND:20261116T230000Z
+LOCATION:City Hall\, Bellevue City Hall\,\n450 110th Avenue NE
+URL:https://bellevuewa.gov/events/2024-construction-fire-code-community-information-engagement-session
+DESCRIPTION:Details: https://bellevuewa.gov/events/2024-construction-fire-code-community-information-engagement-session
+END:VEVENT
+END:VCALENDAR

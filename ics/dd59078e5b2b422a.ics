@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:08be4303d0c595faaa8f4c0010d581d434fe4263@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Habitat at Home: Helping Songbirds Thrive with Claire Kerwin
+DTSTART:20261119T023000Z
+DTEND:20261119T033000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/6ae4e56a377296003a4fc065
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ae4e56a377296003a4fc065
+END:VEVENT
+END:VCALENDAR

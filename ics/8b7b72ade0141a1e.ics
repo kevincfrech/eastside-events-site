@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:35994cf09db7b12ca02868a321f1eefef8fc7763@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:What's Brewing with Ed
+DTSTART:20261118T013000Z
+LOCATION:Four Generals Brewing\, 229 Wells Ave S\, Renton\, WA
+URL:https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/Whats-Brewing-with-Ed
+DESCRIPTION:Details: https://www.rentonwa.gov/Events-Meetings/All-City-Events-Meetings-Calendar/Whats-Brewing-with-Ed
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6f64ff608b50d4375583039fcf0e8844a73d22ad@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Electronics Mending Circle
+DTSTART:20261120T003000Z
+DTEND:20261120T013000Z
+LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
+URL:https://kcls.bibliocommons.com/events/6ac3de14a85a2c00337d595f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac3de14a85a2c00337d595f
+END:VEVENT
+END:VCALENDAR

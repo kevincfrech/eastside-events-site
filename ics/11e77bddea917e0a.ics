@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9394cd73c3bcf806f22480fd616165310bb80564@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Aesop and Art
+DTSTART:20261119T003000Z
+DTEND:20261119T013000Z
+LOCATION:Woodinville Library\, 17105 Avondale Road NE\, Woodinville\, WA 98072
+URL:https://kcls.bibliocommons.com/events/6aa8a06d4b3b06003083cbc3
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a06d4b3b06003083cbc3
+END:VEVENT
+END:VCALENDAR

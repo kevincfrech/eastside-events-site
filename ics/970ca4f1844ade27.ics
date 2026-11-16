@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d20770d1588ae7cefb21ead063c62cdcfc8c23ec@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Tenants' Rights Free Legal Clinic
+DTSTART:20261116T220000Z
+DTEND:20261117T000000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/691e60d8a6fedec9530a01d0
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/691e60d8a6fedec9530a01d0
+END:VEVENT
+END:VCALENDAR

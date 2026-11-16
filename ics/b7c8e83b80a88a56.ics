@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:23f4ed6e95e6defbcf5488da1ecb8d0303a8fd60@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Corazón Ornaments
+DTSTART:20261121T220000Z
+DTEND:20261121T233000Z
+LOCATION:Woodinville Library\, 17105 Avondale Road NE\, Woodinville\, WA 98072
+URL:https://kcls.bibliocommons.com/events/6a889a22be14820029890cf5
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a889a22be14820029890cf5
+END:VEVENT
+END:VCALENDAR

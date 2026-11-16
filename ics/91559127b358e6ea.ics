@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cda96e29cd2a880bfa1b2554656004ed70063cc0@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Super Tuesdays - STEM Activities for Kids
+DTSTART:20261118T020000Z
+DTEND:20261118T030000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/69d91763fca21471b7eecec5
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69d91763fca21471b7eecec5
+END:VEVENT
+END:VCALENDAR

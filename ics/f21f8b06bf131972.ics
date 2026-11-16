@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:5f26694c23905ebfdab61a0f6d447181c6a17ee9@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Engayging in Sapphistry: A Book Club
+DTSTART:20261115T220000Z
+DTEND:20261115T230000Z
+LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
+URL:https://kcls.bibliocommons.com/events/68f00af13cbc052f008000fc
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/68f00af13cbc052f008000fc
+END:VEVENT
+END:VCALENDAR

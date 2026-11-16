@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bddcf9acacd8694010244f90fc0c677930fbab60@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Story Walk Read-Along at Lake Wilderness Arboretum
+DTSTART:20261121T183000Z
+DTEND:20261121T190000Z
+LOCATION:Maple Valley Library\, 21844 SE 248th Street\, Maple Valley\, WA 98038
+URL:https://kcls.bibliocommons.com/events/69557907111b9da65ca9d7fb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69557907111b9da65ca9d7fb
+END:VEVENT
+END:VCALENDAR

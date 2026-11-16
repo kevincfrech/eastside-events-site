@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
-UID:d580617c73721927c00bdb8dbe0ddab42eb9c5ad@eastside-events
-DTSTAMP:20261102T102700Z
+UID:d3741ce420d14f146aa5b589758650c43ba86e70@eastside-events
+DTSTAMP:20261116T032653Z
 SUMMARY:Hora de cuentos en español / Spanish Story Time
-DTSTART:20261104T203000Z
-DTEND:20261104T210000Z
+DTSTART:20261118T203000Z
+DTEND:20261118T210000Z
 LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
-URL:https://kcls.bibliocommons.com/events/6a7f68a7aafa6100295ca6e1
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a7f68a7aafa6100295ca6e1
+URL:https://kcls.bibliocommons.com/events/6a7f68a7aafa6100295ca6e2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a7f68a7aafa6100295ca6e2
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1daecc138c4ddf3db5808a5262e5ee4886c7c68a@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Goat Soap Making with Green Apple Alpacas
+DTSTART:20261119T020000Z
+DTEND:20261119T030000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6ad9925febad22004547175a
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad9925febad22004547175a
+END:VEVENT
+END:VCALENDAR

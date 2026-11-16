@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f0451bc9ff344704f05b46fc56015040b4013040@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:DINOvember Party!
+DTSTART:20261122T210000Z
+DTEND:20261122T220000Z
+LOCATION:Mercer Island Library\, 4400  88th Ave SE\, Mercer Island\, WA 98040
+URL:https://kcls.bibliocommons.com/events/6acd1d1dfee2d21deb22c7c9
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6acd1d1dfee2d21deb22c7c9
+END:VEVENT
+END:VCALENDAR

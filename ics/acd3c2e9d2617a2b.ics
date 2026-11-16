@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:08e51809ffb36f56a2b8ec2c5164fde2e0453cf6@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Covington Library Book Group
+DTSTART:20261119T220000Z
+DTEND:20261119T230000Z
+LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
+URL:https://kcls.bibliocommons.com/events/6a6796b7cca66c2f00a652b2
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a6796b7cca66c2f00a652b2
+END:VEVENT
+END:VCALENDAR

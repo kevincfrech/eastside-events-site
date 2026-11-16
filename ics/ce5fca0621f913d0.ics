@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:aea321e06c894b2066d31c89e8f182dbe49a9789@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Paper Cutting & Crafts for Families
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6aa8a6ba3dd190003e71ffe3
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa8a6ba3dd190003e71ffe3
+END:VEVENT
+END:VCALENDAR

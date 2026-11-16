@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8fed9783eb7dfafbd5741a13a59f50249d206e78@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Наука и магия: интерактивная лекция-квест | Science Meets Magic
+DTSTART:20261119T010000Z
+DTEND:20261119T020000Z
+LOCATION:Bothell Library\, 18215 98th Avenue NE\, Bothell\, WA 98011
+URL:https://kcls.bibliocommons.com/events/6a679694c7e02e3d006bfb1b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a679694c7e02e3d006bfb1b
+END:VEVENT
+END:VCALENDAR

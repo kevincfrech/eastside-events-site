@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:3f6036fb791b7eef06d1c008fd2136cdd51a1761@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:A River Runs Under It Book Group
+DTSTART:20261117T230000Z
+DTEND:20261118T003000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/691e60fc9be7c6685c28f82d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/691e60fc9be7c6685c28f82d
+END:VEVENT
+END:VCALENDAR

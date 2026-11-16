@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:69a19b2a0b9315da7bcb02cf358d35055f2a29a0@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Owls in Seattle: Watching\, Listening\, Waiting
+DTSTART:20261118T020000Z
+DTEND:20261118T030000Z
+LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
+URL:https://kcls.bibliocommons.com/events/6aaaeb1d129d8e0031f2c24f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aaaeb1d129d8e0031f2c24f
+END:VEVENT
+END:VCALENDAR

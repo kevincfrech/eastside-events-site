@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a43b7fcf8ecefec540cb3c2cab42c833b652b772@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Sip &amp\; Mosaic: Holiday Ornaments Craft Night
+DTSTART:20261120T010000Z
+DTEND:20261120T040000Z
+LOCATION:Tinte Cellars\, 19495 144th Ave NE # A110\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/sip-mosaic-holiday-ornaments-craft-night-tinte-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/sip-mosaic-holiday-ornaments-craft-night-tinte-cellars/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:e9411a54bbb72dc189bba388584d9a19ffe9f440@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Read\, Share\, Connect Book Club
+DTSTART:20261118T020000Z
+DTEND:20261118T030000Z
+LOCATION:Kirkland Library\, 308 Kirkland Avenue\, Kirkland\, WA 98033
+URL:https://kcls.bibliocommons.com/events/6ac810ca901b02002cc110bb
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac810ca901b02002cc110bb
+END:VEVENT
+END:VCALENDAR

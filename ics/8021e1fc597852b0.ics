@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:30b9cd5159bd770868d96cf6f6d6fc638f5e9459@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Holiday Bazaar
+DTSTART:20261121T190000Z
+DTEND:20261122T020000Z
+LOCATION:North Bend Library\, 115 E 4th Street\, North Bend\, WA 98045
+URL:https://kcls.bibliocommons.com/events/6ad122ed29c3d60033302bcd
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad122ed29c3d60033302bcd
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1515b56a5b2dbd030ef9bdad5e3be83e07c0c384@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Preschool Building Party
+DTSTART:20261116T183000Z
+DTEND:20261116T191500Z
+LOCATION:Maple Valley Library\, 21844 SE 248th Street\, Maple Valley\, WA 98038
+URL:https://kcls.bibliocommons.com/events/6a80e1832dac6e00371f5a26
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a80e1832dac6e00371f5a26
+END:VEVENT
+END:VCALENDAR

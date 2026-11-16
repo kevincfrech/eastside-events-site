@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:c1cf8033765efb688a44d43f1acea4916d6c6bee@eastside-events
+DTSTAMP:20261116T032653Z
+SUMMARY:Stories Take the Stage: The Reader’s Theater Performance
+DTSTART:20261122T003000Z
+DTEND:20261122T013000Z
+LOCATION:Renton Highlands Library\, 2801 NE 10th Street\, Renton\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ae50654901b02002cc64188
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ae50654901b02002cc64188
+END:VEVENT
+END:VCALENDAR

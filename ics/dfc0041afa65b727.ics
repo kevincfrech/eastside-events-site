@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:511b932713eec030d8f7f4e32a3e2a2e1d2d02ca@eastside-events
+DTSTAMP:20261116T054717Z
+SUMMARY:Carnation Library Book Group
+DTSTART:20261119T023000Z
+DTEND:20261119T040000Z
+LOCATION:Carnation Library\, 4804 Tolt Avenue\, Carnation\, WA 98014
+URL:https://kcls.bibliocommons.com/events/69bb62a18089f23c67633041
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69bb62a18089f23c67633041
+END:VEVENT
+END:VCALENDAR
