@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:177abc48e1b9f3681fd289841290d58b92a635e2@eastside-events
+DTSTAMP:20261117T030928Z
+SUMMARY:Synne Sessions: Robbie Egelstad | Wine Club Release Weekend
+DTSTART:20261121T013000Z
+DTEND:20261121T033000Z
+LOCATION:Synne Cellars-Hollywood Schoolhouse\, 14810 NE. 145th Street\, Suite B-downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/synne-sessions-robbie-egelstad-wine-club-release-weekend-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/synne-sessions-robbie-egelstad-wine-club-release-weekend-synne-cellars/
+END:VEVENT
+END:VCALENDAR

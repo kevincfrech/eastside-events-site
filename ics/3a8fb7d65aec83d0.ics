@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d24405081a24a5e7847aff63534f454fc28ad8a0@eastside-events
+DTSTAMP:20261117T030928Z
+SUMMARY:Trivia Night
+DTSTART:20261122T023000Z
+DTEND:20261122T040000Z
+LOCATION:Goose Ridge Winery\, 14450 Woodinville Redmond Rd NE #108\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/trivia-night-goose-ridge-2/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/trivia-night-goose-ridge-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:e4732ff7ddbd8d2fba953180a5c86bae15e2b5f7@eastside-events
+DTSTAMP:20261117T030928Z
+SUMMARY:Trivia Night
+DTSTART:20261122T023000Z
+DTEND:20261122T040000Z
+LOCATION:Goose Ridge Winery\, 14450 Woodinville Redmond Rd NE #108\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/trivia-night-goose-ridge-2/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/trivia-night-goose-ridge-2/
+END:VEVENT
+END:VCALENDAR

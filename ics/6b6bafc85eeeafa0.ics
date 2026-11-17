@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:a3a1d5d72b265549307017733938b838b94cc057@eastside-events
+DTSTAMP:20261117T030928Z
+SUMMARY:The Village Green: Holiday Pop-Up
+DTSTART:20261122T180000Z
+DTEND:20261122T200000Z
+LOCATION:2550 NE Park Drive\, Issaquah\, WA 98029
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14777
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14777
+END:VEVENT
+END:VCALENDAR
