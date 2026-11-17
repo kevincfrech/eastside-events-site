@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:84a149cb0b7b6110e6e6e3d5bbd3b6f3279954ec@eastside-events
-DTSTAMP:20261116T054717Z
+DTSTAMP:20261117T074546Z
 SUMMARY:Family Story Time
 DTSTART:20261122T191500Z
 DTEND:20261122T200000Z
 LOCATION:Mercer Island Library\, 4400  88th Ave SE\, Mercer Island\, WA 98040
-URL:https://kcls.bibliocommons.com/events/6a7e21c1be14820029872db4
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a7e21c1be14820029872db4
+URL:https://kcls.bibliocommons.com/events/6afb7754e14c170074ff2eb6
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6afb7754e14c170074ff2eb6
 END:VEVENT
 END:VCALENDAR
