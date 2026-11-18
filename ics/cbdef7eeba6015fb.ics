@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8252640b9590a4fffb5009672bd191b3a4313a58@eastside-events
+DTSTAMP:20261118T060221Z
+SUMMARY:COMEDY NIGHT
+DTSTART:20261121T030000Z
+DTEND:20261121T050000Z
+LOCATION:Gard Estate Wines Junction Warehouse Tasting Room\, 19151 144th Ave NE Ste D\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/comedy-night-gard-estate-wines/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/comedy-night-gard-estate-wines/
+END:VEVENT
+END:VCALENDAR

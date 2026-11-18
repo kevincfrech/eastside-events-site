@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bb9e3920c6919a259af5a4fbddd767290ce95e79@eastside-events
+DTSTAMP:20261118T060221Z
+SUMMARY:LIVE MUSIC: IAN AYERS
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+LOCATION:GARD ESTATE WINES WAREHOUSE TASTING ROOM\, 19151 144th Ave NE Ste D\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/live-music-ian-ayers-gard-estate-wines/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/live-music-ian-ayers-gard-estate-wines/
+END:VEVENT
+END:VCALENDAR

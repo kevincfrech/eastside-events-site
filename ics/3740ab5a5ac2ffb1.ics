@@ -4,11 +4,11 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:fbc2ef0d986aa9460bd38771ae4c811a4e4039d5@eastside-events
-DTSTAMP:20261117T074546Z
+DTSTAMP:20261118T060221Z
 SUMMARY:2026 Holiday Bazaar
 DTSTART:20261121T170000Z
 LOCATION:Renton Community Center\, 1715 Maple Valley HWY\, Renton\, WA\, 98057
-URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Holiday-Bazaar
-DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Parks-and-Recreation-Events/Events-Calendar/2026-Holiday-Bazaar
+URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Events-calendar/Events-Calendar/2026-Holiday-Bazaar
+DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Events-calendar/Events-Calendar/2026-Holiday-Bazaar
 END:VEVENT
 END:VCALENDAR
