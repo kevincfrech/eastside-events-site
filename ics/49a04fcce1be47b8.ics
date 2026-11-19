@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:afd07a46a20c34eea3dfe9d60dd14293a0344236@eastside-events
-DTSTAMP:20261118T060221Z
+DTSTAMP:20261119T070635Z
 SUMMARY:Duvall Writing Group
 DTSTART:20261119T020000Z
 DTEND:20261119T033000Z
 LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
-URL:https://kcls.bibliocommons.com/events/695d8ea02c65973d001654d2
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/695d8ea02c65973d001654d2
+URL:https://kcls.bibliocommons.com/events/695d8ea02c65973d001654d3
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/695d8ea02c65973d001654d3
 END:VEVENT
 END:VCALENDAR

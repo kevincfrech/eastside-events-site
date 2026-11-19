@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:41662aab772a52c031b9a85838c289b0ae61fac7@eastside-events
-DTSTAMP:20261118T060221Z
+DTSTAMP:20261119T070635Z
 SUMMARY:Kenmore LGBTQ+ Youth Group
 DTSTART:20261119T003000Z
 DTEND:20261119T020000Z
 LOCATION:Kenmore Library\, 6531 NE 181st Street\, Kenmore\, WA 98028
-URL:https://kcls.bibliocommons.com/events/6ac5591229c3d600332e1a5f
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5591229c3d600332e1a5f
+URL:https://kcls.bibliocommons.com/events/6ac5591229c3d600332e1a60
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac5591229c3d600332e1a60
 END:VEVENT
 END:VCALENDAR

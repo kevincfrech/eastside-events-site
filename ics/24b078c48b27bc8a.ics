@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:45c43b9aac78afed0c8161466f1b5e61c0dd8b46@eastside-events
-DTSTAMP:20261118T060221Z
+DTSTAMP:20261119T070635Z
 SUMMARY:LEGO Block Party
 DTSTART:20261120T003000Z
 DTEND:20261120T013000Z
 LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
-URL:https://kcls.bibliocommons.com/events/6a8dfc9b29a7dd0d674697b5
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a8dfc9b29a7dd0d674697b5
+URL:https://kcls.bibliocommons.com/events/6a8dfc9b29a7dd0d674697b4
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a8dfc9b29a7dd0d674697b4
 END:VEVENT
 END:VCALENDAR

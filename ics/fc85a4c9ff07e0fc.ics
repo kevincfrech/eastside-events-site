@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:6b88b4b478708b0f5513d71e2a0f76c0a0e9bb24@eastside-events
-DTSTAMP:20261118T060221Z
+DTSTAMP:20261119T070635Z
 SUMMARY:Game On!
 DTSTART:20261122T210000Z
 DTEND:20261122T230000Z
 LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
-URL:https://kcls.bibliocommons.com/events/6ad6697729c3d6003331092f
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad6697729c3d6003331092f
+URL:https://kcls.bibliocommons.com/events/6ad6697729c3d6003331092e
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad6697729c3d6003331092e
 END:VEVENT
 END:VCALENDAR
