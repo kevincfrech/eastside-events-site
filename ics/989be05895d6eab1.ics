@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:519086ddd65cfb3d12bbd69cdbd559ab61c0b1b7@eastside-events
-DTSTAMP:20261119T070635Z
+DTSTAMP:20261120T050148Z
 SUMMARY:LEGO Block Party
 DTSTART:20261121T220000Z
 DTEND:20261122T000000Z
 LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
-URL:https://kcls.bibliocommons.com/events/6a91f39069166f088b95a922
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a91f39069166f088b95a922
+URL:https://kcls.bibliocommons.com/events/6a91f39069166f088b95a923
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a91f39069166f088b95a923
 END:VEVENT
 END:VCALENDAR

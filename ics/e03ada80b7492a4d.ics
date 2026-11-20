@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:2b617c568bca9f792cc03ba1e7ba680d3f347eee@eastside-events
-DTSTAMP:20261119T070635Z
+DTSTAMP:20261120T050148Z
 SUMMARY:Friends of the Fall City Library Book Sale!
 DTSTART:20261121T190000Z
 DTEND:20261122T000000Z
 LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
-URL:https://kcls.bibliocommons.com/events/6ac2d7acebad2200454313ce
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac2d7acebad2200454313ce
+URL:https://kcls.bibliocommons.com/events/6ac2d7acebad2200454313cf
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac2d7acebad2200454313cf
 END:VEVENT
 END:VCALENDAR

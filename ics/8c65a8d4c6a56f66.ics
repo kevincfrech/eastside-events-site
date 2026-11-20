@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:3de5f879bd4be29bf77d069ae4d3dfd5035bfd97@eastside-events
-DTSTAMP:20261119T070635Z
+DTSTAMP:20261120T050148Z
 SUMMARY:Renton Library Resource Days
 DTSTART:20261119T210000Z
 DTEND:20261119T230000Z
 LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
-URL:https://kcls.bibliocommons.com/events/692c8aff51da852800c42a9c
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/692c8aff51da852800c42a9c
+URL:https://kcls.bibliocommons.com/events/692c8aff51da852800c42a9d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/692c8aff51da852800c42a9d
 END:VEVENT
 END:VCALENDAR

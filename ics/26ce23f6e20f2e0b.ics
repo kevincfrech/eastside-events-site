@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:82787ad46a36140e0053df5ce891430459d5dc14@eastside-events
-DTSTAMP:20261119T070635Z
+DTSTAMP:20261120T050148Z
 SUMMARY:Sunday Crafternoon
 DTSTART:20261122T203000Z
 DTEND:20261122T213000Z
 LOCATION:Redmond Library\, 15990 NE 85th Street\, Redmond\, WA 98052
-URL:https://kcls.bibliocommons.com/events/6a46e2cb86636e3d00524742
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a46e2cb86636e3d00524742
+URL:https://kcls.bibliocommons.com/events/6a46e2cb86636e3d00524743
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a46e2cb86636e3d00524743
 END:VEVENT
 END:VCALENDAR

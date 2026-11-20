@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:c5928d5ccaf902d8b5c1eb8017b0d0b876d97b7b@eastside-events
-DTSTAMP:20261119T070635Z
+DTSTAMP:20261120T050148Z
 SUMMARY:Dungeons & Dragons Club for Teens and Tweens!
 DTSTART:20261121T000000Z
 DTEND:20261121T013000Z
 LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
-URL:https://kcls.bibliocommons.com/events/6a5e91441bbbb30f3e80a7da
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a5e91441bbbb30f3e80a7da
+URL:https://kcls.bibliocommons.com/events/6a5e91441bbbb30f3e80a7db
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a5e91441bbbb30f3e80a7db
 END:VEVENT
 END:VCALENDAR

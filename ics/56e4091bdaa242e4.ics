@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:29b0dd572b760ebdf03cef23763d9871ab003a2d@eastside-events
-DTSTAMP:20261119T070635Z
+DTSTAMP:20261120T050148Z
 SUMMARY:Sammamish Connections Book Club
 DTSTART:20261119T183000Z
 DTEND:20261119T203000Z
 LOCATION:Sammamish Library\, 825 228th Avenue SE\, Sammamish\, WA 98075
-URL:https://kcls.bibliocommons.com/events/6925fa53f8747e3e00241229
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6925fa53f8747e3e00241229
+URL:https://kcls.bibliocommons.com/events/6925fa53f8747e3e0024122a
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6925fa53f8747e3e0024122a
 END:VEVENT
 END:VCALENDAR
