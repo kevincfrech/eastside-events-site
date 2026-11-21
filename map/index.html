@@ -53,6 +53,31 @@ header .home img { display: block; width: 100%; height: 100%; }
 .filters select { background: var(--surface); border: 1px solid var(--hair); border-radius: 999px; padding: 7px 12px 5px; font: 700 14px var(--display); max-width: 100%; }
 .toggle { border: 1px solid var(--hair); background: var(--surface); border-radius: 999px; padding: 6px 12px 4px; font: 700 14px var(--display); cursor: pointer; }
 .toggle[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.toggle.tree[aria-pressed="true"] { background: #1F6E3A; color: #FFFFFF; border-color: #1F6E3A; }
+/* Christmas tree layer */
+.legend { position: absolute; left: 10px; bottom: 28px; z-index: 2; background: rgba(255,255,255,.96); color: #16201B; border-radius: 12px;
+  padding: 8px 10px 6px; font: 700 13px var(--display); box-shadow: 0 2px 10px rgba(0,0,0,.18); display: none; }
+.legend.on { display: block; }
+.legend label { display: flex; align-items: center; gap: 7px; padding: 2px 0; cursor: pointer; }
+.legend i { width: 14px; height: 14px; border-radius: 50%; border: 2px solid #FFFFFF; box-shadow: 0 0 0 1px rgba(0,0,0,.25); flex: none; }
+.legend .u { background: #1F6E3A; } .legend .p { background: #C8312B; }
+.trees-list { margin: 6px 0 4px; }
+.trees-list .day { display: flex; justify-content: space-between; align-items: baseline; }
+.trees-list .day small { font: 600 12px var(--body); letter-spacing: 0; text-transform: none; color: var(--muted); }
+.tr { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 2px 10px; padding: 10px 12px; background: var(--surface);
+  border: 1px solid var(--hair); border-radius: 12px; margin-bottom: 6px; cursor: pointer; text-align: left; width: 100%; }
+.tr:hover { border-color: #1F6E3A; }
+.tr .dot { width: 14px; height: 14px; border-radius: 50%; margin-top: 3px; border: 2px solid #FFFFFF; box-shadow: 0 0 0 1px rgba(0,0,0,.25); }
+.tr.u .dot { background: #1F6E3A; } .tr.p .dot { background: #C8312B; }
+.tr h3 { margin: 0; font: 700 15px/1.25 var(--body); }
+.tr .w { color: var(--muted); font-size: 13.5px; }
+.tr .a { display: flex; gap: 14px; margin-top: 4px; font: 700 13.5px var(--display); }
+.tr .a a { text-decoration: none; }
+.trees-more { width: 100%; border: 1px dashed var(--hair); background: none; border-radius: 12px; padding: 8px; font: 700 13.5px var(--display); color: var(--muted); cursor: pointer; margin-bottom: 4px; }
+.pop .kind { font: 700 12.5px var(--display); color: #1F6E3A; margin: 2px 0 4px; }
+.pop .kind.p { color: #A3261F; }
+.pop .note { font-size: 13px; color: #3F4A43; margin: 2px 0 6px; }
+.pop .approx { font-size: 12px; color: #6A746D; font-style: italic; margin-bottom: 4px; }
 .dates { display: inline-flex; align-items: center; gap: 6px; background: var(--surface); border: 1px solid var(--hair);
   border-radius: 999px; padding: 3px 10px; font: 700 14px var(--display); }
 .dates.on { border-color: var(--sign); box-shadow: inset 0 0 0 1px var(--sign); }
@@ -124,13 +149,20 @@ header .home img { display: block; width: 100%; height: 100%; }
     <select id="area" aria-label="Area"><option value="all">All areas</option></select>
     <button class="toggle" id="free" aria-pressed="false">Free</button>
     <button class="toggle" id="kids" aria-pressed="false">Kids &amp; family</button>
+    <button class="toggle tree" id="trees" aria-pressed="false">🎄 Christmas trees</button>
   </div>
 
-  <div id="map" aria-label="Map of events"></div>
+  <div id="map" aria-label="Map of events">
+    <div class="legend" id="legend" aria-label="Christmas tree layer">
+      <label><input type="checkbox" id="t-u" checked><i class="u"></i>U-cut tree farms</label>
+      <label><input type="checkbox" id="t-p" checked><i class="p"></i>Pre-cut tree lots</label>
+    </div>
+  </div>
 
   <div class="list">
     <div class="summary"><span id="count"></span>
       <label><input type="checkbox" id="inview" checked> Only what's on the map</label></div>
+    <div id="trees-list" class="trees-list" hidden></div>
     <div id="items"></div>
     
     <section class="signup" aria-label="Newsletter sign-up">
@@ -148,9 +180,11 @@ header .home img { display: block; width: 100%; height: 100%; }
 (() => {
   const STYLE = "https://tiles.openfreemap.org/styles/positron";
   const DATA_URL = "../events.json";
+  const TREES_URL = "../trees.json";
   const HOME = [-122.08, 47.58], HOME_ZOOM = 9.3;
-  const state = { when: "7days", from: null, to: null, area: "all", free: false, kids: false, inview: true, focus: null };
-  let data = null, map = null, popup = null;
+  const state = { when: "7days", from: null, to: null, area: "all", free: false, kids: false, inview: true, focus: null,
+                  trees: false, ucut: true, precut: true };
+  let data = null, map = null, popup = null, trees = null, treesAll = false;
 
   // ---- dates (all in the data's Pacific "today", no browser time zone math) ----
   const addDays = (iso, n) => { const d = new Date(iso + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return d.toISOString().slice(0, 10); };
@@ -188,6 +222,11 @@ header .home img { display: block; width: 100%; height: 100%; }
     if (p.get("area")) state.area = p.get("area");
     state.free = p.get("free") === "1"; state.kids = p.get("kids") === "1";
     state.focus = p.get("event");                   // "#event=<id>": open centered on one event (from the list pages)
+    if (TREES_URL) {                                // "#trees=1" (or =ucut / =precut): open with the Christmas tree layer on
+      const t = p.get("trees");
+      state.trees = ["1", "ucut", "precut"].includes(t);
+      state.ucut = t !== "precut"; state.precut = t !== "ucut";
+    }
   }
   // The event a list page linked to: its own day, no filters, so its pin is sure to be on the map.
   function focusEvent() {
@@ -206,6 +245,7 @@ header .home img { display: block; width: 100%; height: 100%; }
     if (state.free) p.set("free", "1");
     if (state.kids) p.set("kids", "1");
     if (state.focus) p.set("event", state.focus);
+    if (state.trees) p.set("trees", state.ucut && !state.precut ? "ucut" : state.precut && !state.ucut ? "precut" : "1");
     history.replaceState(null, "", "#" + p.toString());
   }
 
@@ -239,11 +279,13 @@ header .home img { display: block; width: 100%; height: 100%; }
         paint: { "circle-color": getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || "#E8A23A",
                  "circle-radius": 8, "circle-stroke-color": "#16201B", "circle-stroke-width": 2 } });
       map.on("click", "clusters", async ev => {
+        if (TREES_URL && map.queryRenderedFeatures(ev.point, { layers: ["trees"] }).length) return;
         const f = ev.features[0];
         const z = await map.getSource("ev").getClusterExpansionZoom(f.properties.cluster_id);
         map.easeTo({ center: f.geometry.coordinates, zoom: z });
       });
       map.on("click", "pins", ev => {
+        if (TREES_URL && map.queryRenderedFeatures(ev.point, { layers: ["trees"] }).length) return;
         const e = data.events.find(x => x.id === ev.features[0].properties.id);
         if (e) openPopup([e.lon, e.lat]);
       });
@@ -251,6 +293,7 @@ header .home img { display: block; width: 100%; height: 100%; }
         map.on("mouseenter", l, () => map.getCanvas().style.cursor = "pointer");
         map.on("mouseleave", l, () => map.getCanvas().style.cursor = "");
       }
+      if (TREES_URL) addTreeLayers();
       map.on("moveend", () => { if (state.inview) renderList(); });
       const f = state.focus && data.events.find(x => x.id === state.focus);
       if (f && pinned(f)) {
@@ -258,7 +301,8 @@ header .home img { display: block; width: 100%; height: 100%; }
         map.once("idle", () => {
           openPopup([f.lon, f.lat]);
         });
-      } else fitToArea();
+      } else if (state.trees) loadTrees().then(() => { showTrees(); fitToTrees(0); });
+      else fitToArea();
       renderList();
     });
     window.eventMap = map;
@@ -293,6 +337,7 @@ header .home img { display: block; width: 100%; height: 100%; }
 
   // ---- list ----
   function renderList() {
+    if (TREES_URL) renderTrees();
     let list = filtered();
     const total = list.length, onMap = list.filter(pinned).length;
     if (state.inview && map) {
@@ -332,6 +377,126 @@ header .home img { display: block; width: 100%; height: 100%; }
   document.getElementById("items").addEventListener("keydown", ev => {
     if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList.contains("ev")) { ev.preventDefault(); ev.target.click(); }
   });
+
+
+  // ---- Christmas tree layer (seasonal; trees.json is only published Nov 1 – Dec 24) ----
+  const TREE_COLOR = { ucut: "#1F6E3A", precut: "#C8312B" };
+  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const shortDate = iso => `${MONTHS[+iso.slice(5, 7) - 1]} ${+iso.slice(8, 10)}`;
+  function loadTrees() {
+    if (trees) return Promise.resolve(trees);
+    return fetch(TREES_URL).then(r => r.json()).then(d => (trees = d.places, trees)).catch(() => (trees = [], trees));
+  }
+  const treeShown = t => (t.type === "ucut" ? state.ucut : state.precut);
+  const treeKind = t => t.type === "ucut" ? (t.also_precut ? "U-cut farm · pre-cut trees too" : "U-cut farm") : "Pre-cut tree lot";
+  const treeMaps = t => "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(`${t.name}, ${t.address}, ${t.city}, WA`);
+  function treeIcon(color) {                      // a round badge with a white tree, drawn once at 2x
+    const S = 64, c = document.createElement("canvas"); c.width = c.height = S;
+    const g = c.getContext("2d");
+    g.beginPath(); g.arc(S / 2, S / 2, S / 2 - 3, 0, Math.PI * 2); g.fillStyle = color; g.fill();
+    g.lineWidth = 5; g.strokeStyle = "#FFFFFF"; g.stroke();
+    g.fillStyle = "#FFFFFF";
+    for (const [top, half, base] of [[13, 9, 27], [20, 12, 36], [28, 15, 45]]) {
+      g.beginPath(); g.moveTo(S / 2, top); g.lineTo(S / 2 + half, base); g.lineTo(S / 2 - half, base); g.closePath(); g.fill();
+    }
+    g.fillRect(S / 2 - 3, 44, 6, 7);
+    return { width: S, height: S, data: g.getImageData(0, 0, S, S).data };
+  }
+  function treeGeojson() {
+    return { type: "FeatureCollection", features: (trees || []).filter(treeShown).map(t => ({ type: "Feature",
+      properties: { id: t.id, name: t.name, type: t.type }, geometry: { type: "Point", coordinates: [t.lon, t.lat] } })) };
+  }
+  function addTreeLayers() {
+    map.addImage("tree-ucut", treeIcon(TREE_COLOR.ucut), { pixelRatio: 2 });
+    map.addImage("tree-precut", treeIcon(TREE_COLOR.precut), { pixelRatio: 2 });
+    map.addSource("trees", { type: "geojson", data: treeGeojson() });
+    map.addLayer({ id: "trees", type: "symbol", source: "trees", layout: {
+      visibility: state.trees ? "visible" : "none",
+      "icon-image": ["concat", "tree-", ["get", "type"]], "icon-allow-overlap": true, "icon-ignore-placement": true,
+      "icon-size": ["interpolate", ["linear"], ["zoom"], 7, 0.7, 11, 0.95, 14, 1.1],
+      "text-field": ["step", ["zoom"], "", 10.5, ["get", "name"]], "text-font": ["Noto Sans Bold"], "text-size": 12,
+      "text-offset": [0, 1.5], "text-anchor": "top", "text-optional": true, "text-max-width": 9 },
+      paint: { "text-color": "#16201B", "text-halo-color": "#FFFFFF", "text-halo-width": 1.6 } });
+    map.on("click", "trees", ev => openTreePopup(ev.features[0].properties.id));
+    map.on("mouseenter", "trees", () => map.getCanvas().style.cursor = "pointer");
+    map.on("mouseleave", "trees", () => map.getCanvas().style.cursor = "");
+  }
+  function showTrees() {                          // apply state.trees / ucut / precut to the map, legend, list and button
+    const btn = document.getElementById("trees"); if (!btn) return;
+    btn.setAttribute("aria-pressed", state.trees);
+    document.getElementById("legend").classList.toggle("on", state.trees);
+    document.getElementById("t-u").checked = state.ucut; document.getElementById("t-p").checked = state.precut;
+    if (map && map.getLayer("trees")) {
+      map.getSource("trees").setData(treeGeojson());
+      map.setLayoutProperty("trees", "visibility", state.trees ? "visible" : "none");
+      // events step back while the tree layer is up, so the two don't compete
+      const o = state.trees ? 0.35 : 1;
+      for (const l of ["clusters", "pins"]) { map.setPaintProperty(l, "circle-opacity", o); map.setPaintProperty(l, "circle-stroke-opacity", o); }
+      map.setPaintProperty("count", "text-opacity", o);
+    }
+    renderTrees();
+  }
+  function fitToTrees(duration = 600) {
+    const pts = (trees || []).filter(treeShown);
+    if (!map || !pts.length) return;
+    const b = new maplibregl.LngLatBounds(); pts.forEach(t => b.extend([t.lon, t.lat]));
+    map.fitBounds(b, { padding: 40, maxZoom: 12, duration });
+  }
+  function openTreePopup(id) {
+    const t = (trees || []).find(x => x.id === id); if (!t) return;
+    const today = data ? data.today : pacificNow();
+    const opens = t.opens && t.opens > today ? `<div class="when">Opens ${esc(shortDate(t.opens))}</div>` : "";
+    popup?.remove();
+    popup = new maplibregl.Popup({ offset: 16, maxWidth: "300px" }).setLngLat([t.lon, t.lat]).setHTML(`<div class="pop">
+      <h4>${esc(t.city)}${t.county ? ` · ${esc(t.county)} Co.` : ""}</h4>
+      <div class="row"><div class="tt">${esc(t.name)}</div>
+      <div class="kind${t.type === "ucut" ? "" : " p"}">🎄 ${esc(treeKind(t))}</div>${opens}
+      ${t.note ? `<div class="note">${esc(t.note)}</div>` : ""}
+      ${t.geo === "road" ? '<div class="approx">Pin is approximate. Use the address for directions.</div>' : ""}
+      ${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">Website ↗</a>` : ""}
+      <a href="${esc(treeMaps(t))}" target="_blank" rel="noopener">Directions</a>
+      ${t.phone ? `<a href="tel:${esc(t.phone.replace(/[^0-9+]/g, ""))}">Call</a>` : ""}</div></div>`).addTo(map);
+  }
+  function renderTrees() {
+    const box = document.getElementById("trees-list"); if (!box) return;
+    if (!state.trees || !trees) { box.hidden = true; box.innerHTML = ""; return; }
+    let list = trees.filter(treeShown);
+    const total = list.length;
+    if (state.inview && map) { const b = map.getBounds(); list = list.filter(t => b.contains([t.lon, t.lat])); }
+    const c = map ? map.getCenter() : { lng: HOME[0], lat: HOME[1] };
+    const dist = t => (t.lon - c.lng) ** 2 * 0.45 + (t.lat - c.lat) ** 2;      // close enough at this latitude
+    list.sort((a, b) => dist(a) - dist(b));
+    const shown = treesAll ? list : list.slice(0, 6);
+    let html = `<div class="day">Christmas trees <small>${list.length}${state.inview && map && list.length !== total ? ` of ${total}` : ""} here · nearest first</small></div>`;
+    if (!list.length) html += `<p class="empty">No tree places in view. Zoom out to see the whole Puget Sound.</p>`;
+    for (const t of shown) html += `<div class="tr ${t.type === "ucut" ? "u" : "p"}" role="button" tabindex="0" data-tree="${esc(t.id)}">
+      <span class="dot"></span><div><h3>${esc(t.name)}</h3>
+      <div class="w">${esc(treeKind(t))} · ${esc(t.city)}${t.opens && t.opens > (data?.today || "") ? ` · opens ${esc(shortDate(t.opens))}` : ""}</div>
+      <div class="a">${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">Website ↗</a>` : ""}<a href="${esc(treeMaps(t))}" target="_blank" rel="noopener">Directions</a></div></div></div>`;
+    if (list.length > shown.length) html += `<button class="trees-more" id="trees-more">Show all ${list.length} tree places</button>`;
+    box.innerHTML = html; box.hidden = false;
+  }
+  if (TREES_URL) {
+    document.getElementById("trees").addEventListener("click", () => {
+      state.trees = !state.trees; treesAll = false; writeHash();
+      loadTrees().then(() => { showTrees(); if (state.trees) fitToTrees(); else { popup?.remove(); fitToArea(); } });
+    });
+    for (const [id, key] of [["t-u", "ucut"], ["t-p", "precut"]]) document.getElementById(id).addEventListener("change", e => {
+      state[key] = e.target.checked; writeHash(); popup?.remove(); showTrees();
+    });
+    document.getElementById("trees-list").addEventListener("click", ev => {
+      if (ev.target.id === "trees-more") { treesAll = true; renderTrees(); return; }
+      if (ev.target.closest("a")) return;
+      const row = ev.target.closest(".tr"); if (!row || !map) return;
+      const t = trees.find(x => x.id === row.dataset.tree); if (!t) return;
+      map.easeTo({ center: [t.lon, t.lat], zoom: Math.max(map.getZoom(), 12.5) });
+      map.once("moveend", () => openTreePopup(t.id));
+      if (window.innerWidth < 900) document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+    document.getElementById("trees-list").addEventListener("keydown", ev => {
+      if ((ev.key === "Enter" || ev.key === " ") && ev.target.classList.contains("tr")) { ev.preventDefault(); ev.target.click(); }
+    });
+  }
 
   // ---- controls ----
   function syncControls() {
@@ -377,6 +542,7 @@ header .home img { display: block; width: 100%; height: 100%; }
     const last = d.events.length ? d.events[d.events.length - 1].d : d.today;
     for (const id of ["from", "to"]) { const el = document.getElementById(id); el.min = d.today; el.max = last; }
     readHash(); focusEvent(); syncControls();
+    if (state.trees) loadTrees().then(showTrees);
     const g = new Date(d.generated);
     document.getElementById("updated").textContent = "Updated " + g.toLocaleString("en-US", { timeZone: "America/Los_Angeles", weekday: "short", hour: "numeric", minute: "2-digit" });
     try { initMap(); } catch (err) { mapFailed(); }
