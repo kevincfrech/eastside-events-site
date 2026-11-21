@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:963404e2b5094e89a7dc45caf3db88adfc7a8838@eastside-events
+DTSTAMP:20261121T050147Z
+SUMMARY:The Village Market: Holiday Pop-Up
+DTSTART:20261122T180000Z
+DTEND:20261122T220000Z
+LOCATION:2550 NE Park Drive\, Issaquah\, WA 98029
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14777
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14777
+END:VEVENT
+END:VCALENDAR

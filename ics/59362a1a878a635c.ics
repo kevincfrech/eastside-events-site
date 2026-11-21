@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:32d52aafd046a09ae8dea83bcac7c5675e5993c7@eastside-events
-DTSTAMP:20261120T050148Z
+DTSTAMP:20261121T050147Z
 SUMMARY:English Language Learners (ELL) Classes
 DTSTART:20261120T183000Z
 DTEND:20261120T193000Z
 LOCATION:Renton Library\, 100 Mill Avenue S\, Renton\, WA 98057
-URL:https://kcls.bibliocommons.com/events/6afb78e0be8bbf00683bb23c
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6afb78e0be8bbf00683bb23c
+URL:https://kcls.bibliocommons.com/events/6afb78e0be8bbf00683bb23d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6afb78e0be8bbf00683bb23d
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:bf8c6fb8dd2f8e3ae0664a5d8ba427e774ff4eec@eastside-events
+DTSTAMP:20261121T050147Z
+SUMMARY:Downtown Issaquah Association Pop Up Market
+DTSTART:20261121T190000Z
+DTEND:20261122T000000Z
+LOCATION:228 Front St N\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14836
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14836
+END:VEVENT
+END:VCALENDAR
