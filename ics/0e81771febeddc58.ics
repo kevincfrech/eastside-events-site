@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:616f911e224eda5d63ee2ee5e82d9953525f5720@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Historically Hip Artisan Market: Artist Sunday
+DTSTART:20261129T190000Z
+DTEND:20261130T000000Z
+LOCATION:228 Front St N\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14796
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14796
+END:VEVENT
+END:VCALENDAR

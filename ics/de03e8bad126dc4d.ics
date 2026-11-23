@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:cee7a235d8835d2e942a247d02155769a1e0dd03@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Museum Tree Lighting
+DTSTART:20261129T010000Z
+LOCATION:Renton History Museum\, 235 Mill Ave S\, Renton\, WA\, 98057
+URL:https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Events-calendar/Events-Calendar/2026-Museum-Tree-Lighting
+DESCRIPTION:Details: https://www.rentonwa.gov/Government/Departments-and-Offices/Parks-and-Recreation/Events-calendar/Events-Calendar/2026-Museum-Tree-Lighting
+END:VEVENT
+END:VCALENDAR

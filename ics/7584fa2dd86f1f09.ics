@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:028532941b2768c057992f1029963194853522ea@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Thanksgiving
+DTSTART:20261126T200000Z
+DTEND:20261127T030000Z
+LOCATION:The SOMM Hotel & Spa\, 14800 NE 144th Street\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/thanksgiving-bin-47/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/thanksgiving-bin-47/
+END:VEVENT
+END:VCALENDAR

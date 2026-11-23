@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7b100f7b1f7c86e21f66f1e7fa1180c5b517b018@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Tabletop Role-Playing Games Club
+DTSTART:20261129T233000Z
+DTEND:20261130T013000Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6ac81cf7a85a2c00337e2eef
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ac81cf7a85a2c00337e2eef
+END:VEVENT
+END:VCALENDAR

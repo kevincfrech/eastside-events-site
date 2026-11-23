@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:22a9bcc7c7761036c81273e851949f44fc289bdc@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Holiday Sip and Shop
+DTSTART:20261128T200000Z
+DTEND:20261130T020000Z
+LOCATION:Woodinville Warehouse Wineries\, 19495 144th AVE NE\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/holiday-sip-and-shop-woodinville-warehouse-wineries/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/holiday-sip-and-shop-woodinville-warehouse-wineries/
+END:VEVENT
+END:VCALENDAR

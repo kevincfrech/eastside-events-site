@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:b4a1ca20ee130b754e2d62b22501ef8abe2efb0b@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Sew a Felt Poinsettia
+DTSTART:20261126T000000Z
+DTEND:20261126T013000Z
+LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
+URL:https://kcls.bibliocommons.com/events/6aea5a9ede685359098db74b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aea5a9ede685359098db74b
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9b9adffba7dd00ce8e249c8300328177337fb3c2@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Winter wreath-making: Black friday\, reimagined
+DTSTART:20261127T230000Z
+DTEND:20261128T010000Z
+LOCATION:Sky River Mead\, 19151 144th Ave NE  Ste. G\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/winter-wreath-making-black-friday-reimagined-sky-river-mead/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/winter-wreath-making-black-friday-reimagined-sky-river-mead/
+END:VEVENT
+END:VCALENDAR

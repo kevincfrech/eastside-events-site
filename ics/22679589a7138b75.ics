@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d99c8570cdb41c8cb94f5c16025e7d6edf473dce@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Community Bonfires at the Park
+DTSTART:20261128T223500Z
+LOCATION:Kirkland
+URL:https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Community-Bonfires-at-the-Park
+DESCRIPTION:Details: https://www.kirklandwa.gov/Whats-Happening/Community-Events/Parks-and-Community-Services/Community-Bonfires-at-the-Park
+END:VEVENT
+END:VCALENDAR

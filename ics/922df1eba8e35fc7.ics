@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:43ac4e8ae3926910e6567f843e78e1a3ce30ae3c@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Music Bingo
+DTSTART:20261126T020000Z
+DTEND:20261126T040000Z
+LOCATION:Amavi Cellars & Pepper Bridge Winery\, 14810 NE 145th St\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/music-bingo-amavi-cellars-pepper-bridge-winery-3/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/music-bingo-amavi-cellars-pepper-bridge-winery-3/
+END:VEVENT
+END:VCALENDAR

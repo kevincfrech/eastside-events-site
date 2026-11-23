@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7e5a1b87cbad025671cb36d5a241d2161a505d59@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Issaquah Turkey Trot
+DTSTART:20261126T170000Z
+DTEND:20261127T075900Z
+LOCATION:Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14803
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14803
+END:VEVENT
+END:VCALENDAR

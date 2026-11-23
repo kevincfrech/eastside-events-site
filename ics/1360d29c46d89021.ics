@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:9fe882527dc26edfc6fb56632a9e663a7fc2f6be@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Slow Flow Yoga for Adults
+DTSTART:20261125T210000Z
+DTEND:20261125T220000Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ad67846de300e00451b814a
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad67846de300e00451b814a
+END:VEVENT
+END:VCALENDAR

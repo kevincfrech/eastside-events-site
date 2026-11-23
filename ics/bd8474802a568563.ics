@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:89e46025d5582be97f5b7bb01325876ddec98cda@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Garden d'Lights
+DTSTART:20261129T003000Z
+DTEND:20270104T050000Z
+LOCATION:Bellevue Botanical Garden\, Bellevue Botanical Garden\,\n1200 164th Ave SE\, Bellevue\, WA 98008
+URL:https://bellevuewa.gov/events/garden-dlights-0
+DESCRIPTION:Details: https://bellevuewa.gov/events/garden-dlights-0
+END:VEVENT
+END:VCALENDAR

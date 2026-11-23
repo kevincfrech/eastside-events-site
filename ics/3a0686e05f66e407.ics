@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:84dfa019837b908f52a4e1ba40b5f8f81bdcf5d2@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Big Play Date
+DTSTART:20261126T020000Z
+DTEND:20261126T030000Z
+LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
+URL:https://kcls.bibliocommons.com/events/6ad67859fee2d21deb2464f9
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ad67859fee2d21deb2464f9
+END:VEVENT
+END:VCALENDAR

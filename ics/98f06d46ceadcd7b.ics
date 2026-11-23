@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:aff20337acc90c9728c05311916419d6c322a662@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Synne Sessions: Brian Lally | After-Thanksgiving Special
+DTSTART:20261128T010000Z
+DTEND:20261128T040000Z
+LOCATION:Synne Cellars-Hollywood Schoolhouse\, 14810 NE 145th Street\, Suite B-Downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/synne-sessions-brian-lally-after-thanksgiving-special-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/synne-sessions-brian-lally-after-thanksgiving-special-synne-cellars/
+END:VEVENT
+END:VCALENDAR

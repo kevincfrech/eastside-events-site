@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d67e387de21222c88161c36775ddd0f105a4964c@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Thanksgiving Dinner Buffet
+DTSTART:20261126T210000Z
+DTEND:20261127T030000Z
+LOCATION:Willows Lodge\, 14580 NE 145th St\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/thanksgiving-dinner-buffet-willows-lodge/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/thanksgiving-dinner-buffet-willows-lodge/
+END:VEVENT
+END:VCALENDAR

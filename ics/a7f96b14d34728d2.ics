@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f5191e737ecde58995c807acdc0b8c97d638fe23@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Thanksgiving Dinner
+DTSTART:20261126T200000Z
+DTEND:20261127T050000Z
+LOCATION:Barking Frog\, 14580 NE 145th St\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/thanksgiving-dinner-barking-frog/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/thanksgiving-dinner-barking-frog/
+END:VEVENT
+END:VCALENDAR

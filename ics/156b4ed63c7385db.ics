@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:8751115c64e293db66372936f44a5a2ad048dfbd@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Historically Hip Artisan Market: Shop Local Saturday
+DTSTART:20261128T190000Z
+DTEND:20261129T000000Z
+LOCATION:228 Front St N\, Issaquah\, WA 98027
+URL:https://www.issaquahwa.gov/m/calendar/event/detail/14795
+DESCRIPTION:Details: https://www.issaquahwa.gov/m/calendar/event/detail/14795
+END:VEVENT
+END:VCALENDAR

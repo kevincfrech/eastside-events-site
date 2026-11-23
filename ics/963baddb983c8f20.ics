@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:1917208f24cf8b393a242a034aff0a516d315e9b@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Stay Safe Online: Cybersecurity for Older Adults
+DTSTART:20261124T203000Z
+DTEND:20261124T213000Z
+LOCATION:Fall City Library\, 33415 SE 42nd Place\, Fall City\, WA 98024
+URL:https://kcls.bibliocommons.com/events/6adad42f901b02002cc48b7d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6adad42f901b02002cc48b7d
+END:VEVENT
+END:VCALENDAR

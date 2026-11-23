@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2f498a0773265295fec4467da699a1c0c043f9b8@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Woodinville Men's Book Group
+DTSTART:20261125T023000Z
+DTEND:20261125T033000Z
+LOCATION:Woodinville Library\, 17105 Avondale Road NE\, Woodinville\, WA 98072
+URL:https://kcls.bibliocommons.com/events/696592ef6724c63d00ebcf75
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/696592ef6724c63d00ebcf75
+END:VEVENT
+END:VCALENDAR

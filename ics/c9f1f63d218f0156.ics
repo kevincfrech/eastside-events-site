@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:7023a0f5f5bfa8e31eac0ed49baca27cc7098086@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Watch Party: Seahawks vs. 49ers
+DTSTART:20261129T212500Z
+DTEND:20261130T003000Z
+LOCATION:Synne Cellars-Hollywood Schoolhouse\, 14810 NE 145th Street\, Suite B-Downstairs\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/watch-party-seahawks-vs-49ers-synne-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/watch-party-seahawks-vs-49ers-synne-cellars/
+END:VEVENT
+END:VCALENDAR

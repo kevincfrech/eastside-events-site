@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:f68b4e48506e90ec29e8ea6177b950dda13ef1c0@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Snowflake Lane
+DTSTART:20261128T030000Z
+DTEND:20261225T032500Z
+LOCATION:Bellevue Square and Lincoln Square\,\nBellevue Way NE\, between NE 4th and NE 8th Street
+URL:https://bellevuewa.gov/events/snowflake-lane-2
+DESCRIPTION:Details: https://bellevuewa.gov/events/snowflake-lane-2
+END:VEVENT
+END:VCALENDAR

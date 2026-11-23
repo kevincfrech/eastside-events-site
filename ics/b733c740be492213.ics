@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:6d5a859622e8937d38dd3489eb2d521d167d4a9e@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Thanksgiving Luncheon (55+)
+DTSTART:20261124T200000Z
+DTEND:20261124T210000Z
+LOCATION:North Bellevue Community Center\, North Bellevue Community Center & Virtually via Microsoft Teams\,\n4063 148th Ave NE\, Bellevue\, WA 98007
+URL:https://bellevuewa.gov/events/thanksgiving-luncheon-55
+DESCRIPTION:Details: https://bellevuewa.gov/events/thanksgiving-luncheon-55
+END:VEVENT
+END:VCALENDAR

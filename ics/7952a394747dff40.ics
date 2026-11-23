@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:d0045dd23dc01637b818017654f92039f191f00a@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Adopt a Park Volunteer Work Party
+DTSTART:20261127T190000Z
+DTEND:20261127T220000Z
+LOCATION:Kenmore
+URL:https://www.kenmorewa.gov/Home/Components/Calendar/Event/3829/
+DESCRIPTION:Details: https://www.kenmorewa.gov/Home/Components/Calendar/Event/3829/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:224ea33a1e29e4ae5f20daaa741274ffc9af2a91@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Greener Living Workshop: Craft & Learn! Upcycled Gifts
+DTSTART:20261125T020000Z
+DTEND:20261125T030000Z
+LOCATION:Newport Way Library\, 14250 SE Newport Way\, Bellevue\, WA 98006-1507
+URL:https://kcls.bibliocommons.com/events/6ab2cecb3dd190003e73c925
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6ab2cecb3dd190003e73c925
+END:VEVENT
+END:VCALENDAR

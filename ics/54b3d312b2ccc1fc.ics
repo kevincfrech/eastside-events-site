@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2a42c07e750cd151e45c02c3b2897fa7fad51b63@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:Crossroads Library 25th Anniversary
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+LOCATION:Crossroads Library\, 15600 NE 8th Street\, Suite K-11\, Bellevue\, WA 98008
+URL:https://kcls.bibliocommons.com/events/6aff3fc98b254c003ada8163
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aff3fc98b254c003ada8163
+END:VEVENT
+END:VCALENDAR

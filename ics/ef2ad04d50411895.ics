@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:2e84552df40e5f13fa62d5fc343047ac3a3caefb@eastside-events
+DTSTAMP:20261123T060114Z
+SUMMARY:The Second Annual Tree Lighting -
+DTSTART:20261128T000000Z
+DTEND:20261128T023000Z
+LOCATION:The SOMM Hotel & Spa\, 14800 NE 144th Street\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/the-second-annual-tree-lighting-the-somm-the-harvest-yard/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/the-second-annual-tree-lighting-the-somm-the-harvest-yard/
+END:VEVENT
+END:VCALENDAR
