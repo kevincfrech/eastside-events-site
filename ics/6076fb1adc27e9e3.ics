@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//eastside-events//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:ca1c77ad14bfaf03f975fc6cd52686a50468c31c@eastside-events
+DTSTAMP:20261125T050159Z
+SUMMARY:Holiday Wreath Making
+DTSTART:20261129T200000Z
+DTEND:20261129T214500Z
+LOCATION:Sparkman Cellars\, 14300 NE 145th St\, #102\, Woodinville\, WA\, 98072
+URL:https://woodinvillewinecountry.com/event/holiday-wreath-making-sparkman-cellars/
+DESCRIPTION:Details: https://woodinvillewinecountry.com/event/holiday-wreath-making-sparkman-cellars/
+END:VEVENT
+END:VCALENDAR

@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:b9f97c8aa488ecc8dcc9954d26dc05563664b571@eastside-events
-DTSTAMP:20261124T050527Z
+DTSTAMP:20261125T050159Z
 SUMMARY:Rainbow Social
 DTSTART:20261125T010000Z
 DTEND:20261125T023000Z
 LOCATION:North Bend Library\, 115 E 4th Street\, North Bend\, WA 98045
-URL:https://kcls.bibliocommons.com/events/69c176218d5e2d093367186c
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69c176218d5e2d093367186c
+URL:https://kcls.bibliocommons.com/events/69c176218d5e2d093367186d
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/69c176218d5e2d093367186d
 END:VEVENT
 END:VCALENDAR
