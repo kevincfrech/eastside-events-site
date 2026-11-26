@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:97a8382b0a941b232fca6735c2ac9268a5f5c4a4@eastside-events
-DTSTAMP:20261125T050159Z
+DTSTAMP:20261126T051251Z
 SUMMARY:Dungeons & Dragons Club
 DTSTART:20261129T200000Z
 DTEND:20261129T230000Z
 LOCATION:Duvall Library\, 15508 Main Street NE\, Duvall\, WA 98019
-URL:https://kcls.bibliocommons.com/events/6adfa908fee2d21deb25dcbb
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6adfa908fee2d21deb25dcbb
+URL:https://kcls.bibliocommons.com/events/6adfa908fee2d21deb25dcbc
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6adfa908fee2d21deb25dcbc
 END:VEVENT
 END:VCALENDAR

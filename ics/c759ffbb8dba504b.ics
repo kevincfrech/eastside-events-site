@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:d40de6033c6585cd5ea7861ca5945fd2fe3704f0@eastside-events
-DTSTAMP:20261125T050159Z
+DTSTAMP:20261126T051251Z
 SUMMARY:IACS Community Desk
 DTSTART:20261125T203000Z
 DTEND:20261125T223000Z
 LOCATION:Covington Library\, 27100 164th Avenue SE\, Covington\, WA 98042
-URL:https://kcls.bibliocommons.com/events/6aa2daee3dd190003e70f82e
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa2daee3dd190003e70f82e
+URL:https://kcls.bibliocommons.com/events/6aa2daee3dd190003e70f82f
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6aa2daee3dd190003e70f82f
 END:VEVENT
 END:VCALENDAR

@@ -4,12 +4,12 @@ PRODID:-//eastside-events//EN
 CALSCALE:GREGORIAN
 BEGIN:VEVENT
 UID:aebb44805b89f7360afc8337f2c54d2cd9e0801e@eastside-events
-DTSTAMP:20261125T050159Z
+DTSTAMP:20261126T051251Z
 SUMMARY:Teen Book Babble
 DTSTART:20261125T233000Z
 DTEND:20261126T013000Z
 LOCATION:Bellevue Library\, 1111 110th Avenue NE\, Bellevue\, WA 98004
-URL:https://kcls.bibliocommons.com/events/6a9264d8aafa6100295ff99a
-DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a9264d8aafa6100295ff99a
+URL:https://kcls.bibliocommons.com/events/6a9264d8aafa6100295ff99b
+DESCRIPTION:Details: https://kcls.bibliocommons.com/events/6a9264d8aafa6100295ff99b
 END:VEVENT
 END:VCALENDAR
